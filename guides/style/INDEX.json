@@ -1,0 +1,23 @@
+{
+  "name": "S. Praevis Style Guide",
+  "version": "1.0.0",
+  "tldr": "Short, anti-noise, Bayesian updates. One thought per block. 1–3 lines per block. 3–6 blocks per post. Conclusion last. No metaphors or promotion. Honest uncertainty.",
+  "sections": [
+    { "id": "core", "title": "Bayesian Clarity", "path": "STYLE_GUIDE_Bayesian_Clarity.md", "type": "rules" },
+    { "id": "template", "title": "Hugo Post Template", "path": "HUGO_POST_TEMPLATE.md", "type": "template" },
+    { "id": "examples", "title": "Example Posts", "path": "EXAMPLE_POSTS.md", "type": "examples" },
+    { "id": "twitter", "title": "Twitter / X Style", "path": "TWITTER_STYLE_GUIDE.md", "type": "micro" },
+    { "id": "telegram", "title": "Telegram Style", "path": "TELEGRAM_STYLE_GUIDE.md", "type": "micro" }
+  ],
+  "defaults": {
+    "blog_post": ["core", "template", "examples"],
+    "twitter": ["twitter"],
+    "telegram": ["telegram"]
+  },
+  "invariants": [
+    "Short, anti-noise, Bayesian updates",
+    "Blocks of 1–3 lines; 3–6 blocks per blog post",
+    "Conclusion last; no metaphors; no promotion; honest uncertainty"
+  ],
+  "prohibited": ["emotions", "long stories", "anecdotes", "advice", "motivation", "promotional tone"]
+}

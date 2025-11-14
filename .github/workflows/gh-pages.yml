@@ -1,0 +1,48 @@
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.152.2'
+          extended: true
+
+      - name: Build
+        env:
+          BASE_URL: ${{ vars.BASE_URL }}
+        run: |
+          if [ -n "${BASE_URL}" ]; then
+            echo "Using BASE_URL=${BASE_URL}"
+            hugo --minify -D --baseURL "${BASE_URL}"
+          else
+            hugo --minify -D
+          fi
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public
+          force_orphan: true

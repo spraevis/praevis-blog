@@ -1,0 +1,51 @@
+{{ define "main" }}
+<section class="hero hero-enhanced">
+  <div class="eyebrow mono">{{ i18n "hero_eyebrow" }}</div>
+  <h1 class="hero-title">S. Praevis</h1>
+  <p class="subtitle">{{ i18n "hero_subtitle" }}</p>
+  <p class="tagline">{{ i18n "hero_tagline" }}</p>
+  <div class="hero-chips">
+    <span class="chip">{{ i18n "chip_forecasting" }}</span>
+    <span class="chip">{{ i18n "chip_bayesian" }}</span>
+    <span class="chip">{{ i18n "chip_calibration" }}</span>
+  </div>
+  <div class="hero-ctas">
+    <a class="btn btn-accent" href="{{ "/posts/" | relLangURL }}">{{ i18n "btn_read_blog" }}</a>
+    <a class="btn btn-ghost" href="{{ "/index.xml" | relLangURL }}">{{ i18n "btn_rss" }}</a>
+  </div>
+</section>
+
+<section class="intro intro-enhanced">
+  <p>{{ i18n "intro_text" }}</p>
+</section>
+
+<section class="latest-forecasts">
+  <div class="section-header">
+    <h2>{{ i18n "latest_forecasts" }}</h2>
+    <a class="inline-link" href="{{ "/forecasts/" | relLangURL }}">{{ i18n "view_all" }}</a>
+  </div>
+  {{ $sec := site.GetPage "section" "forecasts" }}
+  {{ if and $sec (gt (len $sec.Pages) 0) }}
+    <div class="cards">
+      {{ range first 3 ($sec.Pages.ByDate.Reverse) }}
+      <article class="card">
+        <a class="card-link" href="{{ .RelPermalink }}">
+          <h3 class="card-title">{{ .Title }}</h3>
+          <div class="meta">
+            <time datetime="{{ .Date }}">{{ .Date.Format "2006-01-02" }}</time>
+            {{ with .Params.probability }} · <span class="mono">{{ . }}</span>{{ end }}
+            {{ with .Params.status }} · <span>{{ . }}</span>{{ end }}
+          </div>
+          {{ with .Summary }}<p class="card-summary">{{ . }}</p>{{ end }}
+          <span class="card-chevron">→</span>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+  {{ else }}
+    <div class="card card-empty">
+      <p class="secondary">{{ i18n "forecasts_empty" }}</p>
+    </div>
+  {{ end }}
+</section>
+{{ end }}

@@ -1,0 +1,55 @@
+baseURL: "/"
+title: "S. Praevis"
+languageCode: "en"
+theme: "PaperMod"
+pagination:
+  pagerSize: 10
+enableRobotsTXT: true
+
+outputs:
+  home: [HTML, RSS]
+
+taxonomies:
+  tag: tags
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+    menu:
+      main:
+        - name: Blog
+          url: /posts/
+          weight: 10
+        - name: Forecasts
+          url: /forecasts/
+          weight: 20
+        - name: About
+          url: /about/
+          weight: 30
+  ru:
+    languageName: Русский
+    weight: 2
+    menu:
+      main:
+        - name: Блог
+          url: /posts/
+          weight: 10
+        - name: Прогнозы
+          url: /forecasts/
+          weight: 20
+        - name: О проекте
+          url: /about/
+          weight: 30
+
+menu: {}
+
+params:
+  defaultTheme: dark
+  disableThemeToggle: true
+  ShowReadingTime: false
+  assets:
+    disableHLJS: true

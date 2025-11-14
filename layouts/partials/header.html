@@ -1,0 +1,58 @@
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            {{- $label_text := (site.Params.label.text | default site.Title) }}
+            {{- if site.Title }}
+            <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
+                {{- $label_text -}}
+            </a>
+            {{- end }}
+            <div class="logo-switches">
+                {{- if (not site.Params.disableThemeToggle) }}
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme"></button>
+                {{- end }}
+                {{- if (not site.Params.disableLangToggle) }}
+                    {{- $lang := .Lang}}
+                    {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
+                    {{- with site.Home.Translations }}
+                    <ul class="lang-switch">
+                        {{- if $separator }}<li>|</li>{{ end }}
+                        {{- range . -}}
+                        {{- if ne $lang .Lang }}
+                        <li>
+                            <a href="{{- .Permalink -}}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
+                                aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
+                                {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }}
+                                {{- .Language.LanguageName | emojify -}}
+                                {{- else }}
+                                {{- .Lang | title -}}
+                                {{- end -}}
+                            </a>
+                        </li>
+                        {{- end -}}
+                        {{- end}}
+                    </ul>
+                    {{- end }}
+                {{- end }}
+            </div>
+        </div>
+        {{- $currentPage := . }}
+        <ul id="menu">
+            {{- range site.Menus.main }}
+            {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | relLangURL }}
+            {{- $page_url:= $currentPage.Permalink | absLangURL }}
+            {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
+            <li>
+                <a href="{{ $menu_item_url }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
+                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
+                    <span {{- if eq $menu_item_url ( $page_url ) }} class="active" {{- end }}>
+                        {{- .Pre }}
+                        {{- .Name -}}
+                        {{ .Post -}}
+                    </span>
+                </a>
+            </li>
+            {{- end }}
+        </ul>
+    </nav>
+</header>

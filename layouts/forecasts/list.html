@@ -1,0 +1,19 @@
+{{ define "main" }}
+<h1>{{ i18n "forecasts_heading" }}</h1>
+{{ if gt (len .Pages) 0 }}
+  {{ $p := .Paginate .Pages }}
+  {{ range $p.Pages }}
+    <article class="forecast-card">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <div class="meta">
+        <time datetime="{{ .Date }}">{{ .Date.Format "2006-01-02" }}</time>
+        {{ with .Params.probability }} · <span class="mono">{{ . }}</span>{{ end }}
+        {{ with .Params.status }} · <span>{{ . }}</span>{{ end }}
+      </div>
+    </article>
+  {{ end }}
+  {{ partial "pagination.html" . }}
+{{ else }}
+  <p class="secondary">{{ i18n "forecasts_empty" }}</p>
+{{ end }}
+{{ end }}

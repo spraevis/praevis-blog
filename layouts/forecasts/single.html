@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="post">
+  <header class="post-header">
+    <h1>{{ .Title }}</h1>
+    <div class="meta">
+      <time datetime="{{ .Date }}">{{ .Date.Format "2006-01-02" }}</time>
+      {{ with .Params.probability }} · <span class="mono">{{ . }}</span>{{ end }}
+      {{ with .Params.status }} · <span>{{ . }}</span>{{ end }}
+      {{ with .Params.tags }} · {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ "/tags/" | relURL }}{{ $t | urlize }}">{{ $t }}</a>{{ end }}{{ end }}
+    </div>
+  </header>
+  <div class="post-content">{{ .Content }}</div>
+</article>
+{{ end }}

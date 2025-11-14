@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  hugo-server:
+    image: ghcr.io/gohugoio/hugo:v0.152.2
+    command: server -D --bind 0.0.0.0 --baseURL http://localhost:1313
+    working_dir: /src
+    ports:
+      - "1313:1313"
+    volumes:
+      - ./:/src
+    # Ensures git submodule (PaperMod) is present inside the container
+    # Run `git submodule update --init --recursive` locally before first run if needed.
+
+  build:
+    image: ghcr.io/gohugoio/hugo:v0.152.2
+    command: --minify
+    working_dir: /src
+    volumes:
+      - ./:/src

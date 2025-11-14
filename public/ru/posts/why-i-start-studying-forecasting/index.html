@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru" dir="auto" data-theme="dark">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Почему я начинаю изучать прогнозирование | S. Praevis</title>
+<meta name="keywords" content="введение, прогнозирование, процесс">
+<meta name="description" content="Я начинаю изучать прогнозирование, чтобы мыслить точнее.
+Большинство прогнозов вокруг — это уверенные слова без вероятностей.
+Мне важнее не утверждать, а проверять.
+Здесь я буду фиксировать процесс обучения:
+как меняются мои оценки,
+какие данные оказываются шумом,
+и как корректируется модель.
+Первые шаги простые: наблюдать, ставить вероятности,
+удалять лишние допущения.
+Модель будет меняться — и это часть процесса.
+Этот блог — не о правоте.
+Он о честности мышления под неопределённостью.
+— S. Praevis">
+<meta name="author" content="">
+<link rel="canonical" href="/ru/posts/why-i-start-studying-forecasting/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.16b86194a456020339eee48c594ac5c6334010114075b2d4b2f53811ba90846d.css" integrity="sha256-FrhhlKRWAgM57uSMWUrFxjNAEBFAdbLUsvU4EbqQhG0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/posts/why-i-start-studying-forecasting/">
+<link rel="alternate" hreflang="ru" href="/ru/posts/why-i-start-studying-forecasting/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:url" content="/ru/posts/why-i-start-studying-forecasting/">
+  <meta property="og:site_name" content="S. Praevis">
+  <meta property="og:title" content="Почему я начинаю изучать прогнозирование">
+  <meta property="og:description" content="Я начинаю изучать прогнозирование, чтобы мыслить точнее.
+Большинство прогнозов вокруг — это уверенные слова без вероятностей.
+Мне важнее не утверждать, а проверять.
+Здесь я буду фиксировать процесс обучения:
+как меняются мои оценки,
+какие данные оказываются шумом,
+и как корректируется модель.
+Первые шаги простые: наблюдать, ставить вероятности,
+удалять лишние допущения.
+Модель будет меняться — и это часть процесса.
+Этот блог — не о правоте.
+Он о честности мышления под неопределённостью.
+— S. Praevis">
+  <meta property="og:locale" content="ru">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-01-01T00:00:00+00:00">
+    <meta property="article:tag" content="Введение">
+    <meta property="article:tag" content="Прогнозирование">
+    <meta property="article:tag" content="Процесс">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Почему я начинаю изучать прогнозирование">
+<meta name="twitter:description" content="Я начинаю изучать прогнозирование, чтобы мыслить точнее.
+Большинство прогнозов вокруг — это уверенные слова без вероятностей.
+Мне важнее не утверждать, а проверять.
+Здесь я буду фиксировать процесс обучения:
+как меняются мои оценки,
+какие данные оказываются шумом,
+и как корректируется модель.
+Первые шаги простые: наблюдать, ставить вероятности,
+удалять лишние допущения.
+Модель будет меняться — и это часть процесса.
+Этот блог — не о правоте.
+Он о честности мышления под неопределённостью.
+— S. Praevis">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Блог",
+      "item": "/ru/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Почему я начинаю изучать прогнозирование",
+      "item": "/ru/posts/why-i-start-studying-forecasting/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Почему я начинаю изучать прогнозирование",
+  "name": "Почему я начинаю изучать прогнозирование",
+  "description": "Я начинаю изучать прогнозирование, чтобы мыслить точнее.\nБольшинство прогнозов вокруг — это уверенные слова без вероятностей.\nМне важнее не утверждать, а проверять.\nЗдесь я буду фиксировать процесс обучения:\nкак меняются мои оценки,\nкакие данные оказываются шумом,\nи как корректируется модель.\nПервые шаги простые: наблюдать, ставить вероятности,\nудалять лишние допущения.\nМодель будет меняться — и это часть процесса.\nЭтот блог — не о правоте.\nОн о честности мышления под неопределённостью.\n— S. Praevis\n",
+  "keywords": [
+    "введение", "прогнозирование", "процесс"
+  ],
+  "articleBody": "Я начинаю изучать прогнозирование, чтобы мыслить точнее.\nБольшинство прогнозов вокруг — это уверенные слова без вероятностей.\nМне важнее не утверждать, а проверять.\nЗдесь я буду фиксировать процесс обучения:\nкак меняются мои оценки,\nкакие данные оказываются шумом,\nи как корректируется модель.\nПервые шаги простые: наблюдать, ставить вероятности,\nудалять лишние допущения.\nМодель будет меняться — и это часть процесса.\nЭтот блог — не о правоте.\nОн о честности мышления под неопределённостью.\n— S. Praevis\n",
+  "wordCount" : "72",
+  "inLanguage": "ru",
+  "datePublished": "2025-01-01T00:00:00Z",
+  "dateModified": "2025-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/ru/posts/why-i-start-studying-forecasting/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "S. Praevis",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/ru/" accesskey="h" title="S. Praevis (Alt + H)">S. Praevis</a>
+            <div class="logo-switches">
+                    <ul class="lang-switch"><li>|</li>
+                        <li>
+                            <a href="/" title="English"
+                                aria-label="English">En</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/ru/posts/" title="Блог">
+                    <span>Блог</span>
+                </a>
+            </li>
+            <li>
+                <a href="/ru/forecasts/" title="Прогнозы">
+                    <span>Прогнозы</span>
+                </a>
+            </li>
+            <li>
+                <a href="/ru/about/" title="О проекте">
+                    <span>О проекте</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Почему я начинаю изучать прогнозирование
+    </h1>
+    <div class="post-meta"><span title='2025-01-01 00:00:00 +0000 UTC'>1 января 2025 г.</span>&nbsp;|&nbsp;<span>Переводы:</span>
+<ul class="i18n_list">
+    <li>
+        <a href="/posts/why-i-start-studying-forecasting/">En</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Я начинаю изучать прогнозирование, чтобы мыслить точнее.<br>
+Большинство прогнозов вокруг — это уверенные слова без вероятностей.<br>
+Мне важнее не утверждать, а проверять.</p>
+<p>Здесь я буду фиксировать процесс обучения:<br>
+как меняются мои оценки,<br>
+какие данные оказываются шумом,<br>
+и как корректируется модель.</p>
+<p>Первые шаги простые: наблюдать, ставить вероятности,<br>
+удалять лишние допущения.<br>
+Модель будет меняться — и это часть процесса.</p>
+<p>Этот блог — не о правоте.<br>
+Он о честности мышления под неопределённостью.</p>
+<p>— S. Praevis</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/ru/tags/%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5/">Введение</a></li>
+      <li><a href="/ru/tags/%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/">Прогнозирование</a></li>
+      <li><a href="/ru/tags/%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81/">Процесс</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="/ru/">S. Praevis</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>
