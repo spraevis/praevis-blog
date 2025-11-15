@@ -1,6 +1,6 @@
 ---
 title: "Why I’m starting to study forecasting"
-date: 2025-01-01
+date: 2025-11-14
 tags: ["intro", "forecasting", "process"]
 draft: false
 ---
