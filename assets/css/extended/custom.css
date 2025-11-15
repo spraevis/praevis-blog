@@ -133,3 +133,6 @@ kbd {
 .chip-canceled { color: #ffd1d1; border-color: #3a1b1b; background: #1c0f0f; }
 .updates ul { margin: .25rem 0 0; padding-left: 1.1rem; }
 .resolution p { margin: .25rem 0 0; }
+
+/* Utilities */
+.one-line { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

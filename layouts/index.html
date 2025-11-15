@@ -18,18 +18,14 @@
 <section class="intro intro-enhanced">
   <p>{{ i18n "intro_text" }}</p>
 </section>
-
-{{/* Featured blog post link (first Polymarket forecast) */}}
-{{ $featured := site.GetPage (printf "posts/%s" "first-polymarket-forecast-btc-90k-november") }}
-{{ with $featured }}
-<section class="featured-blog">
-  <p class="secondary" style="margin:.25rem 0 .5rem;">
-    <span class="mono">Featured:</span>
-    <a class="inline-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-    →
-  </p>
-  
-</section>
+{{/* Compact one-line link to the referenced post */}}
+{{ $post := site.GetPage (printf "posts/%s" "first-polymarket-forecast-btc-90k-november") }}
+{{ with $post }}
+<p class="secondary mono one-line" style="margin:.25rem 0 0;">
+  <span>{{ i18n "latest" | default "Latest" }}:</span>
+  <a class="inline-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  →
+</p>
 {{ end }}
 
 <section class="latest-forecasts">
