@@ -1,7 +1,7 @@
 ---
 title: "Когда событие можно предсказать (и когда нельзя)"
 date: 2025-11-15
-tags: ["прогнозирование", "рынки", "предсказуемость"]
+tags: ["forecasting", "markets", "predictability"]
 draft: false
 ---
 

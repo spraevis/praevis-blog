@@ -1,7 +1,7 @@
 ---
 title: "Мой первый прогноз на Polymarket: упадёт ли BTC до $90,000 в ноябре?"
 date: 2025-11-15
-tags: ["polymarket", "прогноз", "bitcoin"]
+tags: ["polymarket", "forecast", "bitcoin"]
 draft: false
 ---
 

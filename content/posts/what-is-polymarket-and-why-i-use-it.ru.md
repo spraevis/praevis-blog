@@ -1,7 +1,7 @@
 ---
 title: "Что такое Polymarket и зачем он мне"
 date: 2025-11-14
-tags: ["polymarket", "прогнозирование", "рынки"]
+tags: ["polymarket", "forecasting", "markets"]
 draft: false
 ---
 

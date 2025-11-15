@@ -14,10 +14,10 @@
       <h1 style="margin:0">{{ .Title }}</h1>
       <span class="chip chip-{{ $status }}">{{ $status }}</span>
     </div>
-    <div class="meta mono">
+    <div class="meta">
       <time datetime="{{ .Date }}">{{ .Date.Format "2006-01-02" }}</time>
       {{ if $position }} · <span>{{ $position }}</span>{{ end }}
-      {{ if $entry }} · <span>@{{ mul $entry 100 | lang.FormatNumber 0 }}%</span>{{ else }}{{ with .Params.probability }} · <span>{{ . }}</span>{{ end }}{{ end }}
+      {{ if $entry }} · <span class="mono">@{{ mul $entry 100 | lang.FormatNumber 0 }}%</span>{{ else }}{{ with .Params.probability }} · <span class="mono">{{ . }}</span>{{ end }}{{ end }}
       {{ if $fprob }} · <span>{{ $fprob }}</span>{{ end }}
       {{ if $close }} · <span>close: {{ $close }}</span>{{ end }}
       {{ with $market }}
@@ -25,8 +25,12 @@
         {{ if .provider }} · <span>{{ .provider }}</span>{{ end }}
         {{ end }}
       {{ end }}
-      {{ with .Params.tags }} · {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ "/tags/" | relURL }}{{ $t | urlize }}">{{ $t }}</a>{{ end }}{{ end }}
     </div>
+    {{ with .Params.tags }}
+    <div class="meta" style="margin-top:.15rem;">
+      {{ range $i, $t := . }}{{ if $i }} · {{ end }}<a href="{{ "/tags/" | relURL }}{{ $t | urlize }}">{{ $t }}</a>{{ end }}
+    </div>
+    {{ end }}
   </header>
 
   <div class="post-content">{{ .Content }}</div>

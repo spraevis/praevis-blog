@@ -13,7 +13,7 @@ result:
 resolved_at: 
 brier: 
 updates: [ { date: 2025-11-15, note: "Открыл No @65%" } ]
-tags: ["polymarket", "прогноз", "bitcoin"]
+tags: ["polymarket", "forecast", "bitcoin"]
 draft: false
 ---
 
