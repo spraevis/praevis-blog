@@ -30,9 +30,7 @@ languages:
         - name: About
           url: /about/
           weight: 30
-        - name: Contact
-          url: /about/#contact
-          weight: 40
+        
   ru:
     languageName: Русский
     weight: 2
@@ -47,9 +45,7 @@ languages:
         - name: О проекте
           url: /about/
           weight: 30
-        - name: Контакты
-          url: /about/#контакты
-          weight: 40
+        
 
 menu: {}
 

@@ -111,3 +111,12 @@ kbd {
 /* Content tweaks */
 .main h1, .main h2, .main h3 { letter-spacing: -0.01em; }
 .main a { text-decoration-thickness: 1px; }
+
+/* Footer */
+.footer { margin-top: 2rem; border-top: 1px solid var(--border); padding: 1rem 0 2rem; color: #A8A8A8; }
+.footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.footer-social { display: flex; align-items: center; gap: .6rem; }
+.footer-social .social { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 8px; color: #E6F7FF; background: linear-gradient(90deg, var(--accent-1), var(--accent-2)); opacity: .9; text-decoration: none; }
+.footer-social .social:hover { opacity: 1; transform: translateY(-1px); }
+.footer .ico { display: block; }
+.foot-info { font-size: .8rem; color: #8E8E8E; }
