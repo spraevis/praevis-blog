@@ -26,11 +26,7 @@
         {{ end }}
       {{ end }}
     </div>
-    {{ with .Params.tags }}
-    <div class="meta" style="margin-top:.15rem;">
-      {{ range $i, $t := . }}{{ if $i }} · {{ end }}<a href="{{ "/tags/" | relURL }}{{ $t | urlize }}">{{ $t }}</a>{{ end }}
-    </div>
-    {{ end }}
+    
   </header>
 
   <div class="post-content">{{ .Content }}</div>
