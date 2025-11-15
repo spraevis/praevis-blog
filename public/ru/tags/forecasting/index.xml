@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Forecasting on S. Praevis</title>
+    <link>/ru/tags/forecasting/</link>
+    <description>Recent content in Forecasting on S. Praevis</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ru</language>
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/ru/tags/forecasting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Данные, методы и пределы прогнозов</title>
+      <link>/ru/posts/data-methods-and-limits-of-forecasting/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/data-methods-and-limits-of-forecasting/</guid>
+      <description>&lt;p&gt;В прогнозировании главное — не метод, а соответствие данных задаче.&lt;br&gt;
+Любой прогноз зависит от того, какие данные мы используем и что в них остаётся после удаления шума.&lt;/p&gt;
+&lt;p&gt;Есть три уровня.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Данные как есть.&lt;/strong&gt;&lt;br&gt;
+Наблюдения, цены, новости.&lt;br&gt;
+Без интерпретации — это просто поток.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Обработка.&lt;/strong&gt;&lt;br&gt;
+Сглаживание, фильтры, выбор признаков.&lt;br&gt;
+Попытка сохранить структуру и убрать лишнее.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Модели.&lt;/strong&gt;&lt;br&gt;
+От простых эвристик до статистики и ML.&lt;br&gt;
+Модель должна быть простой настолько, чтобы работать,&lt;br&gt;
+и сложной — настолько, чтобы отражать вероятность.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

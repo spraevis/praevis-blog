@@ -6,8 +6,31 @@
     <description>Recent content in Forecasting on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/forecasting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When an event can be predicted (and when it can’t)</title>
+      <link>/posts/predictability-of-events/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/predictability-of-events/</guid>
+      <description>&lt;p&gt;On prediction markets the key is to judge how predictable the event itself is.
+There are four conditions that determine this.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Understanding the drivers.&lt;/strong&gt;
+If the structure of the event is clear, you can assign a probability.
+If the factors are fuzzy, forecasting turns into guessing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Availability of data.&lt;/strong&gt;
+The more data and repeatable patterns, the better.
+If data is scarce, the market becomes a psychological game.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Similarity of the future to the past.&lt;/strong&gt;
+Typical events are predictable.
+Unique events are almost not.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why I’m starting to study forecasting</title>
       <link>/posts/why-i-start-studying-forecasting/</link>

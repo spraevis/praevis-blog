@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/posts/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -16,16 +16,26 @@
                 />
   </url><url>
     <loc>/tags/forecasting/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/forecasting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/forecasting/"
+                />
   </url><url>
-    <loc>/tags/intro/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <loc>/tags/markets/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/process/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <loc>/tags/predictability/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -38,7 +48,7 @@
                 />
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -49,6 +59,25 @@
                 hreflang="en"
                 href="/tags/"
                 />
+  </url><url>
+    <loc>/posts/predictability-of-events/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/posts/predictability-of-events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/predictability-of-events/"
+                />
+  </url><url>
+    <loc>/tags/intro/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/process/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/why-i-start-studying-forecasting/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>

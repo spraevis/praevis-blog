@@ -6,8 +6,61 @@
     <description>Recent content in Блог on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ru</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/ru/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Данные, методы и пределы прогнозов</title>
+      <link>/ru/posts/data-methods-and-limits-of-forecasting/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/data-methods-and-limits-of-forecasting/</guid>
+      <description>&lt;p&gt;В прогнозировании главное — не метод, а соответствие данных задаче.&lt;br&gt;
+Любой прогноз зависит от того, какие данные мы используем и что в них остаётся после удаления шума.&lt;/p&gt;
+&lt;p&gt;Есть три уровня.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Данные как есть.&lt;/strong&gt;&lt;br&gt;
+Наблюдения, цены, новости.&lt;br&gt;
+Без интерпретации — это просто поток.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Обработка.&lt;/strong&gt;&lt;br&gt;
+Сглаживание, фильтры, выбор признаков.&lt;br&gt;
+Попытка сохранить структуру и убрать лишнее.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Модели.&lt;/strong&gt;&lt;br&gt;
+От простых эвристик до статистики и ML.&lt;br&gt;
+Модель должна быть простой настолько, чтобы работать,&lt;br&gt;
+и сложной — настолько, чтобы отражать вероятность.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Когда событие можно предсказать (и когда нельзя)</title>
+      <link>/ru/posts/predictability-of-events/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/predictability-of-events/</guid>
+      <description>&lt;p&gt;На рынках прогнозов главное — понять, насколько само событие предсказуемо.
+Есть четыре условия, которые определяют это.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Понимание факторов.&lt;/strong&gt;
+Если структура события ясна, вероятность можно оценить.
+Если факторы размыты, прогноз превращается в угадывание.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Наличие данных.&lt;/strong&gt;
+Чем больше данных и повторяемых паттернов, тем лучше.
+Если данных почти нет, рынок — психологическая игра.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Схожесть будущего с прошлым.&lt;/strong&gt;
+Типовые события предсказуемы.
+Уникальные события — почти нет.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Влияние прогноза на сам исход.&lt;/strong&gt;
+Некоторые рынки самовоздействующие:
+ожидания меняют реальность.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Почему я начинаю изучать прогнозирование</title>
       <link>/ru/posts/why-i-start-studying-forecasting/</link>
