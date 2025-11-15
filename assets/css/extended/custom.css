@@ -51,6 +51,8 @@ kbd {
 .hero-enhanced > * { position: relative; z-index: 1; }
 .eyebrow { color: #A8A8A8; text-transform: uppercase; letter-spacing: .08em; font-size: .75rem; margin-bottom: .25rem; }
 .hero-title { line-height: 1.08; font-weight: 700; font-family: Manrope, Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+/* Keep homepage H1 on a single line with responsive size */
+.hero .hero-title { white-space: nowrap; font-size: clamp(1.4rem, 4.5vw, 2.6rem); letter-spacing: -0.01em; }
 .main h1, .main h2, .main h3 { font-family: Manrope, Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
 .mono, code, pre, kbd { font-feature-settings: "tnum" 1; }
 .tagline { color: #CFCFCF; }
