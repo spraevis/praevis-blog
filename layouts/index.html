@@ -19,6 +19,19 @@
   <p>{{ i18n "intro_text" }}</p>
 </section>
 
+{{/* Featured blog post link (first Polymarket forecast) */}}
+{{ $featured := site.GetPage (printf "posts/%s" "first-polymarket-forecast-btc-90k-november") }}
+{{ with $featured }}
+<section class="featured-blog">
+  <p class="secondary" style="margin:.25rem 0 .5rem;">
+    <span class="mono">Featured:</span>
+    <a class="inline-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    →
+  </p>
+  
+</section>
+{{ end }}
+
 <section class="latest-forecasts">
   <div class="section-header">
     <h2>{{ i18n "latest_forecasts" }}</h2>

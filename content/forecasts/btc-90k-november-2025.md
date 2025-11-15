@@ -21,4 +21,4 @@ Market question: Will Bitcoin dip to $90,000 in November?
 
 Summary: November 2025 trades in a ~100k regime with typical ±4–9k swings; a 90k touch would require an event‑driven move beyond 2σ and below the monthly low.
 
-See the detailed reasoning in the blog post “My first Polymarket forecast: will BTC drop to $90,000 in November?”.
+See the detailed reasoning in the blog post: [My first Polymarket forecast: will BTC drop to $90,000 in November?]({{< relref "/posts/first-polymarket-forecast-btc-90k-november.md" >}}).
