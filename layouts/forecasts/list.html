@@ -3,12 +3,28 @@
 {{ if gt (len .Pages) 0 }}
   {{ $p := .Paginate .Pages }}
   {{ range $p.Pages }}
+    {{- $status := .Params.status | default "open" -}}
+    {{- $position := .Params.position -}}
+    {{- $entry := .Params.entry_prob -}}
+    {{- $fprob := .Params.forecast_prob -}}
+    {{- $close := .Params.close_date -}}
+    {{- $market := .Params.market -}}
     <article class="forecast-card">
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      <div class="meta">
+      <div class="row between center">
+        <h3 style="margin:0"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <span class="chip chip-{{ $status }}">{{ $status }}</span>
+      </div>
+      <div class="meta mono">
         <time datetime="{{ .Date }}">{{ .Date.Format "2006-01-02" }}</time>
-        {{ with .Params.probability }} · <span class="mono">{{ . }}</span>{{ end }}
-        {{ with .Params.status }} · <span>{{ . }}</span>{{ end }}
+        {{ if $position }} · <span>{{ $position }}</span>{{ end }}
+        {{ if $entry }} · <span>@{{ mul $entry 100 | lang.FormatNumber 0 }}%</span>{{ else }}{{ with .Params.probability }} · <span>{{ . }}</span>{{ end }}{{ end }}
+        {{ if $fprob }} · <span>{{ $fprob }}</span>{{ end }}
+        {{ if $close }} · <span>close: {{ $close }}</span>{{ end }}
+        {{ with $market }}
+          {{ if .url }} · <a class="inline-link" href="{{ .url }}" target="_blank" rel="noopener">{{ .provider | default "Market" }}</a>{{ else }}
+          {{ if .provider }} · <span>{{ .provider }}</span>{{ end }}
+          {{ end }}
+        {{ end }}
       </div>
     </article>
   {{ end }}

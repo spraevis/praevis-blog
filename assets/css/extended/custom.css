@@ -120,3 +120,14 @@ kbd {
 .footer-social .social:hover { opacity: 1; transform: translateY(-1px); }
 .footer .ico { display: block; }
 .foot-info { font-size: .8rem; color: #8E8E8E; }
+
+/* Forecast meta */
+.row { display: flex; gap: .75rem; }
+.row.center { align-items: center; }
+.row.between { justify-content: space-between; }
+.chip { border: 1px solid var(--border); background: #111; color: #CFCFCF; padding: .2rem .5rem; border-radius: 999px; font-size: .75rem; text-transform: uppercase; letter-spacing: .04em; }
+.chip-open { color: #b3f5ff; border-color: #17343a; background: #0d1a1c; }
+.chip-resolved { color: #c3f7c1; border-color: #1b3a1a; background: #0f1c10; }
+.chip-canceled { color: #ffd1d1; border-color: #3a1b1b; background: #1c0f0f; }
+.updates ul { margin: .25rem 0 0; padding-left: 1.1rem; }
+.resolution p { margin: .25rem 0 0; }

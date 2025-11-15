@@ -1,16 +1,28 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-probability: ""
-status: "open"
-tags: []
-draft: true
+status: open
+position: 
+entry_prob: 
+forecast_prob: 
+market: { provider: "Polymarket", url: "", market_id: "" }
+close_date: 
+resolution_criteria: ""
+stake: ""
+result: 
+resolved_at: 
+brier: 
+updates: [ ]
+tags: ["polymarket"]
+draft: false
 ---
 
-## Sources
+## Market question
 
-## Reasoning
+## Context & Data
 
-## Assumptions
+## Analysis
 
-## Alternative Scenarios
+## Position & Rationale
+
+## Monitoring plan

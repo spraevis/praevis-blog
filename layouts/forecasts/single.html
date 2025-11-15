@@ -1,14 +1,56 @@
 {{ define "main" }}
 <article class="post">
+  {{- $status := .Params.status | default "open" -}}
+  {{- $position := .Params.position -}}
+  {{- $entry := .Params.entry_prob -}}
+  {{- $fprob := .Params.forecast_prob -}}
+  {{- $close := .Params.close_date -}}
+  {{- $market := .Params.market -}}
+  {{- $result := .Params.result -}}
+  {{- $resolved := eq $status "resolved" -}}
+
   <header class="post-header">
-    <h1>{{ .Title }}</h1>
-    <div class="meta">
+    <div class="row between center" style="margin-bottom:.25rem">
+      <h1 style="margin:0">{{ .Title }}</h1>
+      <span class="chip chip-{{ $status }}">{{ $status }}</span>
+    </div>
+    <div class="meta mono">
       <time datetime="{{ .Date }}">{{ .Date.Format "2006-01-02" }}</time>
-      {{ with .Params.probability }} · <span class="mono">{{ . }}</span>{{ end }}
-      {{ with .Params.status }} · <span>{{ . }}</span>{{ end }}
+      {{ if $position }} · <span>{{ $position }}</span>{{ end }}
+      {{ if $entry }} · <span>@{{ mul $entry 100 | lang.FormatNumber 0 }}%</span>{{ else }}{{ with .Params.probability }} · <span>{{ . }}</span>{{ end }}{{ end }}
+      {{ if $fprob }} · <span>{{ $fprob }}</span>{{ end }}
+      {{ if $close }} · <span>close: {{ $close }}</span>{{ end }}
+      {{ with $market }}
+        {{ if .url }} · <a class="inline-link" href="{{ .url }}" target="_blank" rel="noopener">{{ .provider | default "Market" }}</a>{{ else }}
+        {{ if .provider }} · <span>{{ .provider }}</span>{{ end }}
+        {{ end }}
+      {{ end }}
       {{ with .Params.tags }} · {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ "/tags/" | relURL }}{{ $t | urlize }}">{{ $t }}</a>{{ end }}{{ end }}
     </div>
   </header>
+
   <div class="post-content">{{ .Content }}</div>
+
+  {{- with .Params.updates }}
+  <section class="updates">
+    <h3>Updates</h3>
+    <ul>
+      {{- range . -}}
+      <li><span class="mono">{{ .date }}</span> — {{ .note }}{{ with .market_prob }} (mkt: {{ . }}){{ end }}</li>
+      {{- end -}}
+    </ul>
+  </section>
+  {{- end -}}
+
+  {{- if or $resolved (ne $result nil) -}}
+  <section class="resolution">
+    <h3>Resolution</h3>
+    <p>
+      Outcome: <strong>{{ if eq $result true }}Yes{{ else if eq $result false }}No{{ else }}—{{ end }}</strong>
+      {{ with .Params.resolved_at }} · <span class="mono">{{ . }}</span>{{ end }}
+      {{ with .Params.brier }} · Brier: <span class="mono">{{ . }}</span>{{ end }}
+    </p>
+  </section>
+  {{- end -}}
 </article>
 {{ end }}
