@@ -14,7 +14,7 @@
       <h1 style="margin:0">{{ .Title }}</h1>
       <span class="chip chip-{{ $status }}">{{ $status }}</span>
     </div>
-    <div class="meta">
+    <div class="meta one-line">
       <time datetime="{{ .Date }}">{{ .Date.Format "2006-01-02" }}</time>
       {{ if $position }} · <span>{{ $position }}</span>{{ end }}
       {{ if $entry }} · <span class="mono">@{{ mul $entry 100 | lang.FormatNumber 0 }}%</span>{{ else }}{{ with .Params.probability }} · <span class="mono">{{ . }}</span>{{ end }}{{ end }}
