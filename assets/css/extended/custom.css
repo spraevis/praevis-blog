@@ -58,12 +58,29 @@ kbd {
 .hero-chips { margin-top: .75rem; display: flex; gap: .5rem; flex-wrap: wrap; }
 .chip { border: 1px solid var(--border); background: #111; color: #CFCFCF; padding: .25rem .55rem; border-radius: 999px; font-size: .8rem; }
 
-.hero-ctas { margin-top: 1rem; display: flex; gap: .6rem; }
-.btn { display: inline-flex; align-items: center; gap: .4rem; border-radius: .5rem; font-weight: 600; font-size: .9rem; padding: .55rem .8rem; border: 1px solid var(--border); text-decoration: none; }
-.btn-accent { background: linear-gradient(180deg, var(--accent-1), var(--accent-2)); color: #061016; border-color: color-mix(in oklab, var(--accent-2), #000 30%); box-shadow: 0 8px 28px color-mix(in oklab, var(--accent-2) 28%, transparent), inset 0 0 0 1px rgba(255,255,255,0.06); }
-.btn-accent:hover { filter: brightness(1.05); }
-.btn-ghost { background: transparent; color: #F2F2F2; }
-.btn-ghost:hover { background: #111; }
+.hero-ctas { margin-top: 1rem; display: flex; gap: .7rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; border-radius: 999px; font-weight: 700; font-size: .95rem; padding: .62rem .98rem; border: 1px solid var(--border); text-decoration: none; letter-spacing: .01em; transition: transform .16s ease, box-shadow .2s ease, background-position .3s ease; will-change: transform; }
+.btn:focus-visible { outline: none; box-shadow: 0 0 0 3px color-mix(in oklab, var(--accent-2) 28%, transparent); }
+.btn:active { transform: translateY(1px); }
+
+/* Primary CTA: refined gradient capsule with layered shadows and moving arrow */
+.btn-accent {
+  color: #061016;
+  background: linear-gradient(180deg, color-mix(in oklab, var(--accent-1), #fff 6%), color-mix(in oklab, var(--accent-2), #000 6%));
+  border-color: color-mix(in oklab, var(--accent-2), #000 32%);
+  box-shadow:
+    0 10px 30px color-mix(in oklab, var(--accent-2) 26%, transparent),
+    0 1px 0 rgba(255,255,255,0.06) inset,
+    0 0 0 1px rgba(255,255,255,0.05) inset;
+  background-position: 0% 0%;
+}
+.btn-accent:hover { filter: none; transform: translateY(-1px); background-position: 0% 100%; }
+.btn-accent::after { content: "→"; transition: transform .18s ease; }
+.btn-accent:hover::after { transform: translateX(2px); }
+
+/* Secondary CTA: subtle glass outline */
+.btn-ghost { background: rgba(255,255,255,0.02); color: #F2F2F2; border-color: #232323; box-shadow: 0 0 0 1px rgba(255,255,255,0.03) inset; }
+.btn-ghost:hover { background: rgba(255,255,255,0.04); }
 
 /* Sections */
 .intro-enhanced { margin-bottom: 1.25rem; }
