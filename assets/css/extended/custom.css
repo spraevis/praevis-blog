@@ -65,12 +65,14 @@ kbd {
 
 /* Primary CTA: refined gradient capsule with layered shadows and moving arrow */
 .btn-accent {
-  color: #0D0D0D;
-  background: color-mix(in oklab, var(--accent-2), #0D0D0D 14%);
+  color: #061016;
+  background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+  background-size: 180% 100%;
+  background-position: 0% 50%;
   border-color: color-mix(in oklab, var(--accent-2), #000 32%);
   box-shadow: 0 8px 24px color-mix(in oklab, var(--accent-2) 22%, transparent), 0 0 0 1px rgba(255,255,255,0.05) inset;
 }
-.btn-accent:hover { filter: brightness(1.05); transform: translateY(-1px); }
+.btn-accent:hover { filter: brightness(1.04); transform: translateY(-1px); background-position: 100% 50%; }
 
 /* Secondary CTA: subtle glass outline */
 .btn-ghost { background: rgba(255,255,255,0.02); color: #F2F2F2; border-color: #232323; box-shadow: 0 0 0 1px rgba(255,255,255,0.03) inset; }
