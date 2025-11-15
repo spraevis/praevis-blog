@@ -30,6 +30,9 @@ languages:
         - name: About
           url: /about/
           weight: 30
+        - name: Contact
+          url: /about/#contact
+          weight: 40
   ru:
     languageName: Русский
     weight: 2
@@ -44,6 +47,9 @@ languages:
         - name: О проекте
           url: /about/
           weight: 30
+        - name: Контакты
+          url: /about/#контакты
+          weight: 40
 
 menu: {}
 
@@ -53,3 +59,12 @@ params:
   ShowReadingTime: false
   assets:
     disableHLJS: true
+  socialIcons:
+    - name: email
+      url: "mailto:spraevis@gmail.com"
+    - name: twitter
+      url: "https://x.com/spraevis"
+    - name: telegram
+      url: "https://t.me/spraevis"
+    - name: github
+      url: "https://github.com/spraevis"
