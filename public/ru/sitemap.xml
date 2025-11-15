@@ -4,6 +4,16 @@
   <url>
     <loc>/ru/tags/data/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/data/"
+                />
   </url><url>
     <loc>/ru/tags/forecasting/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
@@ -20,6 +30,16 @@
   </url><url>
     <loc>/ru/tags/methods/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/methods/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/methods/"
+                />
   </url><url>
     <loc>/ru/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
@@ -62,6 +82,16 @@
   </url><url>
     <loc>/ru/posts/data-methods-and-limits-of-forecasting/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/data-methods-and-limits-of-forecasting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/posts/data-methods-and-limits-of-forecasting/"
+                />
   </url><url>
     <loc>/ru/posts/predictability-of-events/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>

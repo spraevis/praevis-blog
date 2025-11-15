@@ -9,6 +9,31 @@
     <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/forecasting/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Data, Methods, and the Limits of Forecasts</title>
+      <link>/posts/data-methods-and-limits-of-forecasting/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/data-methods-and-limits-of-forecasting/</guid>
+      <description>&lt;p&gt;In forecasting, the key is not the method but the fit between data and the task.&lt;br&gt;
+Every forecast depends on which data we use and what remains after removing noise.&lt;/p&gt;
+&lt;p&gt;There are three levels.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Raw data.&lt;/strong&gt;&lt;br&gt;
+Observations, prices, news.&lt;br&gt;
+Without interpretation — just a stream.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Processing.&lt;/strong&gt;&lt;br&gt;
+Smoothing, filters, feature selection.&lt;br&gt;
+An attempt to preserve structure and remove the rest.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Models.&lt;/strong&gt;&lt;br&gt;
+From simple heuristics to statistics and ML.&lt;br&gt;
+The model should be simple enough to work,&lt;br&gt;
+and complex enough to reflect probability.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>When an event can be predicted (and when it can’t)</title>
       <link>/posts/predictability-of-events/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>

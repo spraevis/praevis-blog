@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="dark">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Data, Methods, and the Limits of Forecasts | S. Praevis</title>
+<meta name="keywords" content="forecasting, methods, data">
+<meta name="description" content="In forecasting, the key is not the method but the fit between data and the task.
+Every forecast depends on which data we use and what remains after removing noise.
+There are three levels.
+
+
+Raw data.
+Observations, prices, news.
+Without interpretation — just a stream.
+
+
+Processing.
+Smoothing, filters, feature selection.
+An attempt to preserve structure and remove the rest.
+
+
+Models.
+From simple heuristics to statistics and ML.
+The model should be simple enough to work,
+and complex enough to reflect probability.">
+<meta name="author" content="">
+<link rel="canonical" href="/posts/data-methods-and-limits-of-forecasting/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1a28d2c4fa54fa426e57eea1f4e976031ab29aa61f32bb9f24a2146707b9007f.css" integrity="sha256-GijSxPpU&#43;kJuV&#43;6h9Ol2AxqymqYfMrufJKIUZwe5AH8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/posts/data-methods-and-limits-of-forecasting/">
+<link rel="alternate" hreflang="ru" href="/ru/posts/data-methods-and-limits-of-forecasting/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:url" content="/posts/data-methods-and-limits-of-forecasting/">
+  <meta property="og:site_name" content="S. Praevis">
+  <meta property="og:title" content="Data, Methods, and the Limits of Forecasts">
+  <meta property="og:description" content="In forecasting, the key is not the method but the fit between data and the task.
+Every forecast depends on which data we use and what remains after removing noise.
+There are three levels.
+Raw data.
+Observations, prices, news.
+Without interpretation — just a stream.
+Processing.
+Smoothing, filters, feature selection.
+An attempt to preserve structure and remove the rest.
+Models.
+From simple heuristics to statistics and ML.
+The model should be simple enough to work,
+and complex enough to reflect probability.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-15T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-15T00:00:00+00:00">
+    <meta property="article:tag" content="Forecasting">
+    <meta property="article:tag" content="Methods">
+    <meta property="article:tag" content="Data">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Data, Methods, and the Limits of Forecasts">
+<meta name="twitter:description" content="In forecasting, the key is not the method but the fit between data and the task.
+Every forecast depends on which data we use and what remains after removing noise.
+There are three levels.
+
+
+Raw data.
+Observations, prices, news.
+Without interpretation — just a stream.
+
+
+Processing.
+Smoothing, filters, feature selection.
+An attempt to preserve structure and remove the rest.
+
+
+Models.
+From simple heuristics to statistics and ML.
+The model should be simple enough to work,
+and complex enough to reflect probability.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blog",
+      "item": "/posts/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Data, Methods, and the Limits of Forecasts",
+      "item": "/posts/data-methods-and-limits-of-forecasting/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Data, Methods, and the Limits of Forecasts",
+  "name": "Data, Methods, and the Limits of Forecasts",
+  "description": "In forecasting, the key is not the method but the fit between data and the task.\nEvery forecast depends on which data we use and what remains after removing noise.\nThere are three levels.\nRaw data.\nObservations, prices, news.\nWithout interpretation — just a stream.\nProcessing.\nSmoothing, filters, feature selection.\nAn attempt to preserve structure and remove the rest.\nModels.\nFrom simple heuristics to statistics and ML.\nThe model should be simple enough to work,\nand complex enough to reflect probability.\n",
+  "keywords": [
+    "forecasting", "methods", "data"
+  ],
+  "articleBody": "In forecasting, the key is not the method but the fit between data and the task.\nEvery forecast depends on which data we use and what remains after removing noise.\nThere are three levels.\nRaw data.\nObservations, prices, news.\nWithout interpretation — just a stream.\nProcessing.\nSmoothing, filters, feature selection.\nAn attempt to preserve structure and remove the rest.\nModels.\nFrom simple heuristics to statistics and ML.\nThe model should be simple enough to work,\nand complex enough to reflect probability.\nOn Polymarket it boils down to one pipeline:\ndata → processing → probability.\nIf the input data are bad, the method will not save you.\nIf the data are clean, even a simple model works.\n— S. Praevis\n",
+  "wordCount" : "119",
+  "inLanguage": "en",
+  "datePublished": "2025-11-15T00:00:00Z",
+  "dateModified": "2025-11-15T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/posts/data-methods-and-limits-of-forecasting/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "S. Praevis",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title="S. Praevis (Alt + H)">S. Praevis</a>
+            <div class="logo-switches">
+                    <ul class="lang-switch"><li>|</li>
+                        <li>
+                            <a href="/ru/" title="Русский"
+                                aria-label="Русский">Ru</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/posts/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="/forecasts/" title="Forecasts">
+                    <span>Forecasts</span>
+                </a>
+            </li>
+            <li>
+                <a href="/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Data, Methods, and the Limits of Forecasts
+    </h1>
+    <div class="post-meta"><span title='2025-11-15 00:00:00 +0000 UTC'>November 15, 2025</span>&nbsp;|&nbsp;<span>Translations:</span>
+<ul class="i18n_list">
+    <li>
+        <a href="/ru/posts/data-methods-and-limits-of-forecasting/">Ru</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+  <div class="post-content"><p>In forecasting, the key is not the method but the fit between data and the task.<br>
+Every forecast depends on which data we use and what remains after removing noise.</p>
+<p>There are three levels.</p>
+<ol>
+<li>
+<p><strong>Raw data.</strong><br>
+Observations, prices, news.<br>
+Without interpretation — just a stream.</p>
+</li>
+<li>
+<p><strong>Processing.</strong><br>
+Smoothing, filters, feature selection.<br>
+An attempt to preserve structure and remove the rest.</p>
+</li>
+<li>
+<p><strong>Models.</strong><br>
+From simple heuristics to statistics and ML.<br>
+The model should be simple enough to work,<br>
+and complex enough to reflect probability.</p>
+</li>
+</ol>
+<p>On Polymarket it boils down to one pipeline:<br>
+data → processing → probability.</p>
+<p>If the input data are bad, the method will not save you.<br>
+If the data are clean, even a simple model works.</p>
+<p>— S. Praevis</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/forecasting/">Forecasting</a></li>
+      <li><a href="/tags/methods/">Methods</a></li>
+      <li><a href="/tags/data/">Data</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="/">S. Praevis</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>
