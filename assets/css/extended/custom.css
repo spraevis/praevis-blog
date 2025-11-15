@@ -136,3 +136,9 @@ kbd {
 
 /* Utilities */
 .one-line { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* Compact meta line on forecast pages */
+.post-header .meta.one-line { font-size: 0.9rem; }
+@media (max-width: 480px) {
+  .post-header .meta.one-line { font-size: 0.85rem; }
+}
