@@ -58,25 +58,19 @@ kbd {
 .hero-chips { margin-top: .75rem; display: flex; gap: .5rem; flex-wrap: wrap; }
 .chip { border: 1px solid var(--border); background: #111; color: #CFCFCF; padding: .25rem .55rem; border-radius: 999px; font-size: .8rem; }
 
-.hero-ctas { margin-top: 1rem; display: flex; gap: .7rem; }
-.btn { display: inline-flex; align-items: center; gap: .45rem; border-radius: 999px; font-weight: 700; font-size: .95rem; padding: .62rem .98rem; border: 1px solid var(--border); text-decoration: none; letter-spacing: .01em; transition: transform .16s ease, box-shadow .2s ease, background-position .3s ease; will-change: transform; }
-.btn:focus-visible { outline: none; box-shadow: 0 0 0 3px color-mix(in oklab, var(--accent-2) 28%, transparent); }
+.hero-ctas { margin-top: 1rem; display: flex; gap: .6rem; }
+.btn { display: inline-flex; align-items: center; gap: .4rem; border-radius: .5rem; font-weight: 600; font-size: .9rem; padding: .55rem .8rem; border: 1px solid var(--border); text-decoration: none; transition: transform .15s ease, border-color .15s ease; }
+.btn:focus-visible { outline: none; box-shadow: 0 0 0 2px color-mix(in oklab, var(--accent-2) 28%, transparent); }
 .btn:active { transform: translateY(1px); }
 
 /* Primary CTA: refined gradient capsule with layered shadows and moving arrow */
 .btn-accent {
-  color: #061016;
-  background: linear-gradient(180deg, color-mix(in oklab, var(--accent-1), #fff 6%), color-mix(in oklab, var(--accent-2), #000 6%));
+  color: #0D0D0D;
+  background: color-mix(in oklab, var(--accent-2), #0D0D0D 14%);
   border-color: color-mix(in oklab, var(--accent-2), #000 32%);
-  box-shadow:
-    0 10px 30px color-mix(in oklab, var(--accent-2) 26%, transparent),
-    0 1px 0 rgba(255,255,255,0.06) inset,
-    0 0 0 1px rgba(255,255,255,0.05) inset;
-  background-position: 0% 0%;
+  box-shadow: 0 8px 24px color-mix(in oklab, var(--accent-2) 22%, transparent), 0 0 0 1px rgba(255,255,255,0.05) inset;
 }
-.btn-accent:hover { filter: none; transform: translateY(-1px); background-position: 0% 100%; }
-.btn-accent::after { content: "→"; transition: transform .18s ease; }
-.btn-accent:hover::after { transform: translateX(2px); }
+.btn-accent:hover { filter: brightness(1.05); transform: translateY(-1px); }
 
 /* Secondary CTA: subtle glass outline */
 .btn-ghost { background: rgba(255,255,255,0.02); color: #F2F2F2; border-color: #232323; box-shadow: 0 0 0 1px rgba(255,255,255,0.03) inset; }
