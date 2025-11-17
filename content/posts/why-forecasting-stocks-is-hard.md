@@ -1,6 +1,6 @@
 ---
 title: "Why forecasting stocks is hard"
-date: 2025-11-15
+date: 2025-11-17
 tags: ["forecasting", "markets", "stocks"]
 draft: false
 ---

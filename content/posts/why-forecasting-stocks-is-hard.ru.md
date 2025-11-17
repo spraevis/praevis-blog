@@ -1,6 +1,6 @@
 ---
 title: "Почему прогнозировать акции так трудно"
-date: 2025-11-15
+date: 2025-11-17
 tags: ["forecasting", "markets", "stocks"]
 draft: false
 ---
