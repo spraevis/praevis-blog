@@ -5,6 +5,8 @@ tags: ["polymarket", "forecast", "bitcoin"]
 draft: false
 ---
 
+Обновление (2025-11-20): исход Yes (было касание $90k). Моя позиция No проиграла. Пост‑фактум: {{< relref "/posts/why-my-first-forecast-was-wrong.ru.md" >}}.
+
 Это мой первый публичный прогноз и первая ставка на Polymarket.  
 Вопрос рынка: **“Will Bitcoin dip to $90,000 in November?”**  
 Я купил **No** при вероятности ~65%.

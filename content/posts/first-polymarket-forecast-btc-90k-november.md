@@ -5,6 +5,8 @@ tags: ["polymarket", "forecast", "bitcoin"]
 draft: false
 ---
 
+Update (2025-11-20): Outcome Yes (touched $90k). My position No lost. See post‑mortem: {{< relref "/posts/why-my-first-forecast-was-wrong.md" >}}.
+
 This is my first public forecast and my first stake on Polymarket.  
 Market question: **“Will Bitcoin dip to $90,000 in November?”**  
 I bought **No** at ~65%.
