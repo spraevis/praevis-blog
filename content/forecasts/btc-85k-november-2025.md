@@ -1,7 +1,7 @@
 ---
 title: "BTC touches $85k in November? (Yes)"
 date: 2025-11-20
-status: open
+status: resolved
 position: yes
 entry_prob: 
 forecast_prob: 
@@ -9,10 +9,10 @@ market: { provider: "Polymarket", url: "https://polymarket.com/event/what-price-
 close_date: 2025-11-30
 resolution_criteria: "Touches $85,000 intramonth = Yes; otherwise No"
 stake: ""
-result: null
-resolved_at: 
+result: true
+resolved_at: 2025-11-20
 brier: 
-updates: [ { date: 2025-11-20, note: "Opened Yes (entry prob TBD)" } ]
+updates: [ { date: 2025-11-20, note: "Opened Yes (entry prob TBD)" }, { date: 2025-11-20, note: "Resolved: touched $85k → position Yes won" } ]
 tags: ["polymarket", "forecast", "bitcoin"]
 draft: false
 ---

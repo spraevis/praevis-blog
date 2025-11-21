@@ -1,7 +1,7 @@
 ---
 title: "BTC касается $85k в ноябре? (Yes)"
 date: 2025-11-20
-status: open
+status: resolved
 position: yes
 entry_prob: 
 forecast_prob: 
@@ -9,10 +9,10 @@ market: { provider: "Polymarket", url: "https://polymarket.com/event/what-price-
 close_date: 2025-11-30
 resolution_criteria: "Касание $85,000 внутри месяца = Yes; иначе No"
 stake: ""
-result: null
-resolved_at: 
+result: true
+resolved_at: 2025-11-20
 brier: 
-updates: [ { date: 2025-11-20, note: "Открыл Yes (вероятность входа уточнить)" } ]
+updates: [ { date: 2025-11-20, note: "Открыл Yes (вероятность входа уточнить)" }, { date: 2025-11-20, note: "Решение: было касание $85k → позиция Yes выиграла" } ]
 tags: ["polymarket", "forecast", "bitcoin"]
 draft: false
 ---
