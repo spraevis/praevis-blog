@@ -6,27 +6,97 @@
     <description>Recent content in Tags on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data</title>
-      <link>/tags/data/</link>
-      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/data/</guid>
+      <title>Bitcoin</title>
+      <link>/tags/bitcoin/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forecast</title>
+      <link>/tags/forecast/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/forecast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Polymarket</title>
+      <link>/tags/polymarket/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/polymarket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Btc</title>
+      <link>/tags/btc/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/btc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Extremes</title>
+      <link>/tags/extremes/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/extremes/</guid>
       <description></description>
     </item>
     <item>
       <title>Forecasting</title>
       <link>/tags/forecasting/</link>
-      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
       <guid>/tags/forecasting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Error</title>
+      <link>/tags/error/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/error/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Noise</title>
+      <link>/tags/noise/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/noise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Signal</title>
+      <link>/tags/signal/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/signal/</guid>
       <description></description>
     </item>
     <item>
       <title>Markets</title>
       <link>/tags/markets/</link>
-      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
       <guid>/tags/markets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stocks</title>
+      <link>/tags/stocks/</link>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/stocks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basics</title>
+      <link>/tags/basics/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/basics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data</title>
+      <link>/tags/data/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/data/</guid>
       <description></description>
     </item>
     <item>
@@ -37,6 +107,13 @@
       <description></description>
     </item>
     <item>
+      <title>Models</title>
+      <link>/tags/models/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/models/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Predictability</title>
       <link>/tags/predictability/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
@@ -44,17 +121,17 @@
       <description></description>
     </item>
     <item>
-      <title>Intro</title>
-      <link>/tags/intro/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/intro/</guid>
+      <title>Process</title>
+      <link>/tags/process/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/process/</guid>
       <description></description>
     </item>
     <item>
-      <title>Process</title>
-      <link>/tags/process/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/process/</guid>
+      <title>Intro</title>
+      <link>/tags/intro/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/intro/</guid>
       <description></description>
     </item>
   </channel>

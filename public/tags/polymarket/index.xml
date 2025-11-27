@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Polymarket on S. Praevis</title>
+    <link>/tags/polymarket/</link>
+    <description>Recent content in Polymarket on S. Praevis</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/polymarket/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BTC touches $80k in November? (No)</title>
+      <link>/forecasts/btc-80k-november-2025/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/forecasts/btc-80k-november-2025/</guid>
+      <description>&lt;p&gt;Market question: Will Bitcoin dip to $80,000 in November?&lt;/p&gt;
+&lt;p&gt;Position: No. Opened on 2025-11-21 — see Polymarket market link above.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BTC touches $85k in November? (Yes)</title>
+      <link>/forecasts/btc-85k-november-2025/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/forecasts/btc-85k-november-2025/</guid>
+      <description>&lt;p&gt;Market question: Will Bitcoin dip to $85,000 in November?&lt;/p&gt;
+&lt;p&gt;Position: Yes. Opened on 2025-11-20 — see Polymarket market link above.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BTC ≥ $90k in November? (No @65%)</title>
+      <link>/forecasts/btc-90k-november-2025/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/forecasts/btc-90k-november-2025/</guid>
+      <description>&lt;p&gt;Market question: Will Bitcoin dip to $90,000 in November?&lt;/p&gt;
+&lt;p&gt;Summary: November 2025 trades in a ~100k regime with typical ±4–9k swings; a 90k touch would require an event‑driven move beyond 2σ and below the monthly low.&lt;/p&gt;
+&lt;p&gt;See the detailed reasoning in the blog post: &lt;a href=&#34;/posts/first-polymarket-forecast-btc-90k-november/&#34;&gt;My first Polymarket forecast: will BTC drop to $90,000 in November?&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Post‑mortem: Outcome Yes (touched $90k). Position No lost. Brier = 0.4225 (pYes=0.35 vs outcome 1).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My first Polymarket forecast: will BTC drop to $90,000 in November?</title>
+      <link>/posts/first-polymarket-forecast-btc-90k-november/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/first-polymarket-forecast-btc-90k-november/</guid>
+      <description>&lt;p&gt;Update (2025-11-20): Outcome Yes (touched $90k). My position No lost. See post‑mortem: /posts/why-my-first-forecast-was-wrong/.&lt;/p&gt;
+&lt;p&gt;This is my first public forecast and my first stake on Polymarket.&lt;br&gt;
+Market question: &lt;strong&gt;“Will Bitcoin dip to $90,000 in November?”&lt;/strong&gt;&lt;br&gt;
+I bought &lt;strong&gt;No&lt;/strong&gt; at ~65%.&lt;/p&gt;
+&lt;p&gt;Below is how I arrived at the estimate.&lt;/p&gt;
+&lt;h2 id=&#34;1-history-of-btc-in-november&#34;&gt;1. History of BTC in November&lt;/h2&gt;
+&lt;p&gt;I compiled stats across all Novembers.&lt;br&gt;
+Key figures:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;November average: &lt;strong&gt;≈ $34k&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;standard deviation: &lt;strong&gt;≈ $32k&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;minimum: &lt;strong&gt;≈ $3.8k&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;maximum: &lt;strong&gt;≈ $110.5k&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Conclusion: November is one of the most volatile months for BTC.&lt;br&gt;
+But the structure of volatility depends on the cycle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is Polymarket and why I use it</title>
+      <link>/posts/what-is-polymarket-and-why-i-use-it/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/what-is-polymarket-and-why-i-use-it/</guid>
+      <description>&lt;p&gt;Polymarket is a prediction market.&lt;br&gt;
+The stakes here are not about gambling, but about probabilities.&lt;/p&gt;
+&lt;p&gt;Each market is a question about the future:&lt;br&gt;
+elections, the economy, technology, sports, or world events.&lt;br&gt;
+The price of a contract reflects the crowd’s probability estimate of the outcome.&lt;br&gt;
+If a contract trades at 0.23, the market implies about a 23% chance the event will occur.&lt;/p&gt;
+&lt;p&gt;The core idea is simple:&lt;br&gt;
+when people put money on the line, they pay closer attention to information.&lt;br&gt;
+That’s why these markets often react faster than analysts and media.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

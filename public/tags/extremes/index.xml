@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Extremes on S. Praevis</title>
+    <link>/tags/extremes/</link>
+    <description>Recent content in Extremes on S. Praevis</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/extremes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why forecasting Bitcoin extremes is hard</title>
+      <link>/posts/why-forecasting-bitcoin-extremes-is-hard/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/why-forecasting-bitcoin-extremes-is-hard/</guid>
+      <description>&lt;p&gt;Forecasting levels is easier.&lt;br&gt;
+Forecasting extremes is almost always harder.&lt;/p&gt;
+&lt;p&gt;Highs and lows are properties of the path, not just the close.&lt;br&gt;
+Price must actually reach the level, not merely close beyond it.&lt;/p&gt;
+&lt;p&gt;Most models break on that distinction.&lt;/p&gt;
+&lt;h2 id=&#34;1-the-data-behave-like-noise&#34;&gt;1) The data behave like noise&lt;/h2&gt;
+&lt;p&gt;Bitcoin is non‑stationary.&lt;br&gt;
+Volatility shifts.&lt;br&gt;
+Tails are fat.&lt;br&gt;
+Jumps are normal.&lt;/p&gt;
+&lt;p&gt;Terminal models compress everything to one number.&lt;br&gt;
+Extremes require reasoning about the entire path.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

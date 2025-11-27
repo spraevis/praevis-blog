@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Stocks on S. Praevis</title>
+    <link>/tags/stocks/</link>
+    <description>Recent content in Stocks on S. Praevis</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 17 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/stocks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why forecasting stocks is hard</title>
+      <link>/posts/why-forecasting-stocks-is-hard/</link>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/why-forecasting-stocks-is-hard/</guid>
+      <description>&lt;p&gt;Forecasting works where the data have structure.&lt;br&gt;
+Stocks have weak structure.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Weak patterns&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Trends break on news.&lt;br&gt;
+Seasonality is minimal.&lt;br&gt;
+Cycles are unstable.&lt;br&gt;
+Autocorrelations are low.&lt;/p&gt;
+&lt;p&gt;The data behave like noise.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;The main drivers are outside the time series&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Future prices depend on what is not in the history:&lt;br&gt;
+regulator decisions, earnings, liquidity, events, market sentiment.&lt;/p&gt;
+&lt;p&gt;The time series does not contain causes.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Predictors are unknown or unpredictable&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It’s not enough to know the variables — you must forecast them.&lt;br&gt;
+With stocks, that’s hard or impossible.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

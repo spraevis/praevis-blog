@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Error on S. Praevis</title>
+    <link>/tags/error/</link>
+    <description>Recent content in Error on S. Praevis</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/error/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why my first forecast was wrong</title>
+      <link>/posts/why-my-first-forecast-was-wrong/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/why-my-first-forecast-was-wrong/</guid>
+      <description>&lt;p&gt;My first forecast was simple:&lt;br&gt;
+BTC would not drop below $90,000 in November.&lt;/p&gt;
+&lt;p&gt;The bet looked reasonable from the data.&lt;br&gt;
+But it lost.&lt;br&gt;
+Here’s why.&lt;/p&gt;
+&lt;h2 id=&#34;1-i-overestimated-regime-stability&#34;&gt;1) I overestimated regime stability&lt;/h2&gt;
+&lt;p&gt;The month’s range looked stable: ~95–110k.&lt;br&gt;
+Std was low; swings looked “orderly.”&lt;/p&gt;
+&lt;p&gt;Mistake: I treated a local structure as durable.&lt;br&gt;
+Regimes can switch faster than the data reveals.&lt;/p&gt;
+&lt;h2 id=&#34;2-i-underestimated-outofrange-probability&#34;&gt;2) I underestimated out‑of‑range probability&lt;/h2&gt;
+&lt;p&gt;The drop happened &lt;strong&gt;without a single clear trigger&lt;/strong&gt;.&lt;br&gt;
+That’s normal: price can break the distribution on order‑flow or liquidity alone.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

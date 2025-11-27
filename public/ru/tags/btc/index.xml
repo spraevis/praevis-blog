@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Btc on S. Praevis</title>
+    <link>/ru/tags/btc/</link>
+    <description>Recent content in Btc on S. Praevis</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ru</language>
+    <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/ru/tags/btc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Почему прогнозировать экстремумы биткоина так сложно</title>
+      <link>/ru/posts/why-forecasting-bitcoin-extremes-is-hard/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/why-forecasting-bitcoin-extremes-is-hard/</guid>
+      <description>&lt;p&gt;Прогнозировать уровни — проще.&lt;br&gt;
+Прогнозировать экстремумы — почти всегда труднее.&lt;/p&gt;
+&lt;p&gt;Максимум и минимум — это свойства траектории, а не точки закрытия.&lt;br&gt;
+Цена должна &lt;em&gt;дойти&lt;/em&gt; до уровня, а не просто закрыться выше или ниже.&lt;/p&gt;
+&lt;p&gt;И большинство моделей на этом ломаются.&lt;/p&gt;
+&lt;h2 id=&#34;1-данные-ведут-себя-как-шум&#34;&gt;1. Данные ведут себя как шум&lt;/h2&gt;
+&lt;p&gt;Биткоин нестационарен.&lt;br&gt;
+Волатильность меняется.&lt;br&gt;
+Хвосты распределения толще нормы.&lt;br&gt;
+Скачки — обычная часть движения.&lt;/p&gt;
+&lt;p&gt;Терминальные модели упрощают всё до одного числа.&lt;br&gt;
+Экстремумы требуют анализа всего пути.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Почему мой первый прогноз оказался неверным</title>
+      <link>/ru/posts/why-my-first-forecast-was-wrong/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/why-my-first-forecast-was-wrong/</guid>
+      <description>&lt;p&gt;Мой первый прогноз был прост:&lt;br&gt;
+BTC не опустится ниже $90,000 в ноябре.&lt;/p&gt;
+&lt;p&gt;Ставка выглядела логичной по данным.&lt;br&gt;
+Но она проиграла.&lt;br&gt;
+Разбираю почему.&lt;/p&gt;
+&lt;h2 id=&#34;1-я-переоценил-стабильность-режима&#34;&gt;1. Я переоценил стабильность режима&lt;/h2&gt;
+&lt;p&gt;Диапазон месяца казался устойчивым: ~95–110k.&lt;br&gt;
+Std был низким, колебания — «упорядоченными».&lt;/p&gt;
+&lt;p&gt;Ошибка: я принял локальную структуру за устойчивую.&lt;br&gt;
+Режим может смениться быстрее, чем это видно в данных.&lt;/p&gt;
+&lt;h2 id=&#34;2-я-недооценил-вероятность-выхода-за-диапазон&#34;&gt;2. Я недооценил вероятность выхода за диапазон&lt;/h2&gt;
+&lt;p&gt;Падение произошло &lt;strong&gt;без ясного однозначного триггера&lt;/strong&gt;.&lt;br&gt;
+Это нормальная особенность рынка: цена может выйти за границы распределения&lt;br&gt;
+просто из-за изменения потока ордеров или ликвидности.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

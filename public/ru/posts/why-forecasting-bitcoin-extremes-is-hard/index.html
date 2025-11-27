@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru" dir="auto" data-theme="dark">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Почему прогнозировать экстремумы биткоина так сложно | S. Praevis</title>
+<meta name="keywords" content="forecasting, extremes, btc">
+<meta name="description" content="Прогнозировать уровни — проще.
+Прогнозировать экстремумы — почти всегда труднее.
+Максимум и минимум — это свойства траектории, а не точки закрытия.
+Цена должна дойти до уровня, а не просто закрыться выше или ниже.
+И большинство моделей на этом ломаются.
+1. Данные ведут себя как шум
+Биткоин нестационарен.
+Волатильность меняется.
+Хвосты распределения толще нормы.
+Скачки — обычная часть движения.
+Терминальные модели упрощают всё до одного числа.
+Экстремумы требуют анализа всего пути.">
+<meta name="author" content="">
+<link rel="canonical" href="/ru/posts/why-forecasting-bitcoin-extremes-is-hard/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.ee38a8fe67daecef8359c98d1f0dcd516bb5c3781b2ded2673d0e9f4ce09c21e.css" integrity="sha256-7jio/mfa7O&#43;DWcmNHw3NUWu1w3gbLe0mc9Dp9M4Jwh4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/posts/why-forecasting-bitcoin-extremes-is-hard/">
+<link rel="alternate" hreflang="ru" href="/ru/posts/why-forecasting-bitcoin-extremes-is-hard/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:url" content="/ru/posts/why-forecasting-bitcoin-extremes-is-hard/">
+  <meta property="og:site_name" content="S. Praevis">
+  <meta property="og:title" content="Почему прогнозировать экстремумы биткоина так сложно">
+  <meta property="og:description" content="Прогнозировать уровни — проще.
+Прогнозировать экстремумы — почти всегда труднее.
+Максимум и минимум — это свойства траектории, а не точки закрытия.
+Цена должна дойти до уровня, а не просто закрыться выше или ниже.
+И большинство моделей на этом ломаются.
+1. Данные ведут себя как шум Биткоин нестационарен.
+Волатильность меняется.
+Хвосты распределения толще нормы.
+Скачки — обычная часть движения.
+Терминальные модели упрощают всё до одного числа.
+Экстремумы требуют анализа всего пути.">
+  <meta property="og:locale" content="ru">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-20T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-20T00:00:00+00:00">
+    <meta property="article:tag" content="Forecasting">
+    <meta property="article:tag" content="Extremes">
+    <meta property="article:tag" content="Btc">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Почему прогнозировать экстремумы биткоина так сложно">
+<meta name="twitter:description" content="Прогнозировать уровни — проще.
+Прогнозировать экстремумы — почти всегда труднее.
+Максимум и минимум — это свойства траектории, а не точки закрытия.
+Цена должна дойти до уровня, а не просто закрыться выше или ниже.
+И большинство моделей на этом ломаются.
+1. Данные ведут себя как шум
+Биткоин нестационарен.
+Волатильность меняется.
+Хвосты распределения толще нормы.
+Скачки — обычная часть движения.
+Терминальные модели упрощают всё до одного числа.
+Экстремумы требуют анализа всего пути.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Блог",
+      "item": "/ru/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Почему прогнозировать экстремумы биткоина так сложно",
+      "item": "/ru/posts/why-forecasting-bitcoin-extremes-is-hard/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Почему прогнозировать экстремумы биткоина так сложно",
+  "name": "Почему прогнозировать экстремумы биткоина так сложно",
+  "description": "Прогнозировать уровни — проще.\nПрогнозировать экстремумы — почти всегда труднее.\nМаксимум и минимум — это свойства траектории, а не точки закрытия.\nЦена должна дойти до уровня, а не просто закрыться выше или ниже.\nИ большинство моделей на этом ломаются.\n1. Данные ведут себя как шум Биткоин нестационарен.\nВолатильность меняется.\nХвосты распределения толще нормы.\nСкачки — обычная часть движения.\nТерминальные модели упрощают всё до одного числа.\nЭкстремумы требуют анализа всего пути.\n",
+  "keywords": [
+    "forecasting", "extremes", "btc"
+  ],
+  "articleBody": "Прогнозировать уровни — проще.\nПрогнозировать экстремумы — почти всегда труднее.\nМаксимум и минимум — это свойства траектории, а не точки закрытия.\nЦена должна дойти до уровня, а не просто закрыться выше или ниже.\nИ большинство моделей на этом ломаются.\n1. Данные ведут себя как шум Биткоин нестационарен.\nВолатильность меняется.\nХвосты распределения толще нормы.\nСкачки — обычная часть движения.\nТерминальные модели упрощают всё до одного числа.\nЭкстремумы требуют анализа всего пути.\n2. Что работает на практике Статистика — базовые оценки.\nML — слабые зависимости.\nИИ — сигналы в новостях и контексте.\nЭкстремальный анализ (EVT) — хвосты.\nМонте-Карло — проверка траекторий.\nРынок опционов — коллективные ожидания.\nКаждый метод даёт свою часть картины.\nВместе — формируют вероятностную рамку:\nне прогноз уровня, а оценку шанса достигнуть его.\n3. Главная мысль Экстремумы — это игра хвостов, волатильности и траекторий.\nЧтобы оценивать их честно, нужно сочетать модели, данные и рынок.\nСигнал будет маленьким.\nНо на сегодняшний день — это лучшее, что мне удалось найти.\n— S. Praevis\n",
+  "wordCount" : "161",
+  "inLanguage": "ru",
+  "datePublished": "2025-11-20T00:00:00Z",
+  "dateModified": "2025-11-20T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/ru/posts/why-forecasting-bitcoin-extremes-is-hard/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "S. Praevis",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/ru/" accesskey="h" title="S. Praevis (Alt + H)">S. Praevis</a>
+            <div class="logo-switches">
+                    <ul class="lang-switch"><li>|</li>
+                        <li>
+                            <a href="/" title="English"
+                                aria-label="English">En</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/ru/posts/" title="Блог">
+                    <span>Блог</span>
+                </a>
+            </li>
+            <li>
+                <a href="/ru/forecasts/" title="Прогнозы">
+                    <span>Прогнозы</span>
+                </a>
+            </li>
+            <li>
+                <a href="/ru/about/" title="О проекте">
+                    <span>О проекте</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Почему прогнозировать экстремумы биткоина так сложно
+    </h1>
+    <div class="post-meta"><span title='2025-11-20 00:00:00 +0000 UTC'>20 ноября 2025 г.</span>&nbsp;|&nbsp;<span>Переводы:</span>
+<ul class="i18n_list">
+    <li>
+        <a href="/posts/why-forecasting-bitcoin-extremes-is-hard/">En</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Прогнозировать уровни — проще.<br>
+Прогнозировать экстремумы — почти всегда труднее.</p>
+<p>Максимум и минимум — это свойства траектории, а не точки закрытия.<br>
+Цена должна <em>дойти</em> до уровня, а не просто закрыться выше или ниже.</p>
+<p>И большинство моделей на этом ломаются.</p>
+<h2 id="1-данные-ведут-себя-как-шум">1. Данные ведут себя как шум<a hidden class="anchor" aria-hidden="true" href="#1-данные-ведут-себя-как-шум">#</a></h2>
+<p>Биткоин нестационарен.<br>
+Волатильность меняется.<br>
+Хвосты распределения толще нормы.<br>
+Скачки — обычная часть движения.</p>
+<p>Терминальные модели упрощают всё до одного числа.<br>
+Экстремумы требуют анализа всего пути.</p>
+<h2 id="2-что-работает-на-практике">2. Что работает на практике<a hidden class="anchor" aria-hidden="true" href="#2-что-работает-на-практике">#</a></h2>
+<p>Статистика — базовые оценки.<br>
+ML — слабые зависимости.<br>
+ИИ — сигналы в новостях и контексте.<br>
+Экстремальный анализ (EVT) — хвосты.<br>
+Монте-Карло — проверка траекторий.<br>
+Рынок опционов — коллективные ожидания.</p>
+<p>Каждый метод даёт свою часть картины.<br>
+Вместе — формируют вероятностную рамку:<br>
+не прогноз уровня, а оценку <em>шанса достигнуть его</em>.</p>
+<h2 id="3-главная-мысль">3. Главная мысль<a hidden class="anchor" aria-hidden="true" href="#3-главная-мысль">#</a></h2>
+<p>Экстремумы — это игра хвостов, волатильности и траекторий.<br>
+Чтобы оценивать их честно, нужно сочетать модели, данные и рынок.</p>
+<p>Сигнал будет маленьким.<br>
+Но на сегодняшний день — это лучшее, что мне удалось найти.</p>
+<p>— S. Praevis</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/ru/tags/forecasting/">Forecasting</a></li>
+      <li><a href="/ru/tags/extremes/">Extremes</a></li>
+      <li><a href="/ru/tags/btc/">Btc</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    <footer class="footer">
+  <div class="footer-inner">
+    <nav class="footer-social" aria-label="Social links"><a class="social" href="mailto:spraevis@gmail.com" target="_blank" rel="nofollow noopener noreferrer" title="email"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" class="ico"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4.24-7.6 5.23a1 1 0 0 1-1.16 0L4 8.24V6l8 5.5L20 6v2.24Z"/></svg>
+      </a><a class="social" href="https://x.com/spraevis" target="_blank" rel="nofollow noopener noreferrer" title="twitter"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" class="ico"><path fill="currentColor" d="M18.244 2H21l-6.56 7.49L22 22h-6.42l-5.02-6.54L4.6 22H2l7.02-8.01L2 2h6.58l4.62 6.08L18.244 2Zm-1.126 18.27h1.7L7.94 3.66H6.15l10.968 16.61Z"/></svg>
+      </a><a class="social" href="https://t.me/spraevis" target="_blank" rel="nofollow noopener noreferrer" title="telegram"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" class="ico"><path fill="currentColor" d="M9.04 15.32 8.8 19.9c.43 0 .62-.18.84-.4l2.02-1.94 4.18 3.06c.77.42 1.32.2 1.53-.7l2.77-12.99c.25-1.08-.41-1.5-1.16-1.24L3.32 9.78c-1.05.41-1.03 1-.18 1.27l4.97 1.55 11.54-7.27-10.61 9.99Z"/></svg>
+      </a><a class="social" href="https://github.com/spraevis" target="_blank" rel="nofollow noopener noreferrer" title="github"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" class="ico"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.78.6-3.37-1.17-3.37-1.17-.45-1.14-1.1-1.44-1.1-1.44-.9-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.64.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.28.1-2.66 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 7.1c.85 0 1.71.12 2.51.34 1.9-1.29 2.74-1.02 2.74-1.02.56 1.38.21 2.41.1 2.66.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85 0 1.34-.01 2.43-.01 2.76 0 .26.18.57.69.47A10 10 0 0 0 12 2Z"/></svg>
+      </a>
+    </nav>
+    <div class="foot-info mono">© 2025 S. Praevis</div>
+  </div>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Методы on S. Praevis</title>
+    <link>/ru/tags/%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B/</link>
+    <description>Recent content in Методы on S. Praevis</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ru</language>
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/ru/tags/%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Предикторы, временные ряды и выбор модели</title>
+      <link>/ru/posts/predictors-time-series-and-model-choice/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/predictors-time-series-and-model-choice/</guid>
+      <description>&lt;p&gt;В прогнозировании есть три типа моделей.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Модели с предикторами.&lt;/strong&gt;&lt;br&gt;
+Они используют внешние переменные — температуру, экономику, поведение людей.&lt;br&gt;
+Такие модели объясняют, &lt;em&gt;почему&lt;/em&gt; что-то происходит.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Модели временных рядов.&lt;/strong&gt;&lt;br&gt;
+Они смотрят только на прошлое значения показателя.&lt;br&gt;
+Ничего не объясняют, но часто прогнозируют лучше.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Смешанные модели.&lt;/strong&gt;&lt;br&gt;
+Комбинация прошлого поведения и внешних факторов.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Почему иногда лучше использовать только временной ряд?&lt;br&gt;
+Потому что внешние переменные могут быть неизвестны,&lt;br&gt;
+неподдаваемы измерению или непредсказуемы сами по себе.&lt;br&gt;
+Иногда цель — просто предсказать, а не объяснить.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

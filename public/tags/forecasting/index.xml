@@ -6,8 +6,92 @@
     <description>Recent content in Forecasting on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/forecasting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why forecasting Bitcoin extremes is hard</title>
+      <link>/posts/why-forecasting-bitcoin-extremes-is-hard/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/why-forecasting-bitcoin-extremes-is-hard/</guid>
+      <description>&lt;p&gt;Forecasting levels is easier.&lt;br&gt;
+Forecasting extremes is almost always harder.&lt;/p&gt;
+&lt;p&gt;Highs and lows are properties of the path, not just the close.&lt;br&gt;
+Price must actually reach the level, not merely close beyond it.&lt;/p&gt;
+&lt;p&gt;Most models break on that distinction.&lt;/p&gt;
+&lt;h2 id=&#34;1-the-data-behave-like-noise&#34;&gt;1) The data behave like noise&lt;/h2&gt;
+&lt;p&gt;Bitcoin is non‑stationary.&lt;br&gt;
+Volatility shifts.&lt;br&gt;
+Tails are fat.&lt;br&gt;
+Jumps are normal.&lt;/p&gt;
+&lt;p&gt;Terminal models compress everything to one number.&lt;br&gt;
+Extremes require reasoning about the entire path.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Forecasting where there is almost no structure</title>
+      <link>/posts/forecasting-where-there-is-almost-no-structure/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/forecasting-where-there-is-almost-no-structure/</guid>
+      <description>&lt;p&gt;Forecasting where there is almost no structure&lt;/p&gt;
+&lt;p&gt;Most financial time series are noise.&lt;br&gt;
+No trend. No seasonality. Weak repeatability.&lt;br&gt;
+The best baseline is a random walk.&lt;/p&gt;
+&lt;p&gt;Any discovered pattern disappears as soon as it becomes part of the market.&lt;/p&gt;
+&lt;h2 id=&#34;what-still-works&#34;&gt;What still works&lt;/h2&gt;
+&lt;p&gt;Structure is scarce — but signal can be layered.&lt;/p&gt;
+&lt;p&gt;Statistics captures basic forms.&lt;br&gt;
+ML captures weak dependencies.&lt;br&gt;
+AI captures hidden links in text and context.&lt;br&gt;
+Crowd forecasting captures human information.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why my first forecast was wrong</title>
+      <link>/posts/why-my-first-forecast-was-wrong/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/why-my-first-forecast-was-wrong/</guid>
+      <description>&lt;p&gt;My first forecast was simple:&lt;br&gt;
+BTC would not drop below $90,000 in November.&lt;/p&gt;
+&lt;p&gt;The bet looked reasonable from the data.&lt;br&gt;
+But it lost.&lt;br&gt;
+Here’s why.&lt;/p&gt;
+&lt;h2 id=&#34;1-i-overestimated-regime-stability&#34;&gt;1) I overestimated regime stability&lt;/h2&gt;
+&lt;p&gt;The month’s range looked stable: ~95–110k.&lt;br&gt;
+Std was low; swings looked “orderly.”&lt;/p&gt;
+&lt;p&gt;Mistake: I treated a local structure as durable.&lt;br&gt;
+Regimes can switch faster than the data reveals.&lt;/p&gt;
+&lt;h2 id=&#34;2-i-underestimated-outofrange-probability&#34;&gt;2) I underestimated out‑of‑range probability&lt;/h2&gt;
+&lt;p&gt;The drop happened &lt;strong&gt;without a single clear trigger&lt;/strong&gt;.&lt;br&gt;
+That’s normal: price can break the distribution on order‑flow or liquidity alone.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why forecasting stocks is hard</title>
+      <link>/posts/why-forecasting-stocks-is-hard/</link>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/why-forecasting-stocks-is-hard/</guid>
+      <description>&lt;p&gt;Forecasting works where the data have structure.&lt;br&gt;
+Stocks have weak structure.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Weak patterns&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Trends break on news.&lt;br&gt;
+Seasonality is minimal.&lt;br&gt;
+Cycles are unstable.&lt;br&gt;
+Autocorrelations are low.&lt;/p&gt;
+&lt;p&gt;The data behave like noise.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;The main drivers are outside the time series&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Future prices depend on what is not in the history:&lt;br&gt;
+regulator decisions, earnings, liquidity, events, market sentiment.&lt;/p&gt;
+&lt;p&gt;The time series does not contain causes.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Predictors are unknown or unpredictable&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It’s not enough to know the variables — you must forecast them.&lt;br&gt;
+With stocks, that’s hard or impossible.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Data, Methods, and the Limits of Forecasts</title>
       <link>/posts/data-methods-and-limits-of-forecasting/</link>
@@ -34,6 +118,50 @@ The model should be simple enough to work,&lt;br&gt;
 and complex enough to reflect probability.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Five Steps of Any Forecast</title>
+      <link>/posts/five-steps-of-any-forecast/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/five-steps-of-any-forecast/</guid>
+      <description>&lt;p&gt;Any forecast consists of five steps.&lt;br&gt;
+It sounds simple. In practice — it’s discipline.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Problem definition.&lt;/strong&gt;&lt;br&gt;
+Not “what to predict?”, but how it will be used.&lt;br&gt;
+For prediction markets: which event, what horizon, what success criterion.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Information gathering.&lt;/strong&gt;&lt;br&gt;
+Two sources: data and context.&lt;br&gt;
+Sometimes the data are scarce — then understanding the mechanism matters more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Preliminary analysis.&lt;/strong&gt;&lt;br&gt;
+Plots, trends, jumps, seasonality, outliers.&lt;br&gt;
+You need to see the structure before you build a model.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Predictors, Time Series, and Model Choice</title>
+      <link>/posts/predictors-time-series-and-model-choice/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/predictors-time-series-and-model-choice/</guid>
+      <description>&lt;p&gt;In forecasting, there are three types of models.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Models with predictors.&lt;/strong&gt;&lt;br&gt;
+They use external variables — temperature, the economy, human behavior.&lt;br&gt;
+These models explain &lt;em&gt;why&lt;/em&gt; something happens.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Time‑series models.&lt;/strong&gt;&lt;br&gt;
+They look only at the past values of the series.&lt;br&gt;
+They explain nothing, but often predict better.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hybrid models.&lt;/strong&gt;&lt;br&gt;
+A combination of past dynamics and external factors.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Why is it sometimes better to use only a time series?&lt;br&gt;
+Because external variables may be unknown,&lt;br&gt;
+hard to measure, or unpredictable themselves.&lt;br&gt;
+Sometimes the goal is simply to predict, not to explain.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>When an event can be predicted (and when it can’t)</title>
       <link>/posts/predictability-of-events/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
@@ -57,9 +185,24 @@ Typical events are predictable.
 Unique events are almost not.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>What is Polymarket and why I use it</title>
+      <link>/posts/what-is-polymarket-and-why-i-use-it/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/what-is-polymarket-and-why-i-use-it/</guid>
+      <description>&lt;p&gt;Polymarket is a prediction market.&lt;br&gt;
+The stakes here are not about gambling, but about probabilities.&lt;/p&gt;
+&lt;p&gt;Each market is a question about the future:&lt;br&gt;
+elections, the economy, technology, sports, or world events.&lt;br&gt;
+The price of a contract reflects the crowd’s probability estimate of the outcome.&lt;br&gt;
+If a contract trades at 0.23, the market implies about a 23% chance the event will occur.&lt;/p&gt;
+&lt;p&gt;The core idea is simple:&lt;br&gt;
+when people put money on the line, they pay closer attention to information.&lt;br&gt;
+That’s why these markets often react faster than analysts and media.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Why I’m starting to study forecasting</title>
       <link>/posts/why-i-start-studying-forecasting/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
       <guid>/posts/why-i-start-studying-forecasting/</guid>
       <description>&lt;p&gt;I’m starting to study forecasting to think more precisely.&lt;br&gt;
 Most forecasts are confident words without probabilities.&lt;br&gt;

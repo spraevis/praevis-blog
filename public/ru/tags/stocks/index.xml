@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Stocks on S. Praevis</title>
+    <link>/ru/tags/stocks/</link>
+    <description>Recent content in Stocks on S. Praevis</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ru</language>
+    <lastBuildDate>Mon, 17 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/ru/tags/stocks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Почему прогнозировать акции так трудно</title>
+      <link>/ru/posts/why-forecasting-stocks-is-hard/</link>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/why-forecasting-stocks-is-hard/</guid>
+      <description>&lt;p&gt;Прогнозирование работает там, где данные имеют структуру.&lt;br&gt;
+У акций структура слабая.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Слабые паттерны&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Тренды ломаются новостями.&lt;br&gt;
+Сезонности почти нет.&lt;br&gt;
+Циклы нестабильны.&lt;br&gt;
+Автокорреляции низкие.&lt;/p&gt;
+&lt;p&gt;Данные ведут себя как шум.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Главное — вне временного ряда&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Будущее цены зависит от того, чего нет в истории:&lt;br&gt;
+решения регуляторов, отчёты, ликвидность, события, настроение участников.&lt;/p&gt;
+&lt;p&gt;Временной ряд не содержит причин.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Предикторы неизвестны или непредсказуемы&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Важно не только знать переменные, но и прогнозировать их значения.&lt;br&gt;
+С акциями это сложно или невозможно.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

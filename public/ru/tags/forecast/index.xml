@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Forecast on S. Praevis</title>
+    <link>/ru/tags/forecast/</link>
+    <description>Recent content in Forecast on S. Praevis</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ru</language>
+    <lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/ru/tags/forecast/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BTC касается $80k в ноябре? (No)</title>
+      <link>/ru/forecasts/btc-80k-november-2025/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/forecasts/btc-80k-november-2025/</guid>
+      <description>&lt;p&gt;Вопрос: Упадёт ли Bitcoin до $80,000 в ноябре?&lt;/p&gt;
+&lt;p&gt;Позиция: No. Открыто 2025-11-21 — ссылка на Polymarket выше.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BTC касается $85k в ноябре? (Yes)</title>
+      <link>/ru/forecasts/btc-85k-november-2025/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/forecasts/btc-85k-november-2025/</guid>
+      <description>&lt;p&gt;Вопрос: Упадёт ли Bitcoin до $85,000 в ноябре?&lt;/p&gt;
+&lt;p&gt;Позиция: Yes. Открыто 2025-11-20 — ссылка на Polymarket выше.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BTC ≥ $90k в ноябре? (No @65%)</title>
+      <link>/ru/forecasts/btc-90k-november-2025/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/forecasts/btc-90k-november-2025/</guid>
+      <description>&lt;p&gt;Вопрос: Упадёт ли Bitcoin до $90,000 в ноябре?&lt;/p&gt;
+&lt;p&gt;Итог: ноябрь 2025 — режим около ~100k с типичными колебаниями ±4–9k; касание 90k потребует событийного движения ниже 2σ и текущего минимума месяца.&lt;/p&gt;
+&lt;p&gt;Подробности — в посте: &lt;a href=&#34;/ru/posts/first-polymarket-forecast-btc-90k-november/&#34;&gt;Мой первый прогноз на Polymarket: упадёт ли BTC до $90,000 в ноябре?&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Пост‑фактум: исход Yes (касание $90k). Позиция No проиграла. Brier = 0.4225 (pYes=0.35 против факта 1).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Мой первый прогноз на Polymarket: упадёт ли BTC до $90,000 в ноябре?</title>
+      <link>/ru/posts/first-polymarket-forecast-btc-90k-november/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/first-polymarket-forecast-btc-90k-november/</guid>
+      <description>&lt;p&gt;Обновление (2025-11-20): исход Yes (было касание $90k). Моя позиция No проиграла. Пост‑фактум: /ru/posts/why-my-first-forecast-was-wrong/.&lt;/p&gt;
+&lt;p&gt;Это мой первый публичный прогноз и первая ставка на Polymarket.&lt;br&gt;
+Вопрос рынка: &lt;strong&gt;“Will Bitcoin dip to $90,000 in November?”&lt;/strong&gt;&lt;br&gt;
+Я купил &lt;strong&gt;No&lt;/strong&gt; при вероятности ~65%.&lt;/p&gt;
+&lt;p&gt;Ниже — как я пришёл к оценке.&lt;/p&gt;
+&lt;h2 id=&#34;1-история-ноябрьских-движений-btc&#34;&gt;1. История ноябрьских движений BTC&lt;/h2&gt;
+&lt;p&gt;Я собрал статистику по всем ноябрям.&lt;br&gt;
+Ключевые числа:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;среднее ноября: &lt;strong&gt;≈ $34k&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;стандартное отклонение: &lt;strong&gt;≈ $32k&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;минимум: &lt;strong&gt;≈ $3.8k&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;максимум: &lt;strong&gt;≈ $110.5k&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Вывод: ноябрь — один из самых волатильных месяцев для BTC.&lt;br&gt;
+Но структура волатильности зависит от цикла.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

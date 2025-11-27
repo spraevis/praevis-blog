@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Process on S. Praevis</title>
+    <link>/ru/tags/process/</link>
+    <description>Recent content in Process on S. Praevis</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ru</language>
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/ru/tags/process/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Пять шагов любого прогноза</title>
+      <link>/ru/posts/five-steps-of-any-forecast/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/five-steps-of-any-forecast/</guid>
+      <description>&lt;p&gt;Любой прогноз состоит из пяти шагов.&lt;br&gt;
+Звучит просто. На деле — это дисциплина.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Определение задачи.&lt;/strong&gt;&lt;br&gt;
+Не что «предсказать?», а &lt;em&gt;как это будет использовано&lt;/em&gt;.&lt;br&gt;
+Для рынков прогнозов: какое событие, какой период, какой критерий успеха.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Сбор информации.&lt;/strong&gt;&lt;br&gt;
+Два источника: данные и контекст.&lt;br&gt;
+Иногда данных мало — тогда важнее знание механики события.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Предварительный анализ.&lt;/strong&gt;&lt;br&gt;
+Графики, тренды, скачки, сезонность, выбросы.&lt;br&gt;
+Нужно увидеть структуру прежде, чем строить модель.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. Выбор и подгонка модели.&lt;/strong&gt;&lt;br&gt;
+Простая или сложная — зависит от данных и цели.&lt;br&gt;
+Важно сравнивать варианты и понимать их допущения.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Почему я начинаю изучать прогнозирование</title>
+      <link>/ru/posts/why-i-start-studying-forecasting/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/why-i-start-studying-forecasting/</guid>
+      <description>&lt;p&gt;Я начинаю изучать прогнозирование, чтобы мыслить точнее.&lt;br&gt;
+Большинство прогнозов вокруг — это уверенные слова без вероятностей.&lt;br&gt;
+Мне важнее не утверждать, а проверять.&lt;/p&gt;
+&lt;p&gt;Здесь я буду фиксировать процесс обучения:&lt;br&gt;
+как меняются мои оценки,&lt;br&gt;
+какие данные оказываются шумом,&lt;br&gt;
+и как корректируется модель.&lt;/p&gt;
+&lt;p&gt;Первые шаги простые: наблюдать, ставить вероятности,&lt;br&gt;
+удалять лишние допущения.&lt;br&gt;
+Модель будет меняться — и это часть процесса.&lt;/p&gt;
+&lt;p&gt;Этот блог — не о правоте.&lt;br&gt;
+Он о честности мышления под неопределённостью.&lt;/p&gt;
+&lt;p&gt;— S. Praevis&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -6,12 +6,29 @@
     <description>Recent content in Process on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/process/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Five Steps of Any Forecast</title>
+      <link>/posts/five-steps-of-any-forecast/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/five-steps-of-any-forecast/</guid>
+      <description>&lt;p&gt;Any forecast consists of five steps.&lt;br&gt;
+It sounds simple. In practice — it’s discipline.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Problem definition.&lt;/strong&gt;&lt;br&gt;
+Not “what to predict?”, but how it will be used.&lt;br&gt;
+For prediction markets: which event, what horizon, what success criterion.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Information gathering.&lt;/strong&gt;&lt;br&gt;
+Two sources: data and context.&lt;br&gt;
+Sometimes the data are scarce — then understanding the mechanism matters more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Preliminary analysis.&lt;/strong&gt;&lt;br&gt;
+Plots, trends, jumps, seasonality, outliers.&lt;br&gt;
+You need to see the structure before you build a model.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why I’m starting to study forecasting</title>
       <link>/posts/why-i-start-studying-forecasting/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
       <guid>/posts/why-i-start-studying-forecasting/</guid>
       <description>&lt;p&gt;I’m starting to study forecasting to think more precisely.&lt;br&gt;
 Most forecasts are confident words without probabilities.&lt;br&gt;

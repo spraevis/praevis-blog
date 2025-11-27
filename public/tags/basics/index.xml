@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Basics on S. Praevis</title>
+    <link>/tags/basics/</link>
+    <description>Recent content in Basics on S. Praevis</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Five Steps of Any Forecast</title>
+      <link>/posts/five-steps-of-any-forecast/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/five-steps-of-any-forecast/</guid>
+      <description>&lt;p&gt;Any forecast consists of five steps.&lt;br&gt;
+It sounds simple. In practice — it’s discipline.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Problem definition.&lt;/strong&gt;&lt;br&gt;
+Not “what to predict?”, but how it will be used.&lt;br&gt;
+For prediction markets: which event, what horizon, what success criterion.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Information gathering.&lt;/strong&gt;&lt;br&gt;
+Two sources: data and context.&lt;br&gt;
+Sometimes the data are scarce — then understanding the mechanism matters more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Preliminary analysis.&lt;/strong&gt;&lt;br&gt;
+Plots, trends, jumps, seasonality, outliers.&lt;br&gt;
+You need to see the structure before you build a model.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

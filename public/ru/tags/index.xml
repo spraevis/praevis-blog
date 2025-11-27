@@ -6,20 +6,97 @@
     <description>Recent content in Tags on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ru</language>
-    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/ru/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data</title>
-      <link>/ru/tags/data/</link>
-      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/data/</guid>
+      <title>Bitcoin</title>
+      <link>/ru/tags/bitcoin/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forecast</title>
+      <link>/ru/tags/forecast/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/tags/forecast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Polymarket</title>
+      <link>/ru/tags/polymarket/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/tags/polymarket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Btc</title>
+      <link>/ru/tags/btc/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/tags/btc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Extremes</title>
+      <link>/ru/tags/extremes/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/tags/extremes/</guid>
       <description></description>
     </item>
     <item>
       <title>Forecasting</title>
       <link>/ru/tags/forecasting/</link>
-      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
       <guid>/ru/tags/forecasting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Error</title>
+      <link>/ru/tags/error/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/tags/error/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Noise</title>
+      <link>/ru/tags/noise/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/tags/noise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Signal</title>
+      <link>/ru/tags/signal/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/tags/signal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markets</title>
+      <link>/ru/tags/markets/</link>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/tags/markets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stocks</title>
+      <link>/ru/tags/stocks/</link>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/tags/stocks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basics</title>
+      <link>/ru/tags/basics/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/tags/basics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data</title>
+      <link>/ru/tags/data/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/tags/data/</guid>
       <description></description>
     </item>
     <item>
@@ -30,38 +107,31 @@
       <description></description>
     </item>
     <item>
-      <title>Предсказуемость</title>
-      <link>/ru/tags/%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D1%83%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%8C/</link>
+      <title>Models</title>
+      <link>/ru/tags/models/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D1%83%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%8C/</guid>
+      <guid>/ru/tags/models/</guid>
       <description></description>
     </item>
     <item>
-      <title>Прогнозирование</title>
-      <link>/ru/tags/%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link>
+      <title>Predictability</title>
+      <link>/ru/tags/predictability/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</guid>
+      <guid>/ru/tags/predictability/</guid>
       <description></description>
     </item>
     <item>
-      <title>Рынки</title>
-      <link>/ru/tags/%D1%80%D1%8B%D0%BD%D0%BA%D0%B8/</link>
+      <title>Process</title>
+      <link>/ru/tags/process/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/%D1%80%D1%8B%D0%BD%D0%BA%D0%B8/</guid>
+      <guid>/ru/tags/process/</guid>
       <description></description>
     </item>
     <item>
-      <title>Введение</title>
-      <link>/ru/tags/%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Процесс</title>
-      <link>/ru/tags/%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81/</guid>
+      <title>Intro</title>
+      <link>/ru/tags/intro/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/tags/intro/</guid>
       <description></description>
     </item>
   </channel>

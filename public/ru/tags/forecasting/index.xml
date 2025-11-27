@@ -6,8 +6,96 @@
     <description>Recent content in Forecasting on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ru</language>
-    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/ru/tags/forecasting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Почему прогнозировать экстремумы биткоина так сложно</title>
+      <link>/ru/posts/why-forecasting-bitcoin-extremes-is-hard/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/why-forecasting-bitcoin-extremes-is-hard/</guid>
+      <description>&lt;p&gt;Прогнозировать уровни — проще.&lt;br&gt;
+Прогнозировать экстремумы — почти всегда труднее.&lt;/p&gt;
+&lt;p&gt;Максимум и минимум — это свойства траектории, а не точки закрытия.&lt;br&gt;
+Цена должна &lt;em&gt;дойти&lt;/em&gt; до уровня, а не просто закрыться выше или ниже.&lt;/p&gt;
+&lt;p&gt;И большинство моделей на этом ломаются.&lt;/p&gt;
+&lt;h2 id=&#34;1-данные-ведут-себя-как-шум&#34;&gt;1. Данные ведут себя как шум&lt;/h2&gt;
+&lt;p&gt;Биткоин нестационарен.&lt;br&gt;
+Волатильность меняется.&lt;br&gt;
+Хвосты распределения толще нормы.&lt;br&gt;
+Скачки — обычная часть движения.&lt;/p&gt;
+&lt;p&gt;Терминальные модели упрощают всё до одного числа.&lt;br&gt;
+Экстремумы требуют анализа всего пути.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Почему мой первый прогноз оказался неверным</title>
+      <link>/ru/posts/why-my-first-forecast-was-wrong/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/why-my-first-forecast-was-wrong/</guid>
+      <description>&lt;p&gt;Мой первый прогноз был прост:&lt;br&gt;
+BTC не опустится ниже $90,000 в ноябре.&lt;/p&gt;
+&lt;p&gt;Ставка выглядела логичной по данным.&lt;br&gt;
+Но она проиграла.&lt;br&gt;
+Разбираю почему.&lt;/p&gt;
+&lt;h2 id=&#34;1-я-переоценил-стабильность-режима&#34;&gt;1. Я переоценил стабильность режима&lt;/h2&gt;
+&lt;p&gt;Диапазон месяца казался устойчивым: ~95–110k.&lt;br&gt;
+Std был низким, колебания — «упорядоченными».&lt;/p&gt;
+&lt;p&gt;Ошибка: я принял локальную структуру за устойчивую.&lt;br&gt;
+Режим может смениться быстрее, чем это видно в данных.&lt;/p&gt;
+&lt;h2 id=&#34;2-я-недооценил-вероятность-выхода-за-диапазон&#34;&gt;2. Я недооценил вероятность выхода за диапазон&lt;/h2&gt;
+&lt;p&gt;Падение произошло &lt;strong&gt;без ясного однозначного триггера&lt;/strong&gt;.&lt;br&gt;
+Это нормальная особенность рынка: цена может выйти за границы распределения&lt;br&gt;
+просто из-за изменения потока ордеров или ликвидности.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Прогнозирование там, где почти нет структуры</title>
+      <link>/ru/posts/forecasting-where-there-is-almost-no-structure/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/forecasting-where-there-is-almost-no-structure/</guid>
+      <description>&lt;p&gt;Прогнозирование там, где почти нет структуры&lt;/p&gt;
+&lt;p&gt;Большая часть финансовых временных рядов — это шум.&lt;br&gt;
+Тренда нет. Сезонности нет. Повторяемость слабая.&lt;br&gt;
+Лучшее приближение — случайное блуждание.&lt;/p&gt;
+&lt;p&gt;Любая найденная закономерность исчезает,&lt;br&gt;
+как только становится частью рынка.&lt;/p&gt;
+&lt;h2 id=&#34;что-всё-же-работает&#34;&gt;Что всё же работает&lt;/h2&gt;
+&lt;p&gt;Структуры мало — но сигнал можно собирать слоями.&lt;/p&gt;
+&lt;p&gt;Статистика ловит базовые формы.&lt;br&gt;
+ML — слабые зависимости.&lt;br&gt;
+ИИ — скрытые связи в текстах и контексте.&lt;br&gt;
+Коллективные прогнозы — человеческую информацию.&lt;/p&gt;
+&lt;p&gt;Каждый слой слаб сам по себе.&lt;br&gt;
+Вместе — дают максимум возможного.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Почему прогнозировать акции так трудно</title>
+      <link>/ru/posts/why-forecasting-stocks-is-hard/</link>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/why-forecasting-stocks-is-hard/</guid>
+      <description>&lt;p&gt;Прогнозирование работает там, где данные имеют структуру.&lt;br&gt;
+У акций структура слабая.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Слабые паттерны&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Тренды ломаются новостями.&lt;br&gt;
+Сезонности почти нет.&lt;br&gt;
+Циклы нестабильны.&lt;br&gt;
+Автокорреляции низкие.&lt;/p&gt;
+&lt;p&gt;Данные ведут себя как шум.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Главное — вне временного ряда&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Будущее цены зависит от того, чего нет в истории:&lt;br&gt;
+решения регуляторов, отчёты, ликвидность, события, настроение участников.&lt;/p&gt;
+&lt;p&gt;Временной ряд не содержит причин.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Предикторы неизвестны или непредсказуемы&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Важно не только знать переменные, но и прогнозировать их значения.&lt;br&gt;
+С акциями это сложно или невозможно.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Данные, методы и пределы прогнозов</title>
       <link>/ru/posts/data-methods-and-limits-of-forecasting/</link>
@@ -32,6 +120,115 @@
 От простых эвристик до статистики и ML.&lt;br&gt;
 Модель должна быть простой настолько, чтобы работать,&lt;br&gt;
 и сложной — настолько, чтобы отражать вероятность.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Когда событие можно предсказать (и когда нельзя)</title>
+      <link>/ru/posts/predictability-of-events/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/predictability-of-events/</guid>
+      <description>&lt;p&gt;На рынках прогнозов главное — понять, насколько само событие предсказуемо.
+Есть четыре условия, которые определяют это.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Понимание факторов.&lt;/strong&gt;
+Если структура события ясна, вероятность можно оценить.
+Если факторы размыты, прогноз превращается в угадывание.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Наличие данных.&lt;/strong&gt;
+Чем больше данных и повторяемых паттернов, тем лучше.
+Если данных почти нет, рынок — психологическая игра.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Схожесть будущего с прошлым.&lt;/strong&gt;
+Типовые события предсказуемы.
+Уникальные события — почти нет.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Влияние прогноза на сам исход.&lt;/strong&gt;
+Некоторые рынки самовоздействующие:
+ожидания меняют реальность.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Предикторы, временные ряды и выбор модели</title>
+      <link>/ru/posts/predictors-time-series-and-model-choice/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/predictors-time-series-and-model-choice/</guid>
+      <description>&lt;p&gt;В прогнозировании есть три типа моделей.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Модели с предикторами.&lt;/strong&gt;&lt;br&gt;
+Они используют внешние переменные — температуру, экономику, поведение людей.&lt;br&gt;
+Такие модели объясняют, &lt;em&gt;почему&lt;/em&gt; что-то происходит.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Модели временных рядов.&lt;/strong&gt;&lt;br&gt;
+Они смотрят только на прошлое значения показателя.&lt;br&gt;
+Ничего не объясняют, но часто прогнозируют лучше.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Смешанные модели.&lt;/strong&gt;&lt;br&gt;
+Комбинация прошлого поведения и внешних факторов.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Почему иногда лучше использовать только временной ряд?&lt;br&gt;
+Потому что внешние переменные могут быть неизвестны,&lt;br&gt;
+неподдаваемы измерению или непредсказуемы сами по себе.&lt;br&gt;
+Иногда цель — просто предсказать, а не объяснить.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Пять шагов любого прогноза</title>
+      <link>/ru/posts/five-steps-of-any-forecast/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/five-steps-of-any-forecast/</guid>
+      <description>&lt;p&gt;Любой прогноз состоит из пяти шагов.&lt;br&gt;
+Звучит просто. На деле — это дисциплина.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Определение задачи.&lt;/strong&gt;&lt;br&gt;
+Не что «предсказать?», а &lt;em&gt;как это будет использовано&lt;/em&gt;.&lt;br&gt;
+Для рынков прогнозов: какое событие, какой период, какой критерий успеха.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Сбор информации.&lt;/strong&gt;&lt;br&gt;
+Два источника: данные и контекст.&lt;br&gt;
+Иногда данных мало — тогда важнее знание механики события.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Предварительный анализ.&lt;/strong&gt;&lt;br&gt;
+Графики, тренды, скачки, сезонность, выбросы.&lt;br&gt;
+Нужно увидеть структуру прежде, чем строить модель.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. Выбор и подгонка модели.&lt;/strong&gt;&lt;br&gt;
+Простая или сложная — зависит от данных и цели.&lt;br&gt;
+Важно сравнивать варианты и понимать их допущения.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Почему я начинаю изучать прогнозирование</title>
+      <link>/ru/posts/why-i-start-studying-forecasting/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/why-i-start-studying-forecasting/</guid>
+      <description>&lt;p&gt;Я начинаю изучать прогнозирование, чтобы мыслить точнее.&lt;br&gt;
+Большинство прогнозов вокруг — это уверенные слова без вероятностей.&lt;br&gt;
+Мне важнее не утверждать, а проверять.&lt;/p&gt;
+&lt;p&gt;Здесь я буду фиксировать процесс обучения:&lt;br&gt;
+как меняются мои оценки,&lt;br&gt;
+какие данные оказываются шумом,&lt;br&gt;
+и как корректируется модель.&lt;/p&gt;
+&lt;p&gt;Первые шаги простые: наблюдать, ставить вероятности,&lt;br&gt;
+удалять лишние допущения.&lt;br&gt;
+Модель будет меняться — и это часть процесса.&lt;/p&gt;
+&lt;p&gt;Этот блог — не о правоте.&lt;br&gt;
+Он о честности мышления под неопределённостью.&lt;/p&gt;
+&lt;p&gt;— S. Praevis&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Что такое Polymarket и зачем он мне</title>
+      <link>/ru/posts/what-is-polymarket-and-why-i-use-it/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/what-is-polymarket-and-why-i-use-it/</guid>
+      <description>&lt;p&gt;Polymarket — это рынок прогнозов.&lt;br&gt;
+Ставки здесь — не про азарт, а про вероятности.&lt;/p&gt;
+&lt;p&gt;Каждый рынок — это вопрос о будущем:&lt;br&gt;
+про выборы, экономику, технологии, спорт или события в мире.&lt;br&gt;
+Цена контракта показывает коллективную оценку вероятности исхода.&lt;br&gt;
+Если контракт стоит 0.23, рынок считает, что событие произойдёт с шансом около 23%.&lt;/p&gt;
+&lt;p&gt;Главная идея проста:&lt;br&gt;
+когда люди ставят деньги, они внимательнее относятся к информации.&lt;br&gt;
+Поэтому такие рынки часто реагируют быстрее, чем аналитики и медиа.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

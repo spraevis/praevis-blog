@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Signal on S. Praevis</title>
+    <link>/tags/signal/</link>
+    <description>Recent content in Signal on S. Praevis</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/signal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forecasting where there is almost no structure</title>
+      <link>/posts/forecasting-where-there-is-almost-no-structure/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/forecasting-where-there-is-almost-no-structure/</guid>
+      <description>&lt;p&gt;Forecasting where there is almost no structure&lt;/p&gt;
+&lt;p&gt;Most financial time series are noise.&lt;br&gt;
+No trend. No seasonality. Weak repeatability.&lt;br&gt;
+The best baseline is a random walk.&lt;/p&gt;
+&lt;p&gt;Any discovered pattern disappears as soon as it becomes part of the market.&lt;/p&gt;
+&lt;h2 id=&#34;what-still-works&#34;&gt;What still works&lt;/h2&gt;
+&lt;p&gt;Structure is scarce — but signal can be layered.&lt;/p&gt;
+&lt;p&gt;Statistics captures basic forms.&lt;br&gt;
+ML captures weak dependencies.&lt;br&gt;
+AI captures hidden links in text and context.&lt;br&gt;
+Crowd forecasting captures human information.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

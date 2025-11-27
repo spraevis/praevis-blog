@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Noise on S. Praevis</title>
+    <link>/ru/tags/noise/</link>
+    <description>Recent content in Noise on S. Praevis</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ru</language>
+    <lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/ru/tags/noise/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Прогнозирование там, где почти нет структуры</title>
+      <link>/ru/posts/forecasting-where-there-is-almost-no-structure/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/forecasting-where-there-is-almost-no-structure/</guid>
+      <description>&lt;p&gt;Прогнозирование там, где почти нет структуры&lt;/p&gt;
+&lt;p&gt;Большая часть финансовых временных рядов — это шум.&lt;br&gt;
+Тренда нет. Сезонности нет. Повторяемость слабая.&lt;br&gt;
+Лучшее приближение — случайное блуждание.&lt;/p&gt;
+&lt;p&gt;Любая найденная закономерность исчезает,&lt;br&gt;
+как только становится частью рынка.&lt;/p&gt;
+&lt;h2 id=&#34;что-всё-же-работает&#34;&gt;Что всё же работает&lt;/h2&gt;
+&lt;p&gt;Структуры мало — но сигнал можно собирать слоями.&lt;/p&gt;
+&lt;p&gt;Статистика ловит базовые формы.&lt;br&gt;
+ML — слабые зависимости.&lt;br&gt;
+ИИ — скрытые связи в текстах и контексте.&lt;br&gt;
+Коллективные прогнозы — человеческую информацию.&lt;/p&gt;
+&lt;p&gt;Каждый слой слаб сам по себе.&lt;br&gt;
+Вместе — дают максимум возможного.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

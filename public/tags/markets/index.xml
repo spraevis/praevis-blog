@@ -6,8 +6,38 @@
     <description>Recent content in Markets on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/markets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why forecasting stocks is hard</title>
+      <link>/posts/why-forecasting-stocks-is-hard/</link>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/why-forecasting-stocks-is-hard/</guid>
+      <description>&lt;p&gt;Forecasting works where the data have structure.&lt;br&gt;
+Stocks have weak structure.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Weak patterns&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Trends break on news.&lt;br&gt;
+Seasonality is minimal.&lt;br&gt;
+Cycles are unstable.&lt;br&gt;
+Autocorrelations are low.&lt;/p&gt;
+&lt;p&gt;The data behave like noise.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;The main drivers are outside the time series&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Future prices depend on what is not in the history:&lt;br&gt;
+regulator decisions, earnings, liquidity, events, market sentiment.&lt;/p&gt;
+&lt;p&gt;The time series does not contain causes.&lt;/p&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Predictors are unknown or unpredictable&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It’s not enough to know the variables — you must forecast them.&lt;br&gt;
+With stocks, that’s hard or impossible.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>When an event can be predicted (and when it can’t)</title>
       <link>/posts/predictability-of-events/</link>
@@ -30,6 +60,21 @@ If data is scarce, the market becomes a psychological game.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Similarity of the future to the past.&lt;/strong&gt;
 Typical events are predictable.
 Unique events are almost not.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is Polymarket and why I use it</title>
+      <link>/posts/what-is-polymarket-and-why-i-use-it/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/what-is-polymarket-and-why-i-use-it/</guid>
+      <description>&lt;p&gt;Polymarket is a prediction market.&lt;br&gt;
+The stakes here are not about gambling, but about probabilities.&lt;/p&gt;
+&lt;p&gt;Each market is a question about the future:&lt;br&gt;
+elections, the economy, technology, sports, or world events.&lt;br&gt;
+The price of a contract reflects the crowd’s probability estimate of the outcome.&lt;br&gt;
+If a contract trades at 0.23, the market implies about a 23% chance the event will occur.&lt;/p&gt;
+&lt;p&gt;The core idea is simple:&lt;br&gt;
+when people put money on the line, they pay closer attention to information.&lt;br&gt;
+That’s why these markets often react faster than analysts and media.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

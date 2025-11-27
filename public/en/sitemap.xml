@@ -2,8 +2,99 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/bitcoin/</loc>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/bitcoin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/bitcoin/"
+                />
+  </url><url>
+    <loc>/forecasts/btc-80k-november-2025/</loc>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/forecasts/btc-80k-november-2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/forecasts/btc-80k-november-2025/"
+                />
+  </url><url>
+    <loc>/tags/forecast/</loc>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/forecast/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/forecast/"
+                />
+  </url><url>
+    <loc>/forecasts/</loc>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/forecasts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/forecasts/"
+                />
+  </url><url>
+    <loc>/tags/polymarket/</loc>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/polymarket/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/polymarket/"
+                />
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url><url>
     <loc>/posts/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -13,6 +104,201 @@
                 rel="alternate"
                 hreflang="en"
                 href="/posts/"
+                />
+  </url><url>
+    <loc>/tags/btc/</loc>
+    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/btc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/btc/"
+                />
+  </url><url>
+    <loc>/forecasts/btc-85k-november-2025/</loc>
+    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/forecasts/btc-85k-november-2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/forecasts/btc-85k-november-2025/"
+                />
+  </url><url>
+    <loc>/tags/extremes/</loc>
+    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/extremes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/extremes/"
+                />
+  </url><url>
+    <loc>/tags/forecasting/</loc>
+    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/forecasting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/forecasting/"
+                />
+  </url><url>
+    <loc>/posts/why-forecasting-bitcoin-extremes-is-hard/</loc>
+    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/posts/why-forecasting-bitcoin-extremes-is-hard/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/why-forecasting-bitcoin-extremes-is-hard/"
+                />
+  </url><url>
+    <loc>/tags/error/</loc>
+    <lastmod>2025-11-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/error/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/error/"
+                />
+  </url><url>
+    <loc>/posts/forecasting-where-there-is-almost-no-structure/</loc>
+    <lastmod>2025-11-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/posts/forecasting-where-there-is-almost-no-structure/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/forecasting-where-there-is-almost-no-structure/"
+                />
+  </url><url>
+    <loc>/tags/noise/</loc>
+    <lastmod>2025-11-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/noise/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/noise/"
+                />
+  </url><url>
+    <loc>/tags/signal/</loc>
+    <lastmod>2025-11-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/signal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/signal/"
+                />
+  </url><url>
+    <loc>/posts/why-my-first-forecast-was-wrong/</loc>
+    <lastmod>2025-11-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/posts/why-my-first-forecast-was-wrong/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/why-my-first-forecast-was-wrong/"
+                />
+  </url><url>
+    <loc>/tags/markets/</loc>
+    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/markets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/markets/"
+                />
+  </url><url>
+    <loc>/tags/stocks/</loc>
+    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/stocks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/stocks/"
+                />
+  </url><url>
+    <loc>/posts/why-forecasting-stocks-is-hard/</loc>
+    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/posts/why-forecasting-stocks-is-hard/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/why-forecasting-stocks-is-hard/"
+                />
+  </url><url>
+    <loc>/tags/basics/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/basics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/basics/"
+                />
+  </url><url>
+    <loc>/forecasts/btc-90k-november-2025/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/forecasts/btc-90k-november-2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/forecasts/btc-90k-november-2025/"
                 />
   </url><url>
     <loc>/tags/data/</loc>
@@ -41,21 +327,18 @@
                 href="/posts/data-methods-and-limits-of-forecasting/"
                 />
   </url><url>
-    <loc>/tags/forecasting/</loc>
+    <loc>/posts/five-steps-of-any-forecast/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/ru/tags/forecasting/"
+                href="/ru/posts/five-steps-of-any-forecast/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/forecasting/"
+                href="/posts/five-steps-of-any-forecast/"
                 />
-  </url><url>
-    <loc>/tags/markets/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/methods/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
@@ -70,33 +353,69 @@
                 href="/tags/methods/"
                 />
   </url><url>
+    <loc>/tags/models/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/models/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/models/"
+                />
+  </url><url>
+    <loc>/posts/first-polymarket-forecast-btc-90k-november/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/posts/first-polymarket-forecast-btc-90k-november/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/first-polymarket-forecast-btc-90k-november/"
+                />
+  </url><url>
     <loc>/tags/predictability/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/ru/"
+                href="/ru/tags/predictability/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="/tags/predictability/"
                 />
   </url><url>
-    <loc>/tags/</loc>
+    <loc>/posts/predictors-time-series-and-model-choice/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/ru/tags/"
+                href="/ru/posts/predictors-time-series-and-model-choice/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="/posts/predictors-time-series-and-model-choice/"
+                />
+  </url><url>
+    <loc>/tags/process/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/process/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/process/"
                 />
   </url><url>
     <loc>/posts/predictability-of-events/</loc>
@@ -113,13 +432,33 @@
                 />
   </url><url>
     <loc>/tags/intro/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/intro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/intro/"
+                />
   </url><url>
-    <loc>/tags/process/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <loc>/posts/what-is-polymarket-and-why-i-use-it/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/posts/what-is-polymarket-and-why-i-use-it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/what-is-polymarket-and-why-i-use-it/"
+                />
   </url><url>
     <loc>/posts/why-i-start-studying-forecasting/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -141,18 +480,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/about/"
-                />
-  </url><url>
-    <loc>/forecasts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/forecasts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/forecasts/"
                 />
   </url>
 </urlset>

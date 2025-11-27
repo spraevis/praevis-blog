@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Predictability on S. Praevis</title>
+    <link>/ru/tags/predictability/</link>
+    <description>Recent content in Predictability on S. Praevis</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ru</language>
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/ru/tags/predictability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Когда событие можно предсказать (и когда нельзя)</title>
+      <link>/ru/posts/predictability-of-events/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/ru/posts/predictability-of-events/</guid>
+      <description>&lt;p&gt;На рынках прогнозов главное — понять, насколько само событие предсказуемо.
+Есть четыре условия, которые определяют это.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Понимание факторов.&lt;/strong&gt;
+Если структура события ясна, вероятность можно оценить.
+Если факторы размыты, прогноз превращается в угадывание.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Наличие данных.&lt;/strong&gt;
+Чем больше данных и повторяемых паттернов, тем лучше.
+Если данных почти нет, рынок — психологическая игра.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Схожесть будущего с прошлым.&lt;/strong&gt;
+Типовые события предсказуемы.
+Уникальные события — почти нет.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Влияние прогноза на сам исход.&lt;/strong&gt;
+Некоторые рынки самовоздействующие:
+ожидания меняют реальность.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

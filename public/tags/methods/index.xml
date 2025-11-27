@@ -33,5 +33,32 @@ From simple heuristics to statistics and ML.&lt;br&gt;
 The model should be simple enough to work,&lt;br&gt;
 and complex enough to reflect probability.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Predictors, Time Series, and Model Choice</title>
+      <link>/posts/predictors-time-series-and-model-choice/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/predictors-time-series-and-model-choice/</guid>
+      <description>&lt;p&gt;In forecasting, there are three types of models.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Models with predictors.&lt;/strong&gt;&lt;br&gt;
+They use external variables — temperature, the economy, human behavior.&lt;br&gt;
+These models explain &lt;em&gt;why&lt;/em&gt; something happens.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Time‑series models.&lt;/strong&gt;&lt;br&gt;
+They look only at the past values of the series.&lt;br&gt;
+They explain nothing, but often predict better.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hybrid models.&lt;/strong&gt;&lt;br&gt;
+A combination of past dynamics and external factors.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Why is it sometimes better to use only a time series?&lt;br&gt;
+Because external variables may be unknown,&lt;br&gt;
+hard to measure, or unpredictable themselves.&lt;br&gt;
+Sometimes the goal is simply to predict, not to explain.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
