@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Intro on S. Praevis</title>
-    <link>/ru/tags/intro/</link>
+    <link>https://praevis.blog/ru/tags/intro/</link>
     <description>Recent content in Intro on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ru</language>
     <lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/ru/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://praevis.blog/ru/tags/intro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Почему я начинаю изучать прогнозирование</title>
-      <link>/ru/posts/why-i-start-studying-forecasting/</link>
+      <link>https://praevis.blog/ru/posts/why-i-start-studying-forecasting/</link>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/posts/why-i-start-studying-forecasting/</guid>
+      <guid>https://praevis.blog/ru/posts/why-i-start-studying-forecasting/</guid>
       <description>&lt;p&gt;Я начинаю изучать прогнозирование, чтобы мыслить точнее.&lt;br&gt;
 Большинство прогнозов вокруг — это уверенные слова без вероятностей.&lt;br&gt;
 Мне важнее не утверждать, а проверять.&lt;/p&gt;
@@ -26,6 +26,20 @@
 &lt;p&gt;Этот блог — не о правоте.&lt;br&gt;
 Он о честности мышления под неопределённостью.&lt;/p&gt;
 &lt;p&gt;— S. Praevis&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Я начинаю изучать прогнозирование, чтобы мыслить точнее.<br>
+Большинство прогнозов вокруг — это уверенные слова без вероятностей.<br>
+Мне важнее не утверждать, а проверять.</p>
+<p>Здесь я буду фиксировать процесс обучения:<br>
+как меняются мои оценки,<br>
+какие данные оказываются шумом,<br>
+и как корректируется модель.</p>
+<p>Первые шаги простые: наблюдать, ставить вероятности,<br>
+удалять лишние допущения.<br>
+Модель будет меняться — и это часть процесса.</p>
+<p>Этот блог — не о правоте.<br>
+Он о честности мышления под неопределённостью.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

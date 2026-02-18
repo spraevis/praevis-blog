@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Basics on S. Praevis</title>
-    <link>/ru/tags/basics/</link>
+    <link>https://praevis.blog/ru/tags/basics/</link>
     <description>Recent content in Basics on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ru</language>
     <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/ru/tags/basics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://praevis.blog/ru/tags/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Пять шагов любого прогноза</title>
-      <link>/ru/posts/five-steps-of-any-forecast/</link>
+      <link>https://praevis.blog/ru/posts/five-steps-of-any-forecast/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/posts/five-steps-of-any-forecast/</guid>
+      <guid>https://praevis.blog/ru/posts/five-steps-of-any-forecast/</guid>
       <description>&lt;p&gt;Любой прогноз состоит из пяти шагов.&lt;br&gt;
 Звучит просто. На деле — это дисциплина.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1. Определение задачи.&lt;/strong&gt;&lt;br&gt;
@@ -27,6 +27,27 @@
 &lt;p&gt;&lt;strong&gt;4. Выбор и подгонка модели.&lt;/strong&gt;&lt;br&gt;
 Простая или сложная — зависит от данных и цели.&lt;br&gt;
 Важно сравнивать варианты и понимать их допущения.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Любой прогноз состоит из пяти шагов.<br>
+Звучит просто. На деле — это дисциплина.</p>
+<p><strong>1. Определение задачи.</strong><br>
+Не что «предсказать?», а <em>как это будет использовано</em>.<br>
+Для рынков прогнозов: какое событие, какой период, какой критерий успеха.</p>
+<p><strong>2. Сбор информации.</strong><br>
+Два источника: данные и контекст.<br>
+Иногда данных мало — тогда важнее знание механики события.</p>
+<p><strong>3. Предварительный анализ.</strong><br>
+Графики, тренды, скачки, сезонность, выбросы.<br>
+Нужно увидеть структуру прежде, чем строить модель.</p>
+<p><strong>4. Выбор и подгонка модели.</strong><br>
+Простая или сложная — зависит от данных и цели.<br>
+Важно сравнивать варианты и понимать их допущения.</p>
+<p><strong>5. Использование и оценка.</strong><br>
+Прогноз — гипотеза.<br>
+Только будущее показывает, насколько модель была честной.<br>
+Ошибки — часть процесса: их нужно измерять и обновлять модель.</p>
+<p>На Polymarket это особенно видно: качество прогноза — это качество процесса.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

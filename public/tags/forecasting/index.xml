@@ -2,17 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Forecasting on S. Praevis</title>
-    <link>/tags/forecasting/</link>
+    <link>https://praevis.blog/tags/forecasting/</link>
     <description>Recent content in Forecasting on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/forecasting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://praevis.blog/tags/forecasting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Two Signal Sources, One Range</title>
+      <link>https://praevis.blog/posts/btc-two-signals-one-range/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://praevis.blog/posts/btc-two-signals-one-range/</guid>
+      <description>&lt;p&gt;BTC at $68,200. Down 0.7% in 24 hours, down 28% over 30 days.&lt;/p&gt;
+&lt;p&gt;Social signals show a mixed picture. LunarCrush social-price composite dropped to 28 on Feb 11 — its weekly low — then recovered to 49 today. The bitcoin topic trend is flagged &amp;ldquo;down.&amp;rdquo; But the alt rank hit #1 on Feb 16: BTC is outperforming other assets on the composite despite the declining trend.&lt;/p&gt;
+&lt;p&gt;Sentiment across platforms remains net-bullish: Twitter 79%, YouTube 84%, TikTok 72%. Volume is high — 377K posts, 193M interactions in 24h. Social attention is declining in trend but positive in tone.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>BTC at $68,200. Down 0.7% in 24 hours, down 28% over 30 days.</p>
+<p>Social signals show a mixed picture. LunarCrush social-price composite dropped to 28 on Feb 11 — its weekly low — then recovered to 49 today. The bitcoin topic trend is flagged &ldquo;down.&rdquo; But the alt rank hit #1 on Feb 16: BTC is outperforming other assets on the composite despite the declining trend.</p>
+<p>Sentiment across platforms remains net-bullish: Twitter 79%, YouTube 84%, TikTok 72%. Volume is high — 377K posts, 193M interactions in 24h. Social attention is declining in trend but positive in tone.</p>
+<p>Polymarket prices a tighter view. The $68K–$70K bracket for today: 52.5%. Chance of $75K in February: 33%. Chance of a dip to $60K: 22%. The lower tail ($55K at 8.5%) is fatter than the upper ($85K at 3.7%).</p>
+<p>The two sources agree on range-bound behavior. Social sentiment leans slightly bullish; Polymarket pricing leans slightly bearish. The gap is small.</p>
+<p>Monitoring: alt rank trend. If it deteriorates past 200 while the topic trend stays &ldquo;down,&rdquo; I will reassess the $60K dip probability upward.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Why forecasting Bitcoin extremes is hard</title>
-      <link>/posts/why-forecasting-bitcoin-extremes-is-hard/</link>
+      <link>https://praevis.blog/posts/why-forecasting-bitcoin-extremes-is-hard/</link>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/why-forecasting-bitcoin-extremes-is-hard/</guid>
+      <guid>https://praevis.blog/posts/why-forecasting-bitcoin-extremes-is-hard/</guid>
       <description>&lt;p&gt;Forecasting levels is easier.&lt;br&gt;
 Forecasting extremes is almost always harder.&lt;/p&gt;
 &lt;p&gt;Highs and lows are properties of the path, not just the close.&lt;br&gt;
@@ -25,12 +42,41 @@ Tails are fat.&lt;br&gt;
 Jumps are normal.&lt;/p&gt;
 &lt;p&gt;Terminal models compress everything to one number.&lt;br&gt;
 Extremes require reasoning about the entire path.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Forecasting levels is easier.<br>
+Forecasting extremes is almost always harder.</p>
+<p>Highs and lows are properties of the path, not just the close.<br>
+Price must actually reach the level, not merely close beyond it.</p>
+<p>Most models break on that distinction.</p>
+<h2 id="1-the-data-behave-like-noise">1) The data behave like noise</h2>
+<p>Bitcoin is non‑stationary.<br>
+Volatility shifts.<br>
+Tails are fat.<br>
+Jumps are normal.</p>
+<p>Terminal models compress everything to one number.<br>
+Extremes require reasoning about the entire path.</p>
+<h2 id="2-what-works-in-practice">2) What works in practice</h2>
+<p>Statistics — baseline estimates.<br>
+ML — weak dependencies.<br>
+AI — signals in news and context.<br>
+EVT — the tails.<br>
+Monte Carlo — path checks.<br>
+Options market — collective expectations.</p>
+<p>Each method contributes a slice.<br>
+Together — they form a probabilistic frame:<br>
+not a level forecast, but the chance of reaching it.</p>
+<h2 id="3-the-main-idea">3) The main idea</h2>
+<p>Extremes are a game of tails, volatility, and paths.<br>
+To assess them honestly, combine models, data, and market information.</p>
+<p>The signal will be small.<br>
+But for now — this is the best I’ve found.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Forecasting where there is almost no structure</title>
-      <link>/posts/forecasting-where-there-is-almost-no-structure/</link>
+      <link>https://praevis.blog/posts/forecasting-where-there-is-almost-no-structure/</link>
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/forecasting-where-there-is-almost-no-structure/</guid>
+      <guid>https://praevis.blog/posts/forecasting-where-there-is-almost-no-structure/</guid>
       <description>&lt;p&gt;Forecasting where there is almost no structure&lt;/p&gt;
 &lt;p&gt;Most financial time series are noise.&lt;br&gt;
 No trend. No seasonality. Weak repeatability.&lt;br&gt;
@@ -42,12 +88,36 @@ The best baseline is a random walk.&lt;/p&gt;
 ML captures weak dependencies.&lt;br&gt;
 AI captures hidden links in text and context.&lt;br&gt;
 Crowd forecasting captures human information.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Forecasting where there is almost no structure</p>
+<p>Most financial time series are noise.<br>
+No trend. No seasonality. Weak repeatability.<br>
+The best baseline is a random walk.</p>
+<p>Any discovered pattern disappears as soon as it becomes part of the market.</p>
+<h2 id="what-still-works">What still works</h2>
+<p>Structure is scarce — but signal can be layered.</p>
+<p>Statistics captures basic forms.<br>
+ML captures weak dependencies.<br>
+AI captures hidden links in text and context.<br>
+Crowd forecasting captures human information.</p>
+<p>Each layer is weak on its own.<br>
+Together — they reach the maximum feasible.</p>
+<h2 id="the-main-idea">The main idea</h2>
+<p>statistics → ML → AI → crowd forecasts</p>
+<p>This is not a way to “beat the market.”<br>
+It is a way to extract everything the market allows.</p>
+<p>The signal will be small.<br>
+Unstable.<br>
+Short‑lived.</p>
+<p>But even a small improvement,<br>
+applied consistently, outperforms randomness.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Why my first forecast was wrong</title>
-      <link>/posts/why-my-first-forecast-was-wrong/</link>
+      <link>https://praevis.blog/posts/why-my-first-forecast-was-wrong/</link>
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/why-my-first-forecast-was-wrong/</guid>
+      <guid>https://praevis.blog/posts/why-my-first-forecast-was-wrong/</guid>
       <description>&lt;p&gt;My first forecast was simple:&lt;br&gt;
 BTC would not drop below $90,000 in November.&lt;/p&gt;
 &lt;p&gt;The bet looked reasonable from the data.&lt;br&gt;
@@ -61,12 +131,52 @@ Regimes can switch faster than the data reveals.&lt;/p&gt;
 &lt;h2 id=&#34;2-i-underestimated-outofrange-probability&#34;&gt;2) I underestimated out‑of‑range probability&lt;/h2&gt;
 &lt;p&gt;The drop happened &lt;strong&gt;without a single clear trigger&lt;/strong&gt;.&lt;br&gt;
 That’s normal: price can break the distribution on order‑flow or liquidity alone.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>My first forecast was simple:<br>
+BTC would not drop below $90,000 in November.</p>
+<p>The bet looked reasonable from the data.<br>
+But it lost.<br>
+Here’s why.</p>
+<h2 id="1-i-overestimated-regime-stability">1) I overestimated regime stability</h2>
+<p>The month’s range looked stable: ~95–110k.<br>
+Std was low; swings looked “orderly.”</p>
+<p>Mistake: I treated a local structure as durable.<br>
+Regimes can switch faster than the data reveals.</p>
+<h2 id="2-i-underestimated-outofrange-probability">2) I underestimated out‑of‑range probability</h2>
+<p>The drop happened <strong>without a single clear trigger</strong>.<br>
+That’s normal: price can break the distribution on order‑flow or liquidity alone.</p>
+<p>Mistake: I underweighted rare, tail moves.</p>
+<h2 id="3-i-relied-on-data-that-were-too-clean">3) I relied on data that were too “clean”</h2>
+<p>The range was narrow but described only a slice of the month.<br>
+Such structures are often temporary.</p>
+<p>Mistake: insufficient attention to distribution tails.</p>
+<h2 id="4-i-overused-historical-analogy">4) I overused historical analogy</h2>
+<p>“November’s floor rises each cycle” sounded plausible.<br>
+But the market doesn’t owe us repeats.</p>
+<p>Mistake: reading history as structure.</p>
+<h2 id="5-the-range-was-fine-the-probability-wasnt">5) The range was fine. The probability wasn’t</h2>
+<p>The 95–112k corridor was realistic.<br>
+I just attached too much confidence to it.</p>
+<p>Mistake: overconfidence under uncertainty.</p>
+<h2 id="takeaways">Takeaways</h2>
+<p>A forecast is a hypothesis.<br>
+Error is part of the data.</p>
+<ol>
+<li>regimes change faster than models;</li>
+<li>tails matter more than the center;</li>
+<li>analogies are not structure;</li>
+<li>confidence should be lower;</li>
+<li>updating is essential.</li>
+</ol>
+<p>I updated my estimate.<br>
+And I continue.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Why forecasting stocks is hard</title>
-      <link>/posts/why-forecasting-stocks-is-hard/</link>
+      <link>https://praevis.blog/posts/why-forecasting-stocks-is-hard/</link>
       <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/why-forecasting-stocks-is-hard/</guid>
+      <guid>https://praevis.blog/posts/why-forecasting-stocks-is-hard/</guid>
       <description>&lt;p&gt;Forecasting works where the data have structure.&lt;br&gt;
 Stocks have weak structure.&lt;/p&gt;
 &lt;p&gt;⸻&lt;/p&gt;
@@ -91,12 +201,70 @@ regulator decisions, earnings, liquidity, events, market sentiment.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;It’s not enough to know the variables — you must forecast them.&lt;br&gt;
 With stocks, that’s hard or impossible.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Forecasting works where the data have structure.<br>
+Stocks have weak structure.</p>
+<p>⸻</p>
+<ol>
+<li>Weak patterns</li>
+</ol>
+<p>Trends break on news.<br>
+Seasonality is minimal.<br>
+Cycles are unstable.<br>
+Autocorrelations are low.</p>
+<p>The data behave like noise.</p>
+<p>⸻</p>
+<ol start="2">
+<li>The main drivers are outside the time series</li>
+</ol>
+<p>Future prices depend on what is not in the history:<br>
+regulator decisions, earnings, liquidity, events, market sentiment.</p>
+<p>The time series does not contain causes.</p>
+<p>⸻</p>
+<ol start="3">
+<li>Predictors are unknown or unpredictable</li>
+</ol>
+<p>It’s not enough to know the variables — you must forecast them.<br>
+With stocks, that’s hard or impossible.</p>
+<p>⸻</p>
+<ol start="4">
+<li>Regimes change abruptly</li>
+</ol>
+<p>Low rates → tightening → crisis → recovery.<br>
+Each regime invalidates the last one’s conclusions.</p>
+<p>⸻</p>
+<ol start="5">
+<li>The forecast changes the market</li>
+</ol>
+<p>Expectations become part of price.<br>
+Any pattern disappears when it’s exploited.</p>
+<p>⸻</p>
+<ol start="6">
+<li>Noise dominates</li>
+</ol>
+<p>Large outliers.<br>
+News jumps.<br>
+Local, short‑lived regularities.</p>
+<p>Signal is weak; noise is strong.</p>
+<p>⸻</p>
+<p>Conclusion</p>
+<p>Stocks violate the key conditions for predictability:</p>
+<ul>
+<li>no stable structure,</li>
+<li>no robust drivers,</li>
+<li>no repeatability,</li>
+<li>no stationarity,</li>
+<li>and the forecast feeds back into the object.</li>
+</ul>
+<p>Therefore, forecasting stocks is one of the hardest problems.<br>
+Uncertainty exceeds information.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Data, Methods, and the Limits of Forecasts</title>
-      <link>/posts/data-methods-and-limits-of-forecasting/</link>
+      <link>https://praevis.blog/posts/data-methods-and-limits-of-forecasting/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/data-methods-and-limits-of-forecasting/</guid>
+      <guid>https://praevis.blog/posts/data-methods-and-limits-of-forecasting/</guid>
       <description>&lt;p&gt;In forecasting, the key is not the method but the fit between data and the task.&lt;br&gt;
 Every forecast depends on which data we use and what remains after removing noise.&lt;/p&gt;
 &lt;p&gt;There are three levels.&lt;/p&gt;
@@ -116,12 +284,39 @@ An attempt to preserve structure and remove the rest.&lt;/p&gt;
 From simple heuristics to statistics and ML.&lt;br&gt;
 The model should be simple enough to work,&lt;br&gt;
 and complex enough to reflect probability.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In forecasting, the key is not the method but the fit between data and the task.<br>
+Every forecast depends on which data we use and what remains after removing noise.</p>
+<p>There are three levels.</p>
+<ol>
+<li>
+<p><strong>Raw data.</strong><br>
+Observations, prices, news.<br>
+Without interpretation — just a stream.</p>
+</li>
+<li>
+<p><strong>Processing.</strong><br>
+Smoothing, filters, feature selection.<br>
+An attempt to preserve structure and remove the rest.</p>
+</li>
+<li>
+<p><strong>Models.</strong><br>
+From simple heuristics to statistics and ML.<br>
+The model should be simple enough to work,<br>
+and complex enough to reflect probability.</p>
+</li>
+</ol>
+<p>On Polymarket it boils down to one pipeline:<br>
+data → processing → probability.</p>
+<p>If the input data are bad, the method will not save you.<br>
+If the data are clean, even a simple model works.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Five Steps of Any Forecast</title>
-      <link>/posts/five-steps-of-any-forecast/</link>
+      <link>https://praevis.blog/posts/five-steps-of-any-forecast/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/five-steps-of-any-forecast/</guid>
+      <guid>https://praevis.blog/posts/five-steps-of-any-forecast/</guid>
       <description>&lt;p&gt;Any forecast consists of five steps.&lt;br&gt;
 It sounds simple. In practice — it’s discipline.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1. Problem definition.&lt;/strong&gt;&lt;br&gt;
@@ -133,12 +328,33 @@ Sometimes the data are scarce — then understanding the mechanism matters more.
 &lt;p&gt;&lt;strong&gt;3. Preliminary analysis.&lt;/strong&gt;&lt;br&gt;
 Plots, trends, jumps, seasonality, outliers.&lt;br&gt;
 You need to see the structure before you build a model.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Any forecast consists of five steps.<br>
+It sounds simple. In practice — it’s discipline.</p>
+<p><strong>1. Problem definition.</strong><br>
+Not “what to predict?”, but how it will be used.<br>
+For prediction markets: which event, what horizon, what success criterion.</p>
+<p><strong>2. Information gathering.</strong><br>
+Two sources: data and context.<br>
+Sometimes the data are scarce — then understanding the mechanism matters more.</p>
+<p><strong>3. Preliminary analysis.</strong><br>
+Plots, trends, jumps, seasonality, outliers.<br>
+You need to see the structure before you build a model.</p>
+<p><strong>4. Model selection and fitting.</strong><br>
+Simple or complex — depends on the data and the goal.<br>
+Compare options and understand their assumptions.</p>
+<p><strong>5. Use and evaluation.</strong><br>
+A forecast is a hypothesis.<br>
+Only the future shows how honest the model was.<br>
+Errors are part of the process: measure them and update the model.</p>
+<p>This is especially clear on Polymarket: the quality of a forecast is the quality of the process.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Predictors, Time Series, and Model Choice</title>
-      <link>/posts/predictors-time-series-and-model-choice/</link>
+      <link>https://praevis.blog/posts/predictors-time-series-and-model-choice/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/predictors-time-series-and-model-choice/</guid>
+      <guid>https://praevis.blog/posts/predictors-time-series-and-model-choice/</guid>
       <description>&lt;p&gt;In forecasting, there are three types of models.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -160,12 +376,40 @@ A combination of past dynamics and external factors.&lt;/p&gt;
 Because external variables may be unknown,&lt;br&gt;
 hard to measure, or unpredictable themselves.&lt;br&gt;
 Sometimes the goal is simply to predict, not to explain.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In forecasting, there are three types of models.</p>
+<ol>
+<li>
+<p><strong>Models with predictors.</strong><br>
+They use external variables — temperature, the economy, human behavior.<br>
+These models explain <em>why</em> something happens.</p>
+</li>
+<li>
+<p><strong>Time‑series models.</strong><br>
+They look only at the past values of the series.<br>
+They explain nothing, but often predict better.</p>
+</li>
+<li>
+<p><strong>Hybrid models.</strong><br>
+A combination of past dynamics and external factors.</p>
+</li>
+</ol>
+<p>Why is it sometimes better to use only a time series?<br>
+Because external variables may be unknown,<br>
+hard to measure, or unpredictable themselves.<br>
+Sometimes the goal is simply to predict, not to explain.</p>
+<p>This is especially visible on Polymarket:<br>
+if predictors are unavailable or unreliable,<br>
+a simple dynamics model often works better.</p>
+<p>The model is chosen by data, resources, and purpose —<br>
+not by elegance.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
     <item>
       <title>When an event can be predicted (and when it can’t)</title>
-      <link>/posts/predictability-of-events/</link>
+      <link>https://praevis.blog/posts/predictability-of-events/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/predictability-of-events/</guid>
+      <guid>https://praevis.blog/posts/predictability-of-events/</guid>
       <description>&lt;p&gt;On prediction markets the key is to judge how predictable the event itself is.
 There are four conditions that determine this.&lt;/p&gt;
 &lt;ol&gt;
@@ -183,12 +427,41 @@ If data is scarce, the market becomes a psychological game.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Similarity of the future to the past.&lt;/strong&gt;
 Typical events are predictable.
 Unique events are almost not.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>On prediction markets the key is to judge how predictable the event itself is.
+There are four conditions that determine this.</p>
+<ol>
+<li>
+<p><strong>Understanding the drivers.</strong>
+If the structure of the event is clear, you can assign a probability.
+If the factors are fuzzy, forecasting turns into guessing.</p>
+</li>
+<li>
+<p><strong>Availability of data.</strong>
+The more data and repeatable patterns, the better.
+If data is scarce, the market becomes a psychological game.</p>
+</li>
+<li>
+<p><strong>Similarity of the future to the past.</strong>
+Typical events are predictable.
+Unique events are almost not.</p>
+</li>
+<li>
+<p><strong>Impact of the forecast on the outcome.</strong>
+Some markets are self-influencing:
+expectations change reality.</p>
+</li>
+</ol>
+<p>For Polymarket this matters a lot:
+sometimes the market predicts the event,
+and sometimes the event is shaped by the market.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
     <item>
       <title>What is Polymarket and why I use it</title>
-      <link>/posts/what-is-polymarket-and-why-i-use-it/</link>
+      <link>https://praevis.blog/posts/what-is-polymarket-and-why-i-use-it/</link>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/what-is-polymarket-and-why-i-use-it/</guid>
+      <guid>https://praevis.blog/posts/what-is-polymarket-and-why-i-use-it/</guid>
       <description>&lt;p&gt;Polymarket is a prediction market.&lt;br&gt;
 The stakes here are not about gambling, but about probabilities.&lt;/p&gt;
 &lt;p&gt;Each market is a question about the future:&lt;br&gt;
@@ -198,12 +471,29 @@ If a contract trades at 0.23, the market implies about a 23% chance the event wi
 &lt;p&gt;The core idea is simple:&lt;br&gt;
 when people put money on the line, they pay closer attention to information.&lt;br&gt;
 That’s why these markets often react faster than analysts and media.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Polymarket is a prediction market.<br>
+The stakes here are not about gambling, but about probabilities.</p>
+<p>Each market is a question about the future:<br>
+elections, the economy, technology, sports, or world events.<br>
+The price of a contract reflects the crowd’s probability estimate of the outcome.<br>
+If a contract trades at 0.23, the market implies about a 23% chance the event will occur.</p>
+<p>The core idea is simple:<br>
+when people put money on the line, they pay closer attention to information.<br>
+That’s why these markets often react faster than analysts and media.</p>
+<p>Why does this matter to me?<br>
+Because Polymarket is where forecasting theory meets reality.<br>
+You must state an estimate, back it with a stake,<br>
+and test your honesty when the future arrives.</p>
+<p>It’s not a way to predict everything.<br>
+It’s a way to think more precisely.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Why I’m starting to study forecasting</title>
-      <link>/posts/why-i-start-studying-forecasting/</link>
+      <link>https://praevis.blog/posts/why-i-start-studying-forecasting/</link>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/why-i-start-studying-forecasting/</guid>
+      <guid>https://praevis.blog/posts/why-i-start-studying-forecasting/</guid>
       <description>&lt;p&gt;I’m starting to study forecasting to think more precisely.&lt;br&gt;
 Most forecasts are confident words without probabilities.&lt;br&gt;
 I care less about asserting and more about testing.&lt;/p&gt;
@@ -216,6 +506,20 @@ remove unnecessary assumptions.&lt;br&gt;
 The model will change — and that’s part of the process.&lt;/p&gt;
 &lt;p&gt;This blog is not about being right.&lt;br&gt;
 It’s about honesty under uncertainty.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I’m starting to study forecasting to think more precisely.<br>
+Most forecasts are confident words without probabilities.<br>
+I care less about asserting and more about testing.</p>
+<p>Here I will log the learning process:<br>
+how my estimates change,<br>
+what turns out to be noise,<br>
+and how the model is corrected.</p>
+<p>First steps are simple: observe, assign probabilities,<br>
+remove unnecessary assumptions.<br>
+The model will change — and that’s part of the process.</p>
+<p>This blog is not about being right.<br>
+It’s about honesty under uncertainty.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

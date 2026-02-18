@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://praevis.blog"
 title: "S. Praevis"
 languageCode: "en"
 theme: "PaperMod"
@@ -55,6 +55,7 @@ params:
   ShowReadingTime: false
   assets:
     disableHLJS: true
+  ShowFullTextinRSS: true
   socialIcons:
     - name: email
       url: "mailto:spraevis@gmail.com"

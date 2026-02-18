@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Error on S. Praevis</title>
-    <link>/tags/error/</link>
+    <link>https://praevis.blog/tags/error/</link>
     <description>Recent content in Error on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/error/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://praevis.blog/tags/error/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why my first forecast was wrong</title>
-      <link>/posts/why-my-first-forecast-was-wrong/</link>
+      <link>https://praevis.blog/posts/why-my-first-forecast-was-wrong/</link>
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/why-my-first-forecast-was-wrong/</guid>
+      <guid>https://praevis.blog/posts/why-my-first-forecast-was-wrong/</guid>
       <description>&lt;p&gt;My first forecast was simple:&lt;br&gt;
 BTC would not drop below $90,000 in November.&lt;/p&gt;
 &lt;p&gt;The bet looked reasonable from the data.&lt;br&gt;
@@ -26,6 +26,46 @@ Regimes can switch faster than the data reveals.&lt;/p&gt;
 &lt;h2 id=&#34;2-i-underestimated-outofrange-probability&#34;&gt;2) I underestimated out‑of‑range probability&lt;/h2&gt;
 &lt;p&gt;The drop happened &lt;strong&gt;without a single clear trigger&lt;/strong&gt;.&lt;br&gt;
 That’s normal: price can break the distribution on order‑flow or liquidity alone.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>My first forecast was simple:<br>
+BTC would not drop below $90,000 in November.</p>
+<p>The bet looked reasonable from the data.<br>
+But it lost.<br>
+Here’s why.</p>
+<h2 id="1-i-overestimated-regime-stability">1) I overestimated regime stability</h2>
+<p>The month’s range looked stable: ~95–110k.<br>
+Std was low; swings looked “orderly.”</p>
+<p>Mistake: I treated a local structure as durable.<br>
+Regimes can switch faster than the data reveals.</p>
+<h2 id="2-i-underestimated-outofrange-probability">2) I underestimated out‑of‑range probability</h2>
+<p>The drop happened <strong>without a single clear trigger</strong>.<br>
+That’s normal: price can break the distribution on order‑flow or liquidity alone.</p>
+<p>Mistake: I underweighted rare, tail moves.</p>
+<h2 id="3-i-relied-on-data-that-were-too-clean">3) I relied on data that were too “clean”</h2>
+<p>The range was narrow but described only a slice of the month.<br>
+Such structures are often temporary.</p>
+<p>Mistake: insufficient attention to distribution tails.</p>
+<h2 id="4-i-overused-historical-analogy">4) I overused historical analogy</h2>
+<p>“November’s floor rises each cycle” sounded plausible.<br>
+But the market doesn’t owe us repeats.</p>
+<p>Mistake: reading history as structure.</p>
+<h2 id="5-the-range-was-fine-the-probability-wasnt">5) The range was fine. The probability wasn’t</h2>
+<p>The 95–112k corridor was realistic.<br>
+I just attached too much confidence to it.</p>
+<p>Mistake: overconfidence under uncertainty.</p>
+<h2 id="takeaways">Takeaways</h2>
+<p>A forecast is a hypothesis.<br>
+Error is part of the data.</p>
+<ol>
+<li>regimes change faster than models;</li>
+<li>tails matter more than the center;</li>
+<li>analogies are not structure;</li>
+<li>confidence should be lower;</li>
+<li>updating is essential.</li>
+</ol>
+<p>I updated my estimate.<br>
+And I continue.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

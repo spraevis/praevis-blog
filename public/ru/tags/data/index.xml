@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Data on S. Praevis</title>
-    <link>/ru/tags/data/</link>
+    <link>https://praevis.blog/ru/tags/data/</link>
     <description>Recent content in Data on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ru</language>
     <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/ru/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://praevis.blog/ru/tags/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Данные, методы и пределы прогнозов</title>
-      <link>/ru/posts/data-methods-and-limits-of-forecasting/</link>
+      <link>https://praevis.blog/ru/posts/data-methods-and-limits-of-forecasting/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/posts/data-methods-and-limits-of-forecasting/</guid>
+      <guid>https://praevis.blog/ru/posts/data-methods-and-limits-of-forecasting/</guid>
       <description>&lt;p&gt;В прогнозировании главное — не метод, а соответствие данных задаче.&lt;br&gt;
 Любой прогноз зависит от того, какие данные мы используем и что в них остаётся после удаления шума.&lt;/p&gt;
 &lt;p&gt;Есть три уровня.&lt;/p&gt;
@@ -32,6 +32,33 @@
 От простых эвристик до статистики и ML.&lt;br&gt;
 Модель должна быть простой настолько, чтобы работать,&lt;br&gt;
 и сложной — настолько, чтобы отражать вероятность.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>В прогнозировании главное — не метод, а соответствие данных задаче.<br>
+Любой прогноз зависит от того, какие данные мы используем и что в них остаётся после удаления шума.</p>
+<p>Есть три уровня.</p>
+<ol>
+<li>
+<p><strong>Данные как есть.</strong><br>
+Наблюдения, цены, новости.<br>
+Без интерпретации — это просто поток.</p>
+</li>
+<li>
+<p><strong>Обработка.</strong><br>
+Сглаживание, фильтры, выбор признаков.<br>
+Попытка сохранить структуру и убрать лишнее.</p>
+</li>
+<li>
+<p><strong>Модели.</strong><br>
+От простых эвристик до статистики и ML.<br>
+Модель должна быть простой настолько, чтобы работать,<br>
+и сложной — настолько, чтобы отражать вероятность.</p>
+</li>
+</ol>
+<p>На Polymarket всё упирается в одно:<br>
+данные → обработка → вероятность.</p>
+<p>Если входные данные плохие, метод не спасёт.<br>
+Если данные чистые, даже простая модель работает.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

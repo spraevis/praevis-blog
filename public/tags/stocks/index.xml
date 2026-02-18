@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Stocks on S. Praevis</title>
-    <link>/tags/stocks/</link>
+    <link>https://praevis.blog/tags/stocks/</link>
     <description>Recent content in Stocks on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 17 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/stocks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://praevis.blog/tags/stocks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why forecasting stocks is hard</title>
-      <link>/posts/why-forecasting-stocks-is-hard/</link>
+      <link>https://praevis.blog/posts/why-forecasting-stocks-is-hard/</link>
       <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/why-forecasting-stocks-is-hard/</guid>
+      <guid>https://praevis.blog/posts/why-forecasting-stocks-is-hard/</guid>
       <description>&lt;p&gt;Forecasting works where the data have structure.&lt;br&gt;
 Stocks have weak structure.&lt;/p&gt;
 &lt;p&gt;⸻&lt;/p&gt;
@@ -37,6 +37,64 @@ regulator decisions, earnings, liquidity, events, market sentiment.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;It’s not enough to know the variables — you must forecast them.&lt;br&gt;
 With stocks, that’s hard or impossible.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Forecasting works where the data have structure.<br>
+Stocks have weak structure.</p>
+<p>⸻</p>
+<ol>
+<li>Weak patterns</li>
+</ol>
+<p>Trends break on news.<br>
+Seasonality is minimal.<br>
+Cycles are unstable.<br>
+Autocorrelations are low.</p>
+<p>The data behave like noise.</p>
+<p>⸻</p>
+<ol start="2">
+<li>The main drivers are outside the time series</li>
+</ol>
+<p>Future prices depend on what is not in the history:<br>
+regulator decisions, earnings, liquidity, events, market sentiment.</p>
+<p>The time series does not contain causes.</p>
+<p>⸻</p>
+<ol start="3">
+<li>Predictors are unknown or unpredictable</li>
+</ol>
+<p>It’s not enough to know the variables — you must forecast them.<br>
+With stocks, that’s hard or impossible.</p>
+<p>⸻</p>
+<ol start="4">
+<li>Regimes change abruptly</li>
+</ol>
+<p>Low rates → tightening → crisis → recovery.<br>
+Each regime invalidates the last one’s conclusions.</p>
+<p>⸻</p>
+<ol start="5">
+<li>The forecast changes the market</li>
+</ol>
+<p>Expectations become part of price.<br>
+Any pattern disappears when it’s exploited.</p>
+<p>⸻</p>
+<ol start="6">
+<li>Noise dominates</li>
+</ol>
+<p>Large outliers.<br>
+News jumps.<br>
+Local, short‑lived regularities.</p>
+<p>Signal is weak; noise is strong.</p>
+<p>⸻</p>
+<p>Conclusion</p>
+<p>Stocks violate the key conditions for predictability:</p>
+<ul>
+<li>no stable structure,</li>
+<li>no robust drivers,</li>
+<li>no repeatability,</li>
+<li>no stationarity,</li>
+<li>and the forecast feeds back into the object.</li>
+</ul>
+<p>Therefore, forecasting stocks is one of the hardest problems.<br>
+Uncertainty exceeds information.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

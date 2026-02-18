@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Extremes on S. Praevis</title>
-    <link>/tags/extremes/</link>
+    <link>https://praevis.blog/tags/extremes/</link>
     <description>Recent content in Extremes on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/extremes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://praevis.blog/tags/extremes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why forecasting Bitcoin extremes is hard</title>
-      <link>/posts/why-forecasting-bitcoin-extremes-is-hard/</link>
+      <link>https://praevis.blog/posts/why-forecasting-bitcoin-extremes-is-hard/</link>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/why-forecasting-bitcoin-extremes-is-hard/</guid>
+      <guid>https://praevis.blog/posts/why-forecasting-bitcoin-extremes-is-hard/</guid>
       <description>&lt;p&gt;Forecasting levels is easier.&lt;br&gt;
 Forecasting extremes is almost always harder.&lt;/p&gt;
 &lt;p&gt;Highs and lows are properties of the path, not just the close.&lt;br&gt;
@@ -25,6 +25,35 @@ Tails are fat.&lt;br&gt;
 Jumps are normal.&lt;/p&gt;
 &lt;p&gt;Terminal models compress everything to one number.&lt;br&gt;
 Extremes require reasoning about the entire path.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Forecasting levels is easier.<br>
+Forecasting extremes is almost always harder.</p>
+<p>Highs and lows are properties of the path, not just the close.<br>
+Price must actually reach the level, not merely close beyond it.</p>
+<p>Most models break on that distinction.</p>
+<h2 id="1-the-data-behave-like-noise">1) The data behave like noise</h2>
+<p>Bitcoin is non‑stationary.<br>
+Volatility shifts.<br>
+Tails are fat.<br>
+Jumps are normal.</p>
+<p>Terminal models compress everything to one number.<br>
+Extremes require reasoning about the entire path.</p>
+<h2 id="2-what-works-in-practice">2) What works in practice</h2>
+<p>Statistics — baseline estimates.<br>
+ML — weak dependencies.<br>
+AI — signals in news and context.<br>
+EVT — the tails.<br>
+Monte Carlo — path checks.<br>
+Options market — collective expectations.</p>
+<p>Each method contributes a slice.<br>
+Together — they form a probabilistic frame:<br>
+not a level forecast, but the chance of reaching it.</p>
+<h2 id="3-the-main-idea">3) The main idea</h2>
+<p>Extremes are a game of tails, volatility, and paths.<br>
+To assess them honestly, combine models, data, and market information.</p>
+<p>The signal will be small.<br>
+But for now — this is the best I’ve found.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

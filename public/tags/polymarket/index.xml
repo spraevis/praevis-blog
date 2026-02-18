@@ -2,43 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Polymarket on S. Praevis</title>
-    <link>/tags/polymarket/</link>
+    <link>https://praevis.blog/tags/polymarket/</link>
     <description>Recent content in Polymarket on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/polymarket/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://praevis.blog/tags/polymarket/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Two Signal Sources, One Range</title>
+      <link>https://praevis.blog/posts/btc-two-signals-one-range/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://praevis.blog/posts/btc-two-signals-one-range/</guid>
+      <description>&lt;p&gt;BTC at $68,200. Down 0.7% in 24 hours, down 28% over 30 days.&lt;/p&gt;
+&lt;p&gt;Social signals show a mixed picture. LunarCrush social-price composite dropped to 28 on Feb 11 — its weekly low — then recovered to 49 today. The bitcoin topic trend is flagged &amp;ldquo;down.&amp;rdquo; But the alt rank hit #1 on Feb 16: BTC is outperforming other assets on the composite despite the declining trend.&lt;/p&gt;
+&lt;p&gt;Sentiment across platforms remains net-bullish: Twitter 79%, YouTube 84%, TikTok 72%. Volume is high — 377K posts, 193M interactions in 24h. Social attention is declining in trend but positive in tone.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>BTC at $68,200. Down 0.7% in 24 hours, down 28% over 30 days.</p>
+<p>Social signals show a mixed picture. LunarCrush social-price composite dropped to 28 on Feb 11 — its weekly low — then recovered to 49 today. The bitcoin topic trend is flagged &ldquo;down.&rdquo; But the alt rank hit #1 on Feb 16: BTC is outperforming other assets on the composite despite the declining trend.</p>
+<p>Sentiment across platforms remains net-bullish: Twitter 79%, YouTube 84%, TikTok 72%. Volume is high — 377K posts, 193M interactions in 24h. Social attention is declining in trend but positive in tone.</p>
+<p>Polymarket prices a tighter view. The $68K–$70K bracket for today: 52.5%. Chance of $75K in February: 33%. Chance of a dip to $60K: 22%. The lower tail ($55K at 8.5%) is fatter than the upper ($85K at 3.7%).</p>
+<p>The two sources agree on range-bound behavior. Social sentiment leans slightly bullish; Polymarket pricing leans slightly bearish. The gap is small.</p>
+<p>Monitoring: alt rank trend. If it deteriorates past 200 while the topic trend stays &ldquo;down,&rdquo; I will reassess the $60K dip probability upward.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>BTC touches $80k in November? (No)</title>
-      <link>/forecasts/btc-80k-november-2025/</link>
+      <link>https://praevis.blog/forecasts/btc-80k-november-2025/</link>
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/forecasts/btc-80k-november-2025/</guid>
+      <guid>https://praevis.blog/forecasts/btc-80k-november-2025/</guid>
       <description>&lt;p&gt;Market question: Will Bitcoin dip to $80,000 in November?&lt;/p&gt;
 &lt;p&gt;Position: No. Opened on 2025-11-21 — see Polymarket market link above.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Market question: Will Bitcoin dip to $80,000 in November?</p>
+<p>Position: No. Opened on 2025-11-21 — see Polymarket market link above.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>BTC touches $85k in November? (Yes)</title>
-      <link>/forecasts/btc-85k-november-2025/</link>
+      <link>https://praevis.blog/forecasts/btc-85k-november-2025/</link>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/forecasts/btc-85k-november-2025/</guid>
+      <guid>https://praevis.blog/forecasts/btc-85k-november-2025/</guid>
       <description>&lt;p&gt;Market question: Will Bitcoin dip to $85,000 in November?&lt;/p&gt;
 &lt;p&gt;Position: Yes. Opened on 2025-11-20 — see Polymarket market link above.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Market question: Will Bitcoin dip to $85,000 in November?</p>
+<p>Position: Yes. Opened on 2025-11-20 — see Polymarket market link above.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>BTC ≥ $90k in November? (No @65%)</title>
-      <link>/forecasts/btc-90k-november-2025/</link>
+      <link>https://praevis.blog/forecasts/btc-90k-november-2025/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/forecasts/btc-90k-november-2025/</guid>
+      <guid>https://praevis.blog/forecasts/btc-90k-november-2025/</guid>
       <description>&lt;p&gt;Market question: Will Bitcoin dip to $90,000 in November?&lt;/p&gt;
 &lt;p&gt;Summary: November 2025 trades in a ~100k regime with typical ±4–9k swings; a 90k touch would require an event‑driven move beyond 2σ and below the monthly low.&lt;/p&gt;
-&lt;p&gt;See the detailed reasoning in the blog post: &lt;a href=&#34;/posts/first-polymarket-forecast-btc-90k-november/&#34;&gt;My first Polymarket forecast: will BTC drop to $90,000 in November?&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See the detailed reasoning in the blog post: &lt;a href=&#34;https://praevis.blog/posts/first-polymarket-forecast-btc-90k-november/&#34;&gt;My first Polymarket forecast: will BTC drop to $90,000 in November?&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Post‑mortem: Outcome Yes (touched $90k). Position No lost. Brier = 0.4225 (pYes=0.35 vs outcome 1).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Market question: Will Bitcoin dip to $90,000 in November?</p>
+<p>Summary: November 2025 trades in a ~100k regime with typical ±4–9k swings; a 90k touch would require an event‑driven move beyond 2σ and below the monthly low.</p>
+<p>See the detailed reasoning in the blog post: <a href="/posts/first-polymarket-forecast-btc-90k-november/">My first Polymarket forecast: will BTC drop to $90,000 in November?</a>.</p>
+<p>Post‑mortem: Outcome Yes (touched $90k). Position No lost. Brier = 0.4225 (pYes=0.35 vs outcome 1).</p>
+]]></content:encoded>
     </item>
     <item>
       <title>My first Polymarket forecast: will BTC drop to $90,000 in November?</title>
-      <link>/posts/first-polymarket-forecast-btc-90k-november/</link>
+      <link>https://praevis.blog/posts/first-polymarket-forecast-btc-90k-november/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/first-polymarket-forecast-btc-90k-november/</guid>
+      <guid>https://praevis.blog/posts/first-polymarket-forecast-btc-90k-november/</guid>
       <description>&lt;p&gt;Update (2025-11-20): Outcome Yes (touched $90k). My position No lost. See post‑mortem: /posts/why-my-first-forecast-was-wrong/.&lt;/p&gt;
 &lt;p&gt;This is my first public forecast and my first stake on Polymarket.&lt;br&gt;
 Market question: &lt;strong&gt;“Will Bitcoin dip to $90,000 in November?”&lt;/strong&gt;&lt;br&gt;
@@ -55,12 +83,80 @@ Key figures:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Conclusion: November is one of the most volatile months for BTC.&lt;br&gt;
 But the structure of volatility depends on the cycle.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Update (2025-11-20): Outcome Yes (touched $90k). My position No lost. See post‑mortem: /posts/why-my-first-forecast-was-wrong/.</p>
+<p>This is my first public forecast and my first stake on Polymarket.<br>
+Market question: <strong>“Will Bitcoin dip to $90,000 in November?”</strong><br>
+I bought <strong>No</strong> at ~65%.</p>
+<p>Below is how I arrived at the estimate.</p>
+<h2 id="1-history-of-btc-in-november">1. History of BTC in November</h2>
+<p>I compiled stats across all Novembers.<br>
+Key figures:</p>
+<ul>
+<li>November average: <strong>≈ $34k</strong></li>
+<li>standard deviation: <strong>≈ $32k</strong></li>
+<li>minimum: <strong>≈ $3.8k</strong></li>
+<li>maximum: <strong>≈ $110.5k</strong></li>
+</ul>
+<p>Conclusion: November is one of the most volatile months for BTC.<br>
+But the structure of volatility depends on the cycle.</p>
+<h2 id="2-cycle-dynamics-20172021">2. Cycle dynamics (2017–2021)</h2>
+<ul>
+<li>2018: strong capitulation after the 2017 peak</li>
+<li>2020–2021: recovery and a new high</li>
+<li>November 2021: all values in the month &gt; $53k</li>
+<li>the November “floor” and “ceiling” rise together with the cycle</li>
+</ul>
+<h2 id="3-what-november-2025-shows">3. What November 2025 shows</h2>
+<p>In 2025 data:</p>
+<ul>
+<li>November mean: <strong>≈ $103k</strong></li>
+<li>std: <strong>≈ $4.4k</strong></li>
+<li>min: <strong>$94.6k</strong></li>
+<li>max: <strong>$110.5k</strong></li>
+</ul>
+<p>This is a new regime.<br>
+The November 2025 minimum is already above the November maximum of the previous cycle.</p>
+<p>The market has effectively moved into the <strong>~100k</strong> range, where ±4–9k swings fit the month’s usual structure.</p>
+<h2 id="4-range-forecast">4. Range forecast</h2>
+<p>Based on the mean (103k) and 2σ (±8.7k):</p>
+<p><strong>Expected corridor of the final November close:</strong><br>
+<strong>$95,000 – $112,000</strong><br>
+Center: ~103k.</p>
+<p>For BTC to reach <strong>$90,000</strong>, the market would need to:</p>
+<ul>
+<li>break 2σ down,</li>
+<li>set a new monthly low,</li>
+<li>exit the current price regime.</li>
+</ul>
+<p>That’s an event‑driven risk, not a statistical scenario.</p>
+<h2 id="5-my-position">5. My position</h2>
+<p>I took <strong>No</strong> at 65% probability.<br>
+Reasons:</p>
+<ul>
+<li>the month’s current structure is above 95k</li>
+<li>historical patterns support a higher floor</li>
+<li>volatility is sufficient, but not to 90k without an external shock</li>
+<li>90k sits in the lower 3σ zone (unlikely without event triggers)</li>
+</ul>
+<p>Final phrasing:</p>
+<blockquote>
+<p><strong>Probability BTC does NOT touch $90,000 in November: ~70–75%.</strong></p>
+</blockquote>
+<h2 id="6-what-i-want-to-validate">6. What I want to validate</h2>
+<p>This is the first test of my methodology:</p>
+<ul>
+<li>data → structure → ranges → probability → stake</li>
+<li>subsequent calibration on the realized outcome</li>
+<li>compute Brier score</li>
+</ul>
+<p>This process is the backbone of my forecasting approach.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>What is Polymarket and why I use it</title>
-      <link>/posts/what-is-polymarket-and-why-i-use-it/</link>
+      <link>https://praevis.blog/posts/what-is-polymarket-and-why-i-use-it/</link>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/what-is-polymarket-and-why-i-use-it/</guid>
+      <guid>https://praevis.blog/posts/what-is-polymarket-and-why-i-use-it/</guid>
       <description>&lt;p&gt;Polymarket is a prediction market.&lt;br&gt;
 The stakes here are not about gambling, but about probabilities.&lt;/p&gt;
 &lt;p&gt;Each market is a question about the future:&lt;br&gt;
@@ -70,6 +166,23 @@ If a contract trades at 0.23, the market implies about a 23% chance the event wi
 &lt;p&gt;The core idea is simple:&lt;br&gt;
 when people put money on the line, they pay closer attention to information.&lt;br&gt;
 That’s why these markets often react faster than analysts and media.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Polymarket is a prediction market.<br>
+The stakes here are not about gambling, but about probabilities.</p>
+<p>Each market is a question about the future:<br>
+elections, the economy, technology, sports, or world events.<br>
+The price of a contract reflects the crowd’s probability estimate of the outcome.<br>
+If a contract trades at 0.23, the market implies about a 23% chance the event will occur.</p>
+<p>The core idea is simple:<br>
+when people put money on the line, they pay closer attention to information.<br>
+That’s why these markets often react faster than analysts and media.</p>
+<p>Why does this matter to me?<br>
+Because Polymarket is where forecasting theory meets reality.<br>
+You must state an estimate, back it with a stake,<br>
+and test your honesty when the future arrives.</p>
+<p>It’s not a way to predict everything.<br>
+It’s a way to think more precisely.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

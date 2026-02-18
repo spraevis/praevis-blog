@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Methods on S. Praevis</title>
-    <link>/tags/methods/</link>
+    <link>https://praevis.blog/tags/methods/</link>
     <description>Recent content in Methods on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/methods/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://praevis.blog/tags/methods/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data, Methods, and the Limits of Forecasts</title>
-      <link>/posts/data-methods-and-limits-of-forecasting/</link>
+      <link>https://praevis.blog/posts/data-methods-and-limits-of-forecasting/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/data-methods-and-limits-of-forecasting/</guid>
+      <guid>https://praevis.blog/posts/data-methods-and-limits-of-forecasting/</guid>
       <description>&lt;p&gt;In forecasting, the key is not the method but the fit between data and the task.&lt;br&gt;
 Every forecast depends on which data we use and what remains after removing noise.&lt;/p&gt;
 &lt;p&gt;There are three levels.&lt;/p&gt;
@@ -32,12 +32,39 @@ An attempt to preserve structure and remove the rest.&lt;/p&gt;
 From simple heuristics to statistics and ML.&lt;br&gt;
 The model should be simple enough to work,&lt;br&gt;
 and complex enough to reflect probability.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In forecasting, the key is not the method but the fit between data and the task.<br>
+Every forecast depends on which data we use and what remains after removing noise.</p>
+<p>There are three levels.</p>
+<ol>
+<li>
+<p><strong>Raw data.</strong><br>
+Observations, prices, news.<br>
+Without interpretation — just a stream.</p>
+</li>
+<li>
+<p><strong>Processing.</strong><br>
+Smoothing, filters, feature selection.<br>
+An attempt to preserve structure and remove the rest.</p>
+</li>
+<li>
+<p><strong>Models.</strong><br>
+From simple heuristics to statistics and ML.<br>
+The model should be simple enough to work,<br>
+and complex enough to reflect probability.</p>
+</li>
+</ol>
+<p>On Polymarket it boils down to one pipeline:<br>
+data → processing → probability.</p>
+<p>If the input data are bad, the method will not save you.<br>
+If the data are clean, even a simple model works.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Predictors, Time Series, and Model Choice</title>
-      <link>/posts/predictors-time-series-and-model-choice/</link>
+      <link>https://praevis.blog/posts/predictors-time-series-and-model-choice/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/predictors-time-series-and-model-choice/</guid>
+      <guid>https://praevis.blog/posts/predictors-time-series-and-model-choice/</guid>
       <description>&lt;p&gt;In forecasting, there are three types of models.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -59,6 +86,34 @@ A combination of past dynamics and external factors.&lt;/p&gt;
 Because external variables may be unknown,&lt;br&gt;
 hard to measure, or unpredictable themselves.&lt;br&gt;
 Sometimes the goal is simply to predict, not to explain.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In forecasting, there are three types of models.</p>
+<ol>
+<li>
+<p><strong>Models with predictors.</strong><br>
+They use external variables — temperature, the economy, human behavior.<br>
+These models explain <em>why</em> something happens.</p>
+</li>
+<li>
+<p><strong>Time‑series models.</strong><br>
+They look only at the past values of the series.<br>
+They explain nothing, but often predict better.</p>
+</li>
+<li>
+<p><strong>Hybrid models.</strong><br>
+A combination of past dynamics and external factors.</p>
+</li>
+</ol>
+<p>Why is it sometimes better to use only a time series?<br>
+Because external variables may be unknown,<br>
+hard to measure, or unpredictable themselves.<br>
+Sometimes the goal is simply to predict, not to explain.</p>
+<p>This is especially visible on Polymarket:<br>
+if predictors are unavailable or unreliable,<br>
+a simple dynamics model often works better.</p>
+<p>The model is chosen by data, resources, and purpose —<br>
+not by elegance.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

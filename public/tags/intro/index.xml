@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Intro on S. Praevis</title>
-    <link>/tags/intro/</link>
+    <link>https://praevis.blog/tags/intro/</link>
     <description>Recent content in Intro on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://praevis.blog/tags/intro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why I’m starting to study forecasting</title>
-      <link>/posts/why-i-start-studying-forecasting/</link>
+      <link>https://praevis.blog/posts/why-i-start-studying-forecasting/</link>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/why-i-start-studying-forecasting/</guid>
+      <guid>https://praevis.blog/posts/why-i-start-studying-forecasting/</guid>
       <description>&lt;p&gt;I’m starting to study forecasting to think more precisely.&lt;br&gt;
 Most forecasts are confident words without probabilities.&lt;br&gt;
 I care less about asserting and more about testing.&lt;/p&gt;
@@ -25,6 +25,20 @@ remove unnecessary assumptions.&lt;br&gt;
 The model will change — and that’s part of the process.&lt;/p&gt;
 &lt;p&gt;This blog is not about being right.&lt;br&gt;
 It’s about honesty under uncertainty.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I’m starting to study forecasting to think more precisely.<br>
+Most forecasts are confident words without probabilities.<br>
+I care less about asserting and more about testing.</p>
+<p>Here I will log the learning process:<br>
+how my estimates change,<br>
+what turns out to be noise,<br>
+and how the model is corrected.</p>
+<p>First steps are simple: observe, assign probabilities,<br>
+remove unnecessary assumptions.<br>
+The model will change — and that’s part of the process.</p>
+<p>This blog is not about being right.<br>
+It’s about honesty under uncertainty.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

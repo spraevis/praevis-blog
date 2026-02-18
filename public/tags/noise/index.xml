@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Noise on S. Praevis</title>
-    <link>/tags/noise/</link>
+    <link>https://praevis.blog/tags/noise/</link>
     <description>Recent content in Noise on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/noise/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://praevis.blog/tags/noise/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Forecasting where there is almost no structure</title>
-      <link>/posts/forecasting-where-there-is-almost-no-structure/</link>
+      <link>https://praevis.blog/posts/forecasting-where-there-is-almost-no-structure/</link>
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/forecasting-where-there-is-almost-no-structure/</guid>
+      <guid>https://praevis.blog/posts/forecasting-where-there-is-almost-no-structure/</guid>
       <description>&lt;p&gt;Forecasting where there is almost no structure&lt;/p&gt;
 &lt;p&gt;Most financial time series are noise.&lt;br&gt;
 No trend. No seasonality. Weak repeatability.&lt;br&gt;
@@ -24,6 +24,30 @@ The best baseline is a random walk.&lt;/p&gt;
 ML captures weak dependencies.&lt;br&gt;
 AI captures hidden links in text and context.&lt;br&gt;
 Crowd forecasting captures human information.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Forecasting where there is almost no structure</p>
+<p>Most financial time series are noise.<br>
+No trend. No seasonality. Weak repeatability.<br>
+The best baseline is a random walk.</p>
+<p>Any discovered pattern disappears as soon as it becomes part of the market.</p>
+<h2 id="what-still-works">What still works</h2>
+<p>Structure is scarce — but signal can be layered.</p>
+<p>Statistics captures basic forms.<br>
+ML captures weak dependencies.<br>
+AI captures hidden links in text and context.<br>
+Crowd forecasting captures human information.</p>
+<p>Each layer is weak on its own.<br>
+Together — they reach the maximum feasible.</p>
+<h2 id="the-main-idea">The main idea</h2>
+<p>statistics → ML → AI → crowd forecasts</p>
+<p>This is not a way to “beat the market.”<br>
+It is a way to extract everything the market allows.</p>
+<p>The signal will be small.<br>
+Unstable.<br>
+Short‑lived.</p>
+<p>But even a small improvement,<br>
+applied consistently, outperforms randomness.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

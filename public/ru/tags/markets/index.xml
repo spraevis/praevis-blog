@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Markets on S. Praevis</title>
-    <link>/ru/tags/markets/</link>
+    <link>https://praevis.blog/ru/tags/markets/</link>
     <description>Recent content in Markets on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ru</language>
     <lastBuildDate>Mon, 17 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/ru/tags/markets/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://praevis.blog/ru/tags/markets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Почему прогнозировать акции так трудно</title>
-      <link>/ru/posts/why-forecasting-stocks-is-hard/</link>
+      <link>https://praevis.blog/ru/posts/why-forecasting-stocks-is-hard/</link>
       <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/posts/why-forecasting-stocks-is-hard/</guid>
+      <guid>https://praevis.blog/ru/posts/why-forecasting-stocks-is-hard/</guid>
       <description>&lt;p&gt;Прогнозирование работает там, где данные имеют структуру.&lt;br&gt;
 У акций структура слабая.&lt;/p&gt;
 &lt;p&gt;⸻&lt;/p&gt;
@@ -37,12 +37,70 @@
 &lt;/ol&gt;
 &lt;p&gt;Важно не только знать переменные, но и прогнозировать их значения.&lt;br&gt;
 С акциями это сложно или невозможно.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Прогнозирование работает там, где данные имеют структуру.<br>
+У акций структура слабая.</p>
+<p>⸻</p>
+<ol>
+<li>Слабые паттерны</li>
+</ol>
+<p>Тренды ломаются новостями.<br>
+Сезонности почти нет.<br>
+Циклы нестабильны.<br>
+Автокорреляции низкие.</p>
+<p>Данные ведут себя как шум.</p>
+<p>⸻</p>
+<ol start="2">
+<li>Главное — вне временного ряда</li>
+</ol>
+<p>Будущее цены зависит от того, чего нет в истории:<br>
+решения регуляторов, отчёты, ликвидность, события, настроение участников.</p>
+<p>Временной ряд не содержит причин.</p>
+<p>⸻</p>
+<ol start="3">
+<li>Предикторы неизвестны или непредсказуемы</li>
+</ol>
+<p>Важно не только знать переменные, но и прогнозировать их значения.<br>
+С акциями это сложно или невозможно.</p>
+<p>⸻</p>
+<ol start="4">
+<li>Режимы меняются резко</li>
+</ol>
+<p>Фаза низких ставок → ужесточение → кризис → восстановление.<br>
+Каждый режим отменяет выводы предыдущего.</p>
+<p>⸻</p>
+<ol start="5">
+<li>Прогноз меняет рынок</li>
+</ol>
+<p>Ожидания становятся частью цены.<br>
+Любая закономерность исчезает, когда её используют.</p>
+<p>⸻</p>
+<ol start="6">
+<li>Шум доминирует</li>
+</ol>
+<p>Сильные выбросы.<br>
+Новостные скачки.<br>
+Локальные, недолговечные закономерности.</p>
+<p>Сигнал слабый, шум сильный.</p>
+<p>⸻</p>
+<p>Вывод</p>
+<p>Акции нарушают ключевые условия прогнозируемости:</p>
+<ul>
+<li>нет стабильной структуры,</li>
+<li>нет устойчивых факторов,</li>
+<li>нет повторяемости,</li>
+<li>нет стационарности,</li>
+<li>прогноз влияет на сам объект.</li>
+</ul>
+<p>Поэтому прогнозирование акций — одна из самых сложных задач.<br>
+Неизвестности больше, чем информации.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Когда событие можно предсказать (и когда нельзя)</title>
-      <link>/ru/posts/predictability-of-events/</link>
+      <link>https://praevis.blog/ru/posts/predictability-of-events/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/posts/predictability-of-events/</guid>
+      <guid>https://praevis.blog/ru/posts/predictability-of-events/</guid>
       <description>&lt;p&gt;На рынках прогнозов главное — понять, насколько само событие предсказуемо.
 Есть четыре условия, которые определяют это.&lt;/p&gt;
 &lt;ol&gt;
@@ -65,12 +123,41 @@
 &lt;p&gt;&lt;strong&gt;Влияние прогноза на сам исход.&lt;/strong&gt;
 Некоторые рынки самовоздействующие:
 ожидания меняют реальность.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>На рынках прогнозов главное — понять, насколько само событие предсказуемо.
+Есть четыре условия, которые определяют это.</p>
+<ol>
+<li>
+<p><strong>Понимание факторов.</strong>
+Если структура события ясна, вероятность можно оценить.
+Если факторы размыты, прогноз превращается в угадывание.</p>
+</li>
+<li>
+<p><strong>Наличие данных.</strong>
+Чем больше данных и повторяемых паттернов, тем лучше.
+Если данных почти нет, рынок — психологическая игра.</p>
+</li>
+<li>
+<p><strong>Схожесть будущего с прошлым.</strong>
+Типовые события предсказуемы.
+Уникальные события — почти нет.</p>
+</li>
+<li>
+<p><strong>Влияние прогноза на сам исход.</strong>
+Некоторые рынки самовоздействующие:
+ожидания меняют реальность.</p>
+</li>
+</ol>
+<p>Для Polymarket это особенно важно:
+иногда рынок предсказывает событие,
+а иногда событие формируется рынком.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Что такое Polymarket и зачем он мне</title>
-      <link>/ru/posts/what-is-polymarket-and-why-i-use-it/</link>
+      <link>https://praevis.blog/ru/posts/what-is-polymarket-and-why-i-use-it/</link>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/posts/what-is-polymarket-and-why-i-use-it/</guid>
+      <guid>https://praevis.blog/ru/posts/what-is-polymarket-and-why-i-use-it/</guid>
       <description>&lt;p&gt;Polymarket — это рынок прогнозов.&lt;br&gt;
 Ставки здесь — не про азарт, а про вероятности.&lt;/p&gt;
 &lt;p&gt;Каждый рынок — это вопрос о будущем:&lt;br&gt;
@@ -80,6 +167,23 @@
 &lt;p&gt;Главная идея проста:&lt;br&gt;
 когда люди ставят деньги, они внимательнее относятся к информации.&lt;br&gt;
 Поэтому такие рынки часто реагируют быстрее, чем аналитики и медиа.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Polymarket — это рынок прогнозов.<br>
+Ставки здесь — не про азарт, а про вероятности.</p>
+<p>Каждый рынок — это вопрос о будущем:<br>
+про выборы, экономику, технологии, спорт или события в мире.<br>
+Цена контракта показывает коллективную оценку вероятности исхода.<br>
+Если контракт стоит 0.23, рынок считает, что событие произойдёт с шансом около 23%.</p>
+<p>Главная идея проста:<br>
+когда люди ставят деньги, они внимательнее относятся к информации.<br>
+Поэтому такие рынки часто реагируют быстрее, чем аналитики и медиа.</p>
+<p>Почему это важно для меня?<br>
+Потому что Polymarket — это среда, где теория прогнозирования сталкивается с реальностью.<br>
+Где нужно формулировать оценку, подкреплять её ставкой<br>
+и проверять себя на честность — когда будущее наступает.</p>
+<p>Это не способ предсказать всё.<br>
+Это способ мыслить точнее.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

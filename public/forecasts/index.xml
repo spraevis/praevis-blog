@@ -2,37 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Forecasts on S. Praevis</title>
-    <link>/forecasts/</link>
+    <link>https://praevis.blog/forecasts/</link>
     <description>Recent content in Forecasts on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/forecasts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://praevis.blog/forecasts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BTC touches $80k in November? (No)</title>
-      <link>/forecasts/btc-80k-november-2025/</link>
+      <link>https://praevis.blog/forecasts/btc-80k-november-2025/</link>
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/forecasts/btc-80k-november-2025/</guid>
+      <guid>https://praevis.blog/forecasts/btc-80k-november-2025/</guid>
       <description>&lt;p&gt;Market question: Will Bitcoin dip to $80,000 in November?&lt;/p&gt;
 &lt;p&gt;Position: No. Opened on 2025-11-21 — see Polymarket market link above.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Market question: Will Bitcoin dip to $80,000 in November?</p>
+<p>Position: No. Opened on 2025-11-21 — see Polymarket market link above.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>BTC touches $85k in November? (Yes)</title>
-      <link>/forecasts/btc-85k-november-2025/</link>
+      <link>https://praevis.blog/forecasts/btc-85k-november-2025/</link>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/forecasts/btc-85k-november-2025/</guid>
+      <guid>https://praevis.blog/forecasts/btc-85k-november-2025/</guid>
       <description>&lt;p&gt;Market question: Will Bitcoin dip to $85,000 in November?&lt;/p&gt;
 &lt;p&gt;Position: Yes. Opened on 2025-11-20 — see Polymarket market link above.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Market question: Will Bitcoin dip to $85,000 in November?</p>
+<p>Position: Yes. Opened on 2025-11-20 — see Polymarket market link above.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>BTC ≥ $90k in November? (No @65%)</title>
-      <link>/forecasts/btc-90k-november-2025/</link>
+      <link>https://praevis.blog/forecasts/btc-90k-november-2025/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/forecasts/btc-90k-november-2025/</guid>
+      <guid>https://praevis.blog/forecasts/btc-90k-november-2025/</guid>
       <description>&lt;p&gt;Market question: Will Bitcoin dip to $90,000 in November?&lt;/p&gt;
 &lt;p&gt;Summary: November 2025 trades in a ~100k regime with typical ±4–9k swings; a 90k touch would require an event‑driven move beyond 2σ and below the monthly low.&lt;/p&gt;
-&lt;p&gt;See the detailed reasoning in the blog post: &lt;a href=&#34;/posts/first-polymarket-forecast-btc-90k-november/&#34;&gt;My first Polymarket forecast: will BTC drop to $90,000 in November?&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See the detailed reasoning in the blog post: &lt;a href=&#34;https://praevis.blog/posts/first-polymarket-forecast-btc-90k-november/&#34;&gt;My first Polymarket forecast: will BTC drop to $90,000 in November?&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Post‑mortem: Outcome Yes (touched $90k). Position No lost. Brier = 0.4225 (pYes=0.35 vs outcome 1).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Market question: Will Bitcoin dip to $90,000 in November?</p>
+<p>Summary: November 2025 trades in a ~100k regime with typical ±4–9k swings; a 90k touch would require an event‑driven move beyond 2σ and below the monthly low.</p>
+<p>See the detailed reasoning in the blog post: <a href="/posts/first-polymarket-forecast-btc-90k-november/">My first Polymarket forecast: will BTC drop to $90,000 in November?</a>.</p>
+<p>Post‑mortem: Outcome Yes (touched $90k). Position No lost. Brier = 0.4225 (pYes=0.35 vs outcome 1).</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

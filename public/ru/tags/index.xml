@@ -2,136 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on S. Praevis</title>
-    <link>/ru/tags/</link>
+    <link>https://praevis.blog/ru/tags/</link>
     <description>Recent content in Tags on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ru</language>
-    <lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/ru/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bitcoin</title>
-      <link>/ru/tags/bitcoin/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/bitcoin/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Forecast</title>
-      <link>/ru/tags/forecast/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/forecast/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Polymarket</title>
-      <link>/ru/tags/polymarket/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/polymarket/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://praevis.blog/ru/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Btc</title>
-      <link>/ru/tags/btc/</link>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/btc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Extremes</title>
-      <link>/ru/tags/extremes/</link>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/extremes/</guid>
+      <link>https://praevis.blog/ru/tags/btc/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://praevis.blog/ru/tags/btc/</guid>
       <description></description>
     </item>
     <item>
       <title>Forecasting</title>
-      <link>/ru/tags/forecasting/</link>
+      <link>https://praevis.blog/ru/tags/forecasting/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://praevis.blog/ru/tags/forecasting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Polymarket</title>
+      <link>https://praevis.blog/ru/tags/polymarket/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://praevis.blog/ru/tags/polymarket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bitcoin</title>
+      <link>https://praevis.blog/ru/tags/bitcoin/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://praevis.blog/ru/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forecast</title>
+      <link>https://praevis.blog/ru/tags/forecast/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://praevis.blog/ru/tags/forecast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Extremes</title>
+      <link>https://praevis.blog/ru/tags/extremes/</link>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/forecasting/</guid>
+      <guid>https://praevis.blog/ru/tags/extremes/</guid>
       <description></description>
     </item>
     <item>
       <title>Error</title>
-      <link>/ru/tags/error/</link>
+      <link>https://praevis.blog/ru/tags/error/</link>
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/error/</guid>
+      <guid>https://praevis.blog/ru/tags/error/</guid>
       <description></description>
     </item>
     <item>
       <title>Noise</title>
-      <link>/ru/tags/noise/</link>
+      <link>https://praevis.blog/ru/tags/noise/</link>
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/noise/</guid>
+      <guid>https://praevis.blog/ru/tags/noise/</guid>
       <description></description>
     </item>
     <item>
       <title>Signal</title>
-      <link>/ru/tags/signal/</link>
+      <link>https://praevis.blog/ru/tags/signal/</link>
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/signal/</guid>
+      <guid>https://praevis.blog/ru/tags/signal/</guid>
       <description></description>
     </item>
     <item>
       <title>Markets</title>
-      <link>/ru/tags/markets/</link>
+      <link>https://praevis.blog/ru/tags/markets/</link>
       <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/markets/</guid>
+      <guid>https://praevis.blog/ru/tags/markets/</guid>
       <description></description>
     </item>
     <item>
       <title>Stocks</title>
-      <link>/ru/tags/stocks/</link>
+      <link>https://praevis.blog/ru/tags/stocks/</link>
       <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/stocks/</guid>
+      <guid>https://praevis.blog/ru/tags/stocks/</guid>
       <description></description>
     </item>
     <item>
       <title>Basics</title>
-      <link>/ru/tags/basics/</link>
+      <link>https://praevis.blog/ru/tags/basics/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/basics/</guid>
+      <guid>https://praevis.blog/ru/tags/basics/</guid>
       <description></description>
     </item>
     <item>
       <title>Data</title>
-      <link>/ru/tags/data/</link>
+      <link>https://praevis.blog/ru/tags/data/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/data/</guid>
+      <guid>https://praevis.blog/ru/tags/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Methods</title>
-      <link>/ru/tags/methods/</link>
+      <link>https://praevis.blog/ru/tags/methods/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/methods/</guid>
+      <guid>https://praevis.blog/ru/tags/methods/</guid>
       <description></description>
     </item>
     <item>
       <title>Models</title>
-      <link>/ru/tags/models/</link>
+      <link>https://praevis.blog/ru/tags/models/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/models/</guid>
+      <guid>https://praevis.blog/ru/tags/models/</guid>
       <description></description>
     </item>
     <item>
       <title>Predictability</title>
-      <link>/ru/tags/predictability/</link>
+      <link>https://praevis.blog/ru/tags/predictability/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/predictability/</guid>
+      <guid>https://praevis.blog/ru/tags/predictability/</guid>
       <description></description>
     </item>
     <item>
       <title>Process</title>
-      <link>/ru/tags/process/</link>
+      <link>https://praevis.blog/ru/tags/process/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/process/</guid>
+      <guid>https://praevis.blog/ru/tags/process/</guid>
       <description></description>
     </item>
     <item>
       <title>Intro</title>
-      <link>/ru/tags/intro/</link>
+      <link>https://praevis.blog/ru/tags/intro/</link>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/ru/tags/intro/</guid>
+      <guid>https://praevis.blog/ru/tags/intro/</guid>
       <description></description>
     </item>
   </channel>

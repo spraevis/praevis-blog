@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Models on S. Praevis</title>
-    <link>/tags/models/</link>
+    <link>https://praevis.blog/tags/models/</link>
     <description>Recent content in Models on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/models/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://praevis.blog/tags/models/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Predictors, Time Series, and Model Choice</title>
-      <link>/posts/predictors-time-series-and-model-choice/</link>
+      <link>https://praevis.blog/posts/predictors-time-series-and-model-choice/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/predictors-time-series-and-model-choice/</guid>
+      <guid>https://praevis.blog/posts/predictors-time-series-and-model-choice/</guid>
       <description>&lt;p&gt;In forecasting, there are three types of models.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -34,6 +34,34 @@ A combination of past dynamics and external factors.&lt;/p&gt;
 Because external variables may be unknown,&lt;br&gt;
 hard to measure, or unpredictable themselves.&lt;br&gt;
 Sometimes the goal is simply to predict, not to explain.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In forecasting, there are three types of models.</p>
+<ol>
+<li>
+<p><strong>Models with predictors.</strong><br>
+They use external variables — temperature, the economy, human behavior.<br>
+These models explain <em>why</em> something happens.</p>
+</li>
+<li>
+<p><strong>Time‑series models.</strong><br>
+They look only at the past values of the series.<br>
+They explain nothing, but often predict better.</p>
+</li>
+<li>
+<p><strong>Hybrid models.</strong><br>
+A combination of past dynamics and external factors.</p>
+</li>
+</ol>
+<p>Why is it sometimes better to use only a time series?<br>
+Because external variables may be unknown,<br>
+hard to measure, or unpredictable themselves.<br>
+Sometimes the goal is simply to predict, not to explain.</p>
+<p>This is especially visible on Polymarket:<br>
+if predictors are unavailable or unreliable,<br>
+a simple dynamics model often works better.</p>
+<p>The model is chosen by data, resources, and purpose —<br>
+not by elegance.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

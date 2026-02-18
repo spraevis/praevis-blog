@@ -1,0 +1,36 @@
+# S. Praevis
+
+> Probabilistic forecasting blog. Calibrated analysis of markets, crypto, and prediction markets. Published in English and Russian. Author: S. Praevis (spraevis@gmail.com).
+
+S. Praevis is a bilingual forecasting blog focused on calibrated probabilistic reasoning. Content covers forecasting methodology, market structure, signal extraction, and live probability estimates for market events. All forecasts include explicit probability ranges. No promotional or assertive language.
+
+Key topics: forecasting, probability, Bayesian reasoning, Polymarket, Bitcoin, markets, signal vs noise.
+
+## Blog Posts
+
+- [Two Signal Sources, One Range](https://praevis.blog/posts/btc-two-signals-one-range/): Combining two independent signal sources into a single probability range for BTC price.
+- [Data, Methods, and Limits of Forecasting](https://praevis.blog/posts/data-methods-and-limits-of-forecasting/): What data is available for forecasting, which methods apply, and where the limits are.
+- [My First Polymarket Forecast: BTC 90K in November](https://praevis.blog/posts/first-polymarket-forecast-btc-90k-november/): Walk-through of the first live forecast on Polymarket, including reasoning and outcome.
+- [Five Steps of Any Forecast](https://praevis.blog/posts/five-steps-of-any-forecast/): A repeatable framework: define the question, gather data, build a model, assign probabilities, update on new information.
+- [Forecasting Where There Is Almost No Structure](https://praevis.blog/posts/forecasting-where-there-is-almost-no-structure/): How to reason about events when historical data is sparse or absent.
+- [Predictability of Events](https://praevis.blog/posts/predictability-of-events/): Why some events are forecastable and others are not, and how to tell the difference.
+- [Predictors, Time Series, and Model Choice](https://praevis.blog/posts/predictors-time-series-and-model-choice/): Choosing between predictor-based and time-series models depending on the forecasting task.
+- [What Is Polymarket and Why I Use It](https://praevis.blog/posts/what-is-polymarket-and-why-i-use-it/): Introduction to Polymarket as a calibration tool and source of crowd probability estimates.
+- [Why Forecasting Bitcoin Extremes Is Hard](https://praevis.blog/posts/why-forecasting-bitcoin-extremes-is-hard/): Fat tails, regime shifts, and the structural reasons extreme BTC moves are difficult to predict.
+- [Why Forecasting Stocks Is Hard](https://praevis.blog/posts/why-forecasting-stocks-is-hard/): Efficient markets, noise, and the limits of stock price forecasting.
+- [Why I Started Studying Forecasting](https://praevis.blog/posts/why-i-start-studying-forecasting/): Motivation and background for the project.
+- [Why My First Forecast Was Wrong](https://praevis.blog/posts/why-my-first-forecast-was-wrong/): Post-mortem on the BTC 90K forecast: what the model missed and what changed.
+
+## Forecasts
+
+- [BTC above 80K in November 2025](https://praevis.blog/forecasts/btc-80k-november-2025/): Resolved forecast. Probability estimate for BTC closing above $80,000 in November 2025.
+- [BTC above 85K in November 2025](https://praevis.blog/forecasts/btc-85k-november-2025/): Resolved forecast. Probability estimate for BTC closing above $85,000 in November 2025.
+- [BTC above 90K in November 2025](https://praevis.blog/forecasts/btc-90k-november-2025/): Resolved forecast. Probability estimate for BTC closing above $90,000 in November 2025.
+
+## Optional
+
+- [About](https://praevis.blog/about/): About the S. Praevis project and forecasting approach.
+- [RSS Feed (EN)](https://praevis.blog/index.xml): Full RSS feed for English content.
+- [RSS Feed (RU)](https://praevis.blog/ru/index.xml): Full RSS feed for Russian content.
+- [Russian version of posts](https://praevis.blog/ru/posts/): All blog posts in Russian.
+- [Russian version of forecasts](https://praevis.blog/ru/forecasts/): All forecasts in Russian.

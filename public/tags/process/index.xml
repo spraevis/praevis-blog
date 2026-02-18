@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Process on S. Praevis</title>
-    <link>/tags/process/</link>
+    <link>https://praevis.blog/tags/process/</link>
     <description>Recent content in Process on S. Praevis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/process/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://praevis.blog/tags/process/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Five Steps of Any Forecast</title>
-      <link>/posts/five-steps-of-any-forecast/</link>
+      <link>https://praevis.blog/posts/five-steps-of-any-forecast/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/five-steps-of-any-forecast/</guid>
+      <guid>https://praevis.blog/posts/five-steps-of-any-forecast/</guid>
       <description>&lt;p&gt;Any forecast consists of five steps.&lt;br&gt;
 It sounds simple. In practice — it’s discipline.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1. Problem definition.&lt;/strong&gt;&lt;br&gt;
@@ -24,12 +24,33 @@ Sometimes the data are scarce — then understanding the mechanism matters more.
 &lt;p&gt;&lt;strong&gt;3. Preliminary analysis.&lt;/strong&gt;&lt;br&gt;
 Plots, trends, jumps, seasonality, outliers.&lt;br&gt;
 You need to see the structure before you build a model.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Any forecast consists of five steps.<br>
+It sounds simple. In practice — it’s discipline.</p>
+<p><strong>1. Problem definition.</strong><br>
+Not “what to predict?”, but how it will be used.<br>
+For prediction markets: which event, what horizon, what success criterion.</p>
+<p><strong>2. Information gathering.</strong><br>
+Two sources: data and context.<br>
+Sometimes the data are scarce — then understanding the mechanism matters more.</p>
+<p><strong>3. Preliminary analysis.</strong><br>
+Plots, trends, jumps, seasonality, outliers.<br>
+You need to see the structure before you build a model.</p>
+<p><strong>4. Model selection and fitting.</strong><br>
+Simple or complex — depends on the data and the goal.<br>
+Compare options and understand their assumptions.</p>
+<p><strong>5. Use and evaluation.</strong><br>
+A forecast is a hypothesis.<br>
+Only the future shows how honest the model was.<br>
+Errors are part of the process: measure them and update the model.</p>
+<p>This is especially clear on Polymarket: the quality of a forecast is the quality of the process.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Why I’m starting to study forecasting</title>
-      <link>/posts/why-i-start-studying-forecasting/</link>
+      <link>https://praevis.blog/posts/why-i-start-studying-forecasting/</link>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/why-i-start-studying-forecasting/</guid>
+      <guid>https://praevis.blog/posts/why-i-start-studying-forecasting/</guid>
       <description>&lt;p&gt;I’m starting to study forecasting to think more precisely.&lt;br&gt;
 Most forecasts are confident words without probabilities.&lt;br&gt;
 I care less about asserting and more about testing.&lt;/p&gt;
@@ -42,6 +63,20 @@ remove unnecessary assumptions.&lt;br&gt;
 The model will change — and that’s part of the process.&lt;/p&gt;
 &lt;p&gt;This blog is not about being right.&lt;br&gt;
 It’s about honesty under uncertainty.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I’m starting to study forecasting to think more precisely.<br>
+Most forecasts are confident words without probabilities.<br>
+I care less about asserting and more about testing.</p>
+<p>Here I will log the learning process:<br>
+how my estimates change,<br>
+what turns out to be noise,<br>
+and how the model is corrected.</p>
+<p>First steps are simple: observe, assign probabilities,<br>
+remove unnecessary assumptions.<br>
+The model will change — and that’s part of the process.</p>
+<p>This blog is not about being right.<br>
+It’s about honesty under uncertainty.</p>
+<p>— S. Praevis</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>
